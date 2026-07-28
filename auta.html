@@ -4,154 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Můj Osobní Autozastavárna</title>
-    <!-- Napojení moderního písma z Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* ZÁKLADNÍ NASTAVENÍ */
-        body { 
-            font-family: 'Inter', sans-serif; 
-            margin: 0; 
-            padding: 0; 
-            background-color: #f3f4f6; /* Jemnější šedá */
-            color: #1f2937; 
-        }
-        
-        /* HLAVIČKA A MENU */
-        header { 
-            background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Moderní modrý přechod */
-            color: white; 
-            padding: 30px 20px; 
-            text-align: center; 
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
+        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background-color: #f3f4f6; color: #1f2937; }
+        header { background: linear-gradient(135deg, #1e3a8a, #3b82f6); color: white; padding: 30px 20px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         header h1 { margin: 0; font-size: 2.2em; font-weight: 700; }
-        
-        nav { 
-            background-color: #1e40af; 
-            padding: 15px; 
-            text-align: center; 
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
+        nav { background-color: #1e40af; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 100; }
         nav a { color: #bfdbfe; text-decoration: none; margin: 0 20px; font-weight: 600; transition: color 0.3s; }
         nav a:hover { color: white; }
         
-        /* HLAVNÍ KONTEJNER */
-        .container { 
-            max-width: 1200px; /* Rozšířeno pro mřížku */
-            margin: 30px auto; 
-            padding: 0 20px; 
-        }
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
         
-        /* PANEL FILTRŮ */
-        .filtry-panel { 
-            background: white; 
-            padding: 20px; 
-            border-radius: 12px; 
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
-            display: flex; 
-            gap: 15px; 
-            flex-wrap: wrap; 
-            align-items: center;
-            margin-bottom: 30px;
-        }
+        .filtry-panel { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: flex; gap: 15px; flex-wrap: wrap; align-items: center; margin-bottom: 30px; }
         .filtry-panel p { margin: 0; font-weight: 600; color: #4b5563; margin-right: auto;}
-        .filtry-panel select, .filtry-panel input, .filtry-panel button { 
-            padding: 12px 15px; 
-            font-size: 15px; 
-            border: 1px solid #d1d5db; 
-            border-radius: 8px; 
-            outline: none;
-            font-family: inherit;
-        }
+        .filtry-panel select, .filtry-panel input, .filtry-panel button { padding: 12px 15px; font-size: 15px; border: 1px solid #d1d5db; border-radius: 8px; outline: none; font-family: inherit; }
         .filtry-panel input { width: 150px; }
-        .filtry-panel button { 
-            background-color: #3b82f6; 
-            color: white; 
-            font-weight: 600;
-            cursor: pointer; 
-            border: none; 
-            transition: background 0.2s;
-        }
+        .filtry-panel button { background-color: #3b82f6; color: white; font-weight: 600; cursor: pointer; border: none; transition: background 0.2s; }
         .filtry-panel button:hover { background-color: #2563eb; }
 
-        /* MŘÍŽKA AUT (GRID) */
-        #seznam-aut { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
-            gap: 25px; 
-        }
+        #seznam-aut { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; }
 
-        /* DESIGN KARTY INZERÁTU */
-        .karta-auto { 
-            background: white; 
-            border-radius: 12px; 
-            overflow: hidden; 
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
-            transition: transform 0.2s, box-shadow 0.2s; 
-            display: flex; 
-            flex-direction: column; 
-        }
-        .karta-auto:hover { 
-            transform: translateY(-5px); /* Efekt nadzvednutí */
-            box-shadow: 0 12px 20px rgba(0,0,0,0.1); 
-        }
-        .karta-auto img { 
-            width: 100%; 
-            height: 200px; 
-            object-fit: cover; 
-            border-bottom: 1px solid #f3f4f6;
-        }
-        .karta-obsah { 
-            padding: 20px; 
-            display: flex; 
-            flex-direction: column; 
-            flex-grow: 1; 
-        }
-        .karta-obsah h3 { 
-            margin: 0 0 10px 0; 
-            font-size: 1.1em; 
-            color: #111827; 
-            line-height: 1.4;
-        }
-        .karta-cena { 
-            font-size: 1.5em; 
-            font-weight: 700; 
-            color: #ef4444; /* Výrazná červená pro cenu */
-            margin: 0 0 15px 0; 
-        }
+        .karta-auto { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; }
+        .karta-auto:hover { transform: translateY(-5px); box-shadow: 0 12px 20px rgba(0,0,0,0.1); }
+        .karta-auto img { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid #f3f4f6; }
+        .karta-obsah { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; }
+        .karta-obsah h3 { margin: 0 0 10px 0; font-size: 1.1em; color: #111827; line-height: 1.4; }
+        .karta-cena { font-size: 1.5em; font-weight: 700; color: #ef4444; margin: 0 0 15px 0; }
         
-        /* PATIČKA KARTY (Zdroj a Tlačítko) */
-        .karta-paticka { 
-            margin-top: auto; /* Zaručí, že patička bude vždy dole */
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-            padding-top: 15px;
-            border-top: 1px solid #e5e7eb;
-        }
-        .stitky-zdroj { 
-            background: #f3f4f6; 
-            color: #4b5563; 
-            padding: 5px 10px; 
-            border-radius: 999px; 
-            font-size: 0.85em; 
-            font-weight: 600; 
-        }
-        .btn-odkaz { 
-            background: #10b981; /* Moderní zelená pro proklik */
-            color: white; 
-            padding: 8px 15px; 
-            border-radius: 6px; 
-            text-decoration: none; 
-            font-weight: 600; 
-            font-size: 0.9em;
-            transition: background 0.2s; 
-        }
+        .karta-paticka { margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 15px; border-top: 1px solid #e5e7eb; }
+        .stitky-zdroj { background: #f3f4f6; color: #4b5563; padding: 5px 10px; border-radius: 999px; font-size: 0.85em; font-weight: 600; }
+        .btn-odkaz { background: #10b981; color: white; padding: 8px 15px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9em; transition: background 0.2s; }
         .btn-odkaz:hover { background: #059669; }
-
-        /* Loader chybovka */
+        
         .zprava { text-align: center; font-size: 1.2em; color: #6b7280; padding: 40px; grid-column: 1 / -1; }
     </style>
 </head>
@@ -167,7 +51,6 @@
     </nav>
 
     <div class="container">
-        
         <div class="filtry-panel">
             <p>Najdi svůj vysněný vůz:</p>
             <select id="filtr-znacka">
@@ -183,11 +66,20 @@
         <div id="seznam-aut">
             <div class="zprava">Načítám nejnovější inzeráty z internetu...</div>
         </div>
-        
     </div>
 
     <script>
         let nalezenaAuta = [];
+
+        // NOVÉ: Funkce pro náhodné zamíchání pole (Fisher-Yates algoritmus)
+        function zamichejAuta(pole) {
+            for (let i = pole.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                // Prohodíme dva prvky mezi sebou
+                [pole[i], pole[j]] = [pole[j], pole[i]]; 
+            }
+            return pole;
+        }
 
         function zobrazAuta(auta) {
             const kontejner = document.getElementById('seznam-aut');
@@ -233,7 +125,6 @@
                         sediCena = cistaCena <= maxCenaLimit;
                     }
                 }
-                
                 return sediZnacka && sediCena;
             });
             
@@ -243,7 +134,11 @@
         async function nactiData() {
             try {
                 const odpoved = await fetch('data.json?t=' + new Date().getTime());
-                nalezenaAuta = await odpoved.json();
+                let data = await odpoved.json();
+                
+                // NOVÉ: Jakmile data stáhneme, okamžitě je náhodně promícháme!
+                nalezenaAuta = zamichejAuta(data);
+                
                 zobrazAuta(nalezenaAuta);
             } catch (chyba) {
                 document.getElementById('seznam-aut').innerHTML = '<div class="zprava">Chyba při stahování dat ze serveru.</div>';
