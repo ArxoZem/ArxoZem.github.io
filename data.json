@@ -1,16 +1,142 @@
 [
     {
         "znacka": "Škoda",
-        "model": "Octavia RS",
-        "cena": "350 000 Kč",
-        "zdroj": "Robot",
-        "odkaz": "#"
+        "model": "ŠKODA KODIAQ 2,0TDI 110kW DSG Koup.ČR,1.majitel,TAŽNÉ,2022",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221863357/skoda-kodiaq-20tdi-110kw-dsg-koupcr1majiteltazne2022.php"
     },
     {
-        "znacka": "BMW",
-        "model": "M3",
-        "cena": "850 000 Kč",
-        "zdroj": "Aktualizováno: 28.07.2026 17:32:16",
-        "odkaz": "#"
+        "znacka": "Škoda",
+        "model": "Octavia III 2,0TDi 110KW Edition + NAVI tempomat ALU STK",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221873983/octavia-iii-20tdi-110kw-edition-navi-tempomat-alu-stk.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda ENYAQ iV 60 MATRIX KAMERA TEPELKO KŮŽE SoH 91,7%",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221598233/skoda-enyaq-iv-60-matrix-kamera-tepelko-kuze-soh-917.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda SCALA 1.5 TSi DSG STYLE LED KAMERA ACC POLOKŮŽE",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220970626/skoda-scala-15-tsi-dsg-style-led-kamera-acc-polokuze.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia 4 Combi Scout 2.0 TDI 110kW 4x4 DSG / Záruka",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221869580/skoda-octavia-4-combi-scout-20-tdi-110kw-4x4-dsg-zaruka.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Superb 3 Facelift Combi 2.0 TSI 140 kW DSG L&K",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221865165/skoda-superb-3-facelift-combi-20-tsi-140-kw-dsg-lk.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150 kW 45tkm SOH 96,4% - záruka Autodraft",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221867452/skoda-enyaq-iv-80-150-kw-45tkm-soh-964-zaruka-autodraft.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 60 132kW Tepelko 61tkm - záruka Autodraft",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221863471/skoda-enyaq-iv-60-132kw-tepelko-61tkm-zaruka-autodraft.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia 4 Combi 2.0 TDI 110kW DSG / Webasto",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221863228/skoda-octavia-4-combi-20-tdi-110kw-dsg-zaruka-autodraft.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Fabia kombi 1.0 TSi, 2022, aut. klima, navi, ZÁRUKA",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221838864/skoda-fabia-kombi-10-tsi-2022-aut-klima-navi-zaruka.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Superb 3 Combi 2.0 TSI 162 kW DSG Sportline",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221817443/skoda-superb-3-combi-20-tsi-162-kw-dsg-sportline.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Kodiaq L&K 4x4 2023 NEZ. TOP. 360 TAŽNÉ",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221834256/skoda-kodiaq-lk-4x4-2023-nez-top-360-tazne.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Kodiaq L&K 2022 NEZ. TOP. 360 MASÁŽE",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221833862/skoda-kodiaq-lk-2022-nez-top-360-masaze.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Kodiaq 4x4 Sport Line 2022 NEZ. TOP. 360 TAŽNÉ MATRIX",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221833075/skoda-kodiaq-4x4-sport-line-2022-nez-top-360-tazne-matrix.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Superb 3 Sportline DSG 1.5 TSI 110 kW, 2022, ČR",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221831979/skoda-superb-3-sportline-dsg-15-tsi-110-kw-2022-cr.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia 1.6 TDI 85kW DSG STYLE WEBASTO TAŽNÉ 2019",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221826601/skoda-octavia-16-tdi-85kw-dsg.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia 4 Combi Scout 2.0 TDI 147kW 4x4 DSG / Tažné",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221825760/skoda-octavia-4-combi-scout-20-tdi-147kw-4x4-dsg-tazne.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Superb 3 Combi Sportline 2.0 TDI 147kW DSG / Záruka",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221825122/skoda-superb-3-combi-sportline-20-tdi-147kw-dsg-zaruka.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA FABIA 1,2 i  51 Kw SPORT ČR",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221821399/skoda-fabia-12-i-51-kw-sport-cr.php"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Kamiq 1.0 TSI DSG, STYLE+, 2020, ČR",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221820939/skoda-kamiq-10-tsi-dsg-style-2020-cr.php"
     }
 ]
