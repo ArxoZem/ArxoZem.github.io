@@ -20,7 +20,7 @@ def je_to_auto(nazev):
             return False
     return True
 
-# --- 1. BAZOŠ ---
+# --- 1. BAZOŠ (Bez ScraperAPI - napřímo) ---
 def stahni_bazos_karoq():
     print("Stahuji Bazoš...")
     auta = []
@@ -58,14 +58,18 @@ def stahni_bazos_karoq():
         time.sleep(1)
     return auta
 
-# --- 2. SAUTO ---
+# --- 2. SAUTO (Přes ScraperAPI) ---
 def stahni_sauto_karoq():
-    print("Stahuji Sauto.cz...")
+    print("Stahuji Sauto.cz přes maskovanou proxy...")
     auta = []
-    url = "https://www.sauto.cz/osobni/hledani/skoda/karoq"
+    cilova_url = "https://www.sauto.cz/osobni/hledani/skoda/karoq"
+    
+    api_key = os.getenv('SCRAPER_API_KEY')
+    if not api_key: return auta
+    parametry = {'api_key': api_key, 'url': cilova_url, 'render': 'true'}
     
     try:
-        odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
+        odpoved = requests.get('http://api.scraperapi.com', params=parametry, timeout=60)
         if odpoved.status_code == 200:
             soup = BeautifulSoup(odpoved.text, 'html.parser')
             odkazy = soup.find_all('a', href=lambda href: href and "detail/skoda/karoq" in href.lower())
@@ -102,17 +106,21 @@ def stahni_sauto_karoq():
                 except Exception:
                     continue
     except Exception as e:
-        print("Sauto zablokovalo přístup.")
+        print(f"Sauto se přes proxy nepodařilo načíst: {e}")
     return auta
 
-# --- 3. AUTO ESA ---
+# --- 3. AUTO ESA (Přes ScraperAPI) ---
 def stahni_esa_karoq():
-    print("Stahuji Auto ESA...")
+    print("Stahuji Auto ESA přes maskovanou proxy...")
     auta = []
-    url = "https://www.autoesa.cz/skoda/karoq"
+    cilova_url = "https://www.autoesa.cz/skoda/karoq"
+    
+    api_key = os.getenv('SCRAPER_API_KEY')
+    if not api_key: return auta
+    parametry = {'api_key': api_key, 'url': cilova_url, 'render': 'true'}
     
     try:
-        odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
+        odpoved = requests.get('http://api.scraperapi.com', params=parametry, timeout=60)
         if odpoved.status_code == 200:
             soup = BeautifulSoup(odpoved.text, 'html.parser')
             odkazy = soup.find_all('a', href=lambda href: href and "/skoda/karoq/" in href.lower())
@@ -150,28 +158,21 @@ def stahni_esa_karoq():
                 except Exception:
                     continue
     except Exception as e:
-        print("Auto ESA zablokovalo přístup.")
+        print(f"Auto ESA se přes proxy nepodařilo načíst: {e}")
     return auta
 
-# --- 4. AAA AUTO (přes ScraperAPI) ---
+# --- 4. AAA AUTO (Přes ScraperAPI) ---
 def stahni_aaaauto_karoq():
     print("Stahuji AAA Auto přes maskovanou proxy...")
     auta = []
     cilova_url = "https://www.aaaauto.cz/skoda/karoq/"
     
     api_key = os.getenv('SCRAPER_API_KEY')
-    if not api_key:
-        print("Chyba: Nenašel jsem API klíč pro ScraperAPI! Přeskakuji AAA Auto.")
-        return auta
-
-    parametry = {
-        'api_key': api_key,
-        'url': cilova_url,
-        'render': 'true'
-    }
+    if not api_key: return auta
+    parametry = {'api_key': api_key, 'url': cilova_url, 'render': 'true'}
     
     try:
-        odpoved = requests.get('http://api.scraperapi.com', params=parametry, timeout=45)
+        odpoved = requests.get('http://api.scraperapi.com', params=parametry, timeout=60)
         if odpoved.status_code == 200:
             soup = BeautifulSoup(odpoved.text, 'html.parser')
             inzeraty = soup.find_all('div', class_='carCard')
