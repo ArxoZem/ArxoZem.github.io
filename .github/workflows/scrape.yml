@@ -1,37 +1,40 @@
 name: Auto Scraper
 
-# Kdy se má robot spustit
+# Kdy se má bot spustit
 on:
   schedule:
-    - cron: '0 */3 * * *' # Každé 3 hodiny
-  workflow_dispatch: # Povolí manuální tlačítko v záložce Actions
+    - cron: '0 */3 * * *' # Automaticky každé 3 hodiny
+  workflow_dispatch: # Tlačítko pro manuální spuštění
 
+# Co má bot udělat
 jobs:
-  scrape:
+  stahni_auta:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Robot potřebuje práva k zápisu do repozitáře
-      
-    steps:
-      - name: Stáhnutí repozitáře
-        uses: actions/checkout@v3
 
-      - name: Nastavení Pythonu
-        uses: actions/setup-python@v4
+    steps:
+      - name: Stáhni repozitář
+        uses: actions/checkout@v4
+
+      - name: Nastav Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Instalace knihoven
-        run: pip install requests beautifulsoup4
+      - name: Nainstaluj knihovny
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
 
       - name: Spuštění bota
+        env:
+          # Tady si bot sáhne pro tajný klíč do tvého GitHub nastavení
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python scraper.py
 
-      - name: Uložení výsledků (Commit)
+      - name: Ulož nová data na web
         run: |
-          git config user.name "Auto Bot"
-          git config user.email "action@github.com"
+          git config --global user.name "Auto Bot"
+          git config --global user.email "bot@tvuj-web.cz"
           git add data.json
-          # Příkaz exit 0 zaručí, že to nespadne, když bot nenajde nová data
-          git commit -m "Automatická aktualizace inzerátů" || exit 0
+          git commit -m "Aktualizace inzerátů [skip ci]" || echo "Žádné změny k uložení"
           git push
