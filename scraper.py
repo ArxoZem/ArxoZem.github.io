@@ -4,14 +4,11 @@ import json
 import time
 
 HLAVICKY = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
 }
 
-# CENOVÝ FILTR: Vše pod 150 000 Kč se automaticky maže (kola, díly, rádia)
 MIN_CENA = 150000
-
-# Textový blacklist necháme jako druhou vrstvu obrany
 ZAKAZANA_SLOVA = ["havarované", "rozprodám", "náhradní díly"]
 
 def je_to_auto(nazev):
@@ -22,7 +19,7 @@ def je_to_auto(nazev):
     return True
 
 def stahni_bazos_karoq():
-    print("Stahuji Bazoš s cenovým filtrem...")
+    print("Stahuji Bazoš...")
     auta = []
     
     for offset in range(0, 200, 20):
@@ -43,15 +40,8 @@ def stahni_bazos_karoq():
                 cena_blok = inzerat.find('div', class_='inzeratycena')
                 cena = cena_blok.text.strip() if cena_blok else ""
                 
-                # VYHODNOCENÍ CENY
-                # Vyčistíme text (např. "350 000 Kč") a necháme jen čísla ("350000")
                 cena_cista = ''.join(filter(str.isdigit, cena))
-                
-                if cena_cista:
-                    if int(cena_cista) < MIN_CENA:
-                        continue # Je to moc levné, zahazujeme (kola, díly)
-                else:
-                    continue # Nemá to jasnou cenu (Dohodou / V textu), zahazujeme (často to jsou díly)
+                if cena_cista and int(cena_cista) < MIN_CENA: continue
                 
                 obrazek_tag = inzerat.find('img')
                 obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Bez+fotky"
@@ -63,71 +53,135 @@ def stahni_bazos_karoq():
                     })
         except Exception:
             pass
-            
         time.sleep(1)
         
     return auta
 
-def stahni_aaaauto_karoq():
-    print("Stahuji AAA Auto...")
+def stahni_sauto_karoq():
+    print("Stahuji Sauto.cz...")
     auta = []
-    url = "https://www.aaaauto.cz/skoda/karoq/"
+    url = "https://www.sauto.cz/osobni/hledani/skoda/karoq"
     
     try:
         odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
         if odpoved.status_code == 200:
             soup = BeautifulSoup(odpoved.text, 'html.parser')
-            inzeraty = soup.find_all('div', class_='carCard')
-            if not inzeraty:
-                inzeraty = soup.find_all('div', class_='car-box')
+            # Najdeme všechny odkazy, které vedou na detail Karoqu
+            odkazy = soup.find_all('a', href=lambda href: href and "detail/skoda/karoq" in href.lower())
             
-            for inzerat in inzeraty:
+            zpracovano = set()
+            for odkaz_tag in odkazy:
+                odkaz = odkaz_tag['href']
+                if not odkaz.startswith('http'):
+                    odkaz = "https://www.sauto.cz" + odkaz
+                    
+                if odkaz in zpracovano: continue # Zamezení duplicit
+                zpracovano.add(odkaz)
+                
                 try:
-                    nazev_tag = inzerat.find(['h2', 'h3'])
-                    nazev = nazev_tag.text.strip() if nazev_tag else "Škoda Karoq"
+                    # Zkusíme z okolí odkazu vydolovat zbytek (obrázek, cenu)
+                    rodic = odkaz_tag.find_parent('div')
+                    if not rodic: continue
                     
-                    odkaz_tag = inzerat.find('a')
-                    odkaz = odkaz_tag['href'] if odkaz_tag else url
-                    if not odkaz.startswith('http'):
-                        odkaz = "https://www.aaaauto.cz" + odkaz
-                        
-                    cena_tag = inzerat.find(class_='price')
-                    cena = cena_tag.text.strip() if cena_tag else ""
+                    obrazek_tag = rodic.find('img')
+                    obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Sauto"
                     
-                    # CENA U AAA AUTO
-                    cena_cista = ''.join(filter(str.isdigit, cena))
-                    if cena_cista and int(cena_cista) < MIN_CENA:
-                        continue
-                        
-                    obrazek_tag = inzerat.find('img')
-                    obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=AAA+Auto"
+                    nazev = odkaz_tag.text.strip() or "Škoda Karoq"
+                    
+                    # Hledáme text, který obsahuje Kč
+                    cena_text = ""
+                    for text in rodic.find_all(string=True):
+                        if "Kč" in text:
+                            cena_text = text.strip()
+                            break
+                            
+                    cena_cista = ''.join(filter(str.isdigit, cena_text))
+                    if cena_cista and int(cena_cista) < MIN_CENA: continue
                     
                     if je_to_auto(nazev):
                         auta.append({
-                            "znacka": "Škoda", "model": nazev, "cena": cena, 
-                            "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek
+                            "znacka": "Škoda", "model": nazev, "cena": cena_text or "Cena na webu", 
+                            "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek
                         })
                 except Exception:
                     continue
     except Exception as e:
-        print(f"AAA Auto se nepodařilo načíst: {e}")
+        print("Sauto zablokovalo přístup nebo změnilo kód.")
+        
+    return auta
+
+def stahni_esa_karoq():
+    print("Stahuji Auto ESA...")
+    auta = []
+    url = "https://www.autoesa.cz/skoda/karoq"
+    
+    try:
+        odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
+        if odpoved.status_code == 200:
+            soup = BeautifulSoup(odpoved.text, 'html.parser')
+            
+            # Auto ESA má inzeráty jako odkazy začínající modelem
+            odkazy = soup.find_all('a', href=lambda href: href and "/skoda/karoq/" in href.lower())
+            
+            zpracovano = set()
+            for odkaz_tag in odkazy:
+                odkaz = odkaz_tag['href']
+                if not odkaz.startswith('http'):
+                    odkaz = "https://www.autoesa.cz" + odkaz
+                    
+                if odkaz in zpracovano: continue
+                zpracovano.add(odkaz)
+                
+                try:
+                    rodic = odkaz_tag.find_parent('div')
+                    if not rodic: continue
+                    
+                    nazev = odkaz_tag.text.strip() or "Škoda Karoq"
+                    
+                    obrazek_tag = rodic.find('img')
+                    # ESA často používá data-src pro líné načítání (lazy loading)
+                    obrazek = "https://via.placeholder.com/150?text=Auto+ESA"
+                    if obrazek_tag:
+                        obrazek = obrazek_tag.get('data-src') or obrazek_tag.get('src') or obrazek
+                    
+                    cena_text = ""
+                    for text in rodic.find_all(string=True):
+                        if "Kč" in text:
+                            cena_text = text.strip()
+                            break
+                            
+                    cena_cista = ''.join(filter(str.isdigit, cena_text))
+                    if cena_cista and int(cena_cista) < MIN_CENA: continue
+                    
+                    if je_to_auto(nazev):
+                        auta.append({
+                            "znacka": "Škoda", "model": nazev, "cena": cena_text or "Cena na webu", 
+                            "zdroj": "Auto ESA", "odkaz": odkaz, "obrazek": obrazek
+                        })
+                except Exception:
+                    continue
+    except Exception as e:
+        print("Auto ESA zablokovalo přístup nebo změnilo kód.")
         
     return auta
 
 def spust_agregatory():
-    print("Začínám sběr čistých dat s cenovým filtrem...")
+    print("Začínám masivní agregaci (Bazoš, Sauto, Auto ESA)...")
     vsechna_auta = []
     
     auta_bazos = stahni_bazos_karoq()
     vsechna_auta.extend(auta_bazos)
     
-    auta_aaa = stahni_aaaauto_karoq()
-    vsechna_auta.extend(auta_aaa)
+    auta_sauto = stahni_sauto_karoq()
+    vsechna_auta.extend(auta_sauto)
+    
+    auta_esa = stahni_esa_karoq()
+    vsechna_auta.extend(auta_esa)
     
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(vsechna_auta, f, ensure_ascii=False, indent=4)
         
-    print(f"Hotovo! Našli jsme {len(vsechna_auta)} reálných aut s cenou nad {MIN_CENA} Kč.")
+    print(f"Hotovo! Našli jsme celkem {len(vsechna_auta)} inzerátů.")
 
 if __name__ == "__main__":
     spust_agregatory()
