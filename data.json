@@ -385,6 +385,22 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2tdi DSG Nový model m.r2023 ful led kamera acc",
+        "cena": "419 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221883617/skoda-karoq-2tdi-dsg-novy-model-mr2023-ful-led-kamera-acc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/617/221883617.jpg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5tsi Sportline m.r2023 Matrix kamera",
+        "cena": "469 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221883397/skoda-karoq-15tsi-sportline-mr2023-matrix-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/397/221883397.jpg"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq 1.6 tdi 85kw  Najeto 79tis Full Led Koupené v ČR",
         "cena": "399 999 Kč",
         "zdroj": "Bazoš.cz",
@@ -774,22 +790,6 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221766058/skoda-karoq-20tdi-85kw-selection-cr-zaruka-5-let100-000km.php",
         "obrazek": "https://www.bazos.cz/img/1t/058/221766058.jpg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5tsi Sportline m.r2023 Matrix kamera",
-        "cena": "459 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221761999/skoda-karoq-15tsi-sportline-mr2023-matrix-kamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/999/221761999.jpg?t=1785174357"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2tdi DSG Nový model m.r2023 ful led kamera acc",
-        "cena": "419 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221761630/skoda-karoq-2tdi-dsg-novy-model-mr2023-ful-led-kamera-acc.php",
-        "obrazek": "https://www.bazos.cz/img/1t/630/221761630.jpg"
     },
     {
         "znacka": "Škoda",
