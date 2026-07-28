@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Filtr Aut</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #333; color: white; padding: 15px 20px; text-align: center; }
+        nav { background-color: #444; padding: 10px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { color: #4CAF50; }
+        
+        .container { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        
+        /* Styl pro filtry a inzeráty */
+        .filtry { display: flex; gap: 10px; margin-bottom: 20px; }
+        .filtry select, .filtry button { padding: 10px; font-size: 16px; }
+        
+        .inzerat { border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 5px; background-color: #fafafa; }
+        .inzerat h3 { margin-top: 0; color: #2c3e50; }
+        .inzerat .cena { font-size: 1.2em; font-weight: bold; color: #e74c3c; }
+        .inzerat .zdroj { font-size: 0.9em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jan Novák - Nástroje</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Můj Životopis</a>
+        <a href="auta.html">Aplikace: Filtr aut</a>
+    </nav>
+
+    <div class="container">
+        <h2>Můj osobní filtr na auta</h2>
+        <p>Zde se budou stahovat vybrané inzeráty z Bazoše, Sbazaru atd.</p>
+
+        <!-- Filtrovací panel -->
+        <div class="filtry">
+            <select id="filtr-znacka">
+                <option value="vse">Všechny značky</option>
+                <option value="Škoda">Škoda</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="BMW">BMW</option>
+            </select>
+            <button onclick="filtrujAuta()">Filtrovat</button>
+        </div>
+
+        <!-- Sem se vygenerují inzeráty -->
+        <div id="seznam-aut"></div>
+    </div>
+
+    <script>
+        // Tohle jsou naše "testovací" data, dokud neuděláme robota, který je bude stahovat reálně
+        const nalezenaAuta = [
+            { znacka: "Škoda", model: "Octavia 2.0 TDI", cena: "250 000 Kč", zdroj: "Bazoš.cz", odkaz: "#" },
+            { znacka: "Volkswagen", model: "Golf 1.6", cena: "180 000 Kč", zdroj: "Sbazar.cz", odkaz: "#" },
+            { znacka: "BMW", model: "Řada 3", cena: "320 000 Kč", zdroj: "Bazoš.cz", odkaz: "#" },
+            { znacka: "Škoda", model: "Fabia 1.2 TSI", cena: "120 000 Kč", zdroj: "Sauto.cz", odkaz: "#" }
+        ];
+
+        // Funkce pro vykreslení inzerátů na stránku
+        function zobrazAuta(auta) {
+            const kontejner = document.getElementById('seznam-aut');
+            kontejner.innerHTML = ''; // Vyčistíme předchozí výsledky
+
+            auta.forEach(auto => {
+                kontejner.innerHTML += `
+                    <div class="inzerat">
+                        <h3>${auto.znacka} ${auto.model}</h3>
+                        <p class="cena">${auto.cena}</p>
+                        <p class="zdroj">Nalezeno na: ${auto.zdroj} | <a href="${auto.odkaz}">Přejít na inzerát</a></p>
+                    </div>
+                `;
+            });
+        }
+
+        // Funkce pro filtrování
+        function filtrujAuta() {
+            const vybranaZnacka = document.getElementById('filtr-znacka').value;
+            
+            if (vybranaZnacka === 'vse') {
+                zobrazAuta(nalezenaAuta);
+            } else {
+                const vyfiltrovana = nalezenaAuta.filter(auto => auto.znacka === vybranaZnacka);
+                zobrazAuta(vyfiltrovana);
+            }
+        }
+
+        // Zobrazí všechna auta hned po načtení stránky
+        zobrazAuta(nalezenaAuta);
+    </script>
+
+</body>
+</html>
