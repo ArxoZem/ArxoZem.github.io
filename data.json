@@ -369,6 +369,14 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda KaroQ",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221621935/skoda-karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/935/221621935.jpg?t=1784736881"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Skoda Karoq",
         "cena": "405 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -1185,6 +1193,14 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Zimní pneu škoda Karoq",
+        "cena": "V textu",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221666900/zimni-pneu-skoda-karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/900/221666900.jpg"
+    },
+    {
+        "znacka": "Škoda",
         "model": "PRODÁM Škoda Karoq 1.6TDI-85KW-DSG-NOVÁ STK",
         "cena": "365 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -1230,6 +1246,14 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221655492/skoda-karoq-20-tdi-style-dsg-f1-4x4-110kw-navi-ledtop.php",
         "obrazek": "https://www.bazos.cz/img/1t/492/221655492.jpg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Přední blatník Škoda Karoq",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221655007/predni-blatnik-skoda-karoq.php",
+        "obrazek": "https://www.bazos.cz/obrazky/empty.gif"
     },
     {
         "znacka": "Škoda",
@@ -1294,6 +1318,14 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221637402/skoda-karoq-20-tdi-dsg-4x4-style-plus-servisovano.php",
         "obrazek": "https://www.bazos.cz/img/1t/402/221637402.jpg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0 TSI 140 kW 4x4 DSG, 2019",
+        "cena": "V textu",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221637132/skoda-karoq-sportline-20-tsi-140-kw-4x4-dsg-2019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/132/221637132.jpg?t=1785163931"
     },
     {
         "znacka": "Škoda",
