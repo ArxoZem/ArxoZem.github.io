@@ -58,55 +58,56 @@ def stahni_bazos_karoq():
         time.sleep(1)
     return auta
 
-# --- 2. SAUTO (Přes ScraperAPI) ---
+# --- 2. SAUTO (Přímé napojení na skryté API) ---
 def stahni_sauto_karoq():
-    print("Stahuji Sauto.cz přes maskovanou proxy...")
+    print("Stahuji Sauto.cz přes SKRYTÉ API...")
     auta = []
-    cilova_url = "https://www.sauto.cz/osobni/hledani/skoda/karoq"
+    api_url = "https://www.sauto.cz/api/v1/items/search"
     
-    api_key = os.getenv('SCRAPER_API_KEY')
-    if not api_key: return auta
-    parametry = {'api_key': api_key, 'url': cilova_url, 'render': 'true'}
-    
-    try:
-        odpoved = requests.get('http://api.scraperapi.com', params=parametry, timeout=60)
-        if odpoved.status_code == 200:
-            soup = BeautifulSoup(odpoved.text, 'html.parser')
-            odkazy = soup.find_all('a', href=lambda href: href and "detail/skoda/karoq" in href.lower())
+    # Stáhneme první 3 stránky (60 aut)
+    for offset in [0, 20, 40]:
+        parametry = {
+            "manufacturer_model_seo": "skoda|karoq",
+            "limit": 20,
+            "offset": offset
+        }
+        
+        try:
+            odpoved = requests.get(api_url, params=parametry, headers=HLAVICKY, timeout=10)
+            if odpoved.status_code != 200: continue
             
-            zpracovano = set()
-            for odkaz_tag in odkazy:
-                odkaz = odkaz_tag['href']
-                if not odkaz.startswith('http'): odkaz = "https://www.sauto.cz" + odkaz
-                if odkaz in zpracovano: continue
-                zpracovano.add(odkaz)
-                
+            data = odpoved.json()
+            inzeraty = data.get('results', [])
+            
+            for item in inzeraty:
                 try:
-                    rodic = odkaz_tag.find_parent('div')
-                    if not rodic: continue
+                    nazev = item.get('name', 'Škoda Karoq')
                     
-                    obrazek_tag = rodic.find('img')
-                    obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Sauto"
-                    nazev = odkaz_tag.text.strip() or "Škoda Karoq"
+                    cena_int = item.get('price', 0)
+                    if cena_int < MIN_CENA: continue
+                    cena_text = f"{cena_int:,} Kč".replace(',', ' ')
                     
-                    cena_text = ""
-                    for text in rodic.find_all(string=True):
-                        if "Kč" in text:
-                            cena_text = text.strip()
-                            break
-                            
-                    cena_cista = ''.join(filter(str.isdigit, cena_text))
-                    if cena_cista and int(cena_cista) < MIN_CENA: continue
+                    item_id = item.get('id', '')
+                    seo_name = item.get('seo_name', '')
+                    odkaz = f"https://www.sauto.cz/osobni/detail/skoda/karoq/{seo_name}/{item_id}"
+                    
+                    obrazek = "https://via.placeholder.com/150?text=Sauto"
+                    fotky = item.get('images', [])
+                    if fotky and len(fotky) > 0:
+                        obrazek = fotky[0].get('url', fotky[0].get('full', obrazek))
                     
                     if je_to_auto(nazev):
                         auta.append({
-                            "znacka": "Škoda", "model": nazev, "cena": cena_text or "Cena na webu", 
+                            "znacka": "Škoda", "model": nazev, "cena": cena_text, 
                             "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek
                         })
                 except Exception:
                     continue
-    except Exception as e:
-        print(f"Sauto se přes proxy nepodařilo načíst: {e}")
+        except Exception as e:
+            print(f"Chyba na Sauto API: {e}")
+            
+        time.sleep(1)
+        
     return auta
 
 # --- 3. AUTO ESA (Přes ScraperAPI) ---
