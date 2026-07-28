@@ -393,6 +393,14 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline",
+        "cena": "490 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221884656/skoda-karoq-sportline.php",
+        "obrazek": "https://www.bazos.cz/img/1t/656/221884656.jpg?t=1785268760"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq 2tdi DSG Nový model m.r2023 ful led kamera acc",
         "cena": "419 999 Kč",
         "zdroj": "Bazoš.cz",
@@ -1334,13 +1342,5 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221630942/skoda-karoq-20tdi-stylepuvod-cr1maj.php",
         "obrazek": "https://www.bazos.cz/img/1t/942/221630942.jpg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq, 1,5TSi ACT, DSG, STYLE, TZ",
-        "cena": "435 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221628576/skoda-karoq-15tsi-act-dsg-style-tz.php",
-        "obrazek": "https://www.bazos.cz/img/1t/576/221628576.jpg"
     }
 ]
