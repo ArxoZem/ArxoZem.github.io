@@ -212,10 +212,21 @@ def spust_agregatory():
     print("Začínám masivní agregaci...")
     vsechna_auta = []
     
-    vsechna_auta.extend(stahni_bazos_karoq())
-    vsechna_auta.extend(stahni_sauto_karoq())
-    vsechna_auta.extend(stahni_esa_karoq())
-    vsechna_auta.extend(stahni_aaaauto_karoq())
+    auta_bazos = stahni_bazos_karoq()
+    print(f"📊 VÝSLEDEK BAZOŠ: {len(auta_bazos)} aut")
+    vsechna_auta.extend(auta_bazos)
+    
+    auta_sauto = stahni_sauto_karoq()
+    print(f"📊 VÝSLEDEK SAUTO: {len(auta_sauto)} aut")
+    vsechna_auta.extend(auta_sauto)
+    
+    auta_esa = stahni_esa_karoq()
+    print(f"📊 VÝSLEDEK AUTO ESA: {len(auta_esa)} aut")
+    vsechna_auta.extend(auta_esa)
+    
+    auta_aaa = stahni_aaaauto_karoq()
+    print(f"📊 VÝSLEDEK AAA AUTO: {len(auta_aaa)} aut")
+    vsechna_auta.extend(auta_aaa)
     
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(vsechna_auta, f, ensure_ascii=False, indent=4)
