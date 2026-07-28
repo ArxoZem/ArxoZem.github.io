@@ -16,7 +16,27 @@
         .filtry { display: flex; gap: 10px; margin-bottom: 20px; }
         .filtry select, .filtry button { padding: 10px; font-size: 16px; }
         
-        .inzerat { border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 5px; background-color: #fafafa; }
+        /* NOVÝ STYL PRO INZERÁT S FOTKOU */
+        .inzerat { 
+            display: flex; /* Poskládá prvky vedle sebe */
+            align-items: flex-start;
+            gap: 20px; /* Mezera mezi fotkou a textem */
+            border: 1px solid #ddd; 
+            padding: 15px; 
+            margin-bottom: 15px; 
+            border-radius: 5px; 
+            background-color: #fafafa; 
+        }
+        .inzerat img {
+            width: 150px; /* Pevná šířka fotky */
+            height: auto;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        .inzerat-obsah {
+            flex: 1; /* Text zabere zbytek místa */
+        }
+        
         .inzerat h3 { margin-top: 0; color: #2c3e50; }
         .inzerat .cena { font-size: 1.2em; font-weight: bold; color: #e74c3c; }
         .inzerat .zdroj { font-size: 0.9em; color: #7f8c8d; }
@@ -37,7 +57,6 @@
         <h2>Můj osobní filtr na auta</h2>
         <p>Tyto inzeráty se stahují automaticky každé 3 hodiny.</p>
 
-        <!-- Filtrovací panel -->
         <div class="filtry">
             <select id="filtr-znacka">
                 <option value="vse">Všechny značky</option>
@@ -48,15 +67,12 @@
             <button onclick="filtrujAuta()">Filtrovat</button>
         </div>
 
-        <!-- Sem se vygenerují inzeráty -->
         <div id="seznam-aut">Načítám inzeráty...</div>
     </div>
 
     <script>
-        // Prázdná krabička, kterou naplníme daty ze souboru
         let nalezenaAuta = [];
 
-        // Funkce pro vykreslení inzerátů na stránku
         function zobrazAuta(auta) {
             const kontejner = document.getElementById('seznam-aut');
             kontejner.innerHTML = ''; 
@@ -66,18 +82,21 @@
                 return;
             }
 
+            // Změněno: Přidán <img> a obal pro text
             auta.forEach(auto => {
                 kontejner.innerHTML += `
                     <div class="inzerat">
-                        <h3>${auto.znacka} ${auto.model}</h3>
-                        <p class="cena">${auto.cena}</p>
-                        <p class="zdroj">Nalezeno na: ${auto.zdroj} | <a href="${auto.odkaz}">Přejít na inzerát</a></p>
+                        <img src="${auto.obrazek}" alt="Fotka vozu">
+                        <div class="inzerat-obsah">
+                            <h3>${auto.znacka} ${auto.model}</h3>
+                            <p class="cena">${auto.cena}</p>
+                            <p class="zdroj">Nalezeno na: ${auto.zdroj} | <a href="${auto.odkaz}" target="_blank">Přejít na inzerát</a></p>
+                        </div>
                     </div>
                 `;
             });
         }
 
-        // Funkce pro filtrování
         function filtrujAuta() {
             const vybranaZnacka = document.getElementById('filtr-znacka').value;
             
@@ -89,15 +108,10 @@
             }
         }
 
-        // Hladové načtení dat z našeho nového JSONu
         async function nactiData() {
             try {
-                // Přidáváme aktuální čas na konec adresy (tzv. cache buster).
-                // To donutí prohlížeč vždy stáhnout NEJNOVĚJŠÍ verzi souboru a nenačítat starou z paměti.
                 const odpoved = await fetch('data.json?t=' + new Date().getTime());
                 nalezenaAuta = await odpoved.json();
-                
-                // Po stažení dat je rovnou zobrazíme
                 zobrazAuta(nalezenaAuta);
             } catch (chyba) {
                 console.error("Jejda, data se nepodařilo načíst:", chyba);
@@ -105,7 +119,6 @@
             }
         }
 
-        // Spustíme načítání hned po startu
         nactiData();
     </script>
 
