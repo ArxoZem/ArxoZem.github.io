@@ -3,20 +3,33 @@ from bs4 import BeautifulSoup
 import json
 import time
 
-# Společné hlavičky pro oklamání ochran
 HLAVICKY = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
 }
 
+# ČERNÁ LISTINA: Pokud inzerát obsahuje některé z těchto slov, robot ho přeskočí
+ZAKAZANA_SLOVA = [
+    "alu kola", "litá kola", "disky", "elektrony", "pneumatiky", "pneu",
+    "sada kol", "zimní sada", "letní sada", "plecháče", "poklice",
+    "náhradní díly", "rozprodám", "nárazník", "světlo", "střešní nosič",
+    "příčníky", "koberce", "havarované"
+]
+
+# Funkce, která zkontroluje, jestli je to opravdu auto
+def je_to_auto(nazev):
+    nazev_malym = nazev.lower()
+    for slovo in ZAKAZANA_SLOVA:
+        if slovo in nazev_malym:
+            return False # Našli jsme zakázané slovo, není to auto
+    return True # Nic zakázaného tam není, bereme to!
+
 def stahni_bazos_karoq():
-    print("Stahuji Bazoš (Prohledávám 10 stránek)...")
+    print("Stahuji Bazoš a filtruji doplňky...")
     auta = []
     
-    # Range (0, 200, 20) znamená: 0, 20, 40, 60... až do 180 (10 stránek = cca 200 inzerátů)
     for offset in range(0, 200, 20):
         url = "https://auto.bazos.cz/skoda/?hledat=karoq" if offset == 0 else f"https://auto.bazos.cz/skoda/{offset}/?hledat=karoq"
-        print(f" -> Bazoš: Stránka {offset//20 + 1}/10")
         
         try:
             odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
@@ -36,58 +49,54 @@ def stahni_bazos_karoq():
                 obrazek_tag = inzerat.find('img')
                 obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Bez+fotky"
                 
-                if "karoq" in nazev.lower():
+                # ZDE KONTROLUJEME: Musí to mít v názvu karoq A ZÁROVEŇ to projít naší čistkou
+                if "karoq" in nazev.lower() and je_to_auto(nazev):
                     auta.append({
                         "znacka": "Škoda", "model": nazev, "cena": cena, 
                         "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek
                     })
         except Exception:
-            pass # Pokud jeden inzerát selže, jdeme na další
+            pass
             
-        time.sleep(1) # Počkáme 1s proti blokaci
+        time.sleep(1)
         
     return auta
 
 def stahni_aaaauto_karoq():
     print("Stahuji AAA Auto...")
     auta = []
-    # Odkaz přímo na kategorii Karoqů
     url = "https://www.aaaauto.cz/skoda/karoq/"
     
     try:
         odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
         if odpoved.status_code == 200:
             soup = BeautifulSoup(odpoved.text, 'html.parser')
-            
-            # AAA Auto často balí inzeráty do těchto tříd
             inzeraty = soup.find_all('div', class_='carCard')
-            if not inzeraty: # Fallback, kdyby změnili design
+            if not inzeraty:
                 inzeraty = soup.find_all('div', class_='car-box')
             
             for inzerat in inzeraty:
                 try:
-                    # Nadpis
                     nazev_tag = inzerat.find(['h2', 'h3'])
                     nazev = nazev_tag.text.strip() if nazev_tag else "Škoda Karoq"
                     
-                    # Odkaz
                     odkaz_tag = inzerat.find('a')
                     odkaz = odkaz_tag['href'] if odkaz_tag else url
                     if not odkaz.startswith('http'):
                         odkaz = "https://www.aaaauto.cz" + odkaz
                         
-                    # Cena
                     cena_tag = inzerat.find(class_='price')
                     cena = cena_tag.text.strip() if cena_tag else "Cena na webu"
                     
-                    # Fotka
                     obrazek_tag = inzerat.find('img')
                     obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=AAA+Auto"
                     
-                    auta.append({
-                        "znacka": "Škoda", "model": nazev, "cena": cena, 
-                        "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek
-                    })
+                    # I AAA Auto pro jistotu proženeme filtrem
+                    if je_to_auto(nazev):
+                        auta.append({
+                            "znacka": "Škoda", "model": nazev, "cena": cena, 
+                            "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek
+                        })
                 except Exception:
                     continue
     except Exception as e:
@@ -96,24 +105,19 @@ def stahni_aaaauto_karoq():
     return auta
 
 def spust_agregatory():
-    print("Začínám velký sběr dat...")
+    print("Začínám sběr čistých dat...")
     vsechna_auta = []
     
-    # Spustíme a nabalíme Bazoš
     auta_bazos = stahni_bazos_karoq()
     vsechna_auta.extend(auta_bazos)
-    print(f"Z Bazoše získáno: {len(auta_bazos)} aut.")
     
-    # Spustíme a nabalíme AAA Auto
     auta_aaa = stahni_aaaauto_karoq()
     vsechna_auta.extend(auta_aaa)
-    print(f"Z AAA Auto získáno: {len(auta_aaa)} aut.")
     
-    # Vše uložíme do JSONu pro tvou stránku
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(vsechna_auta, f, ensure_ascii=False, indent=4)
         
-    print(f"Mise splněna! Nalezeno celkem masivních {len(vsechna_auta)} inzerátů.")
+    print(f"Hotovo! Našli jsme {len(vsechna_auta)} čistých inzerátů bez zbytečností.")
 
 if __name__ == "__main__":
     spust_agregatory()
