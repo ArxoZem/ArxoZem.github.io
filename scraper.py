@@ -34,13 +34,12 @@ def stahni_realna_auta():
             nazev = nadpis_blok.text.strip()
             odkaz = "https://auto.bazos.cz" + nadpis_blok['href']
             
-            # Cena
-            cena_blok = inzerat.find('div', class_='cena')
+            # OPRAVA TADY: Změněno z "cena" na "inzeratycena"
+            cena_blok = inzerat.find('div', class_='inzeratycena')
             cena = cena_blok.text.strip() if cena_blok else "Dohodou"
             
-            # NOVÉ: Fotka
+            # Fotka
             obrazek_tag = inzerat.find('img')
-            # Pokud auto nemá fotku, dáme tam zástupný obrázek
             obrazek_url = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Bez+fotky"
             
             nalezena_auta.append({
@@ -49,7 +48,7 @@ def stahni_realna_auta():
                 "cena": cena,
                 "zdroj": "Bazoš.cz",
                 "odkaz": odkaz,
-                "obrazek": obrazek_url # Ukládáme fotku do dat
+                "obrazek": obrazek_url
             })
         except Exception as e:
             continue
@@ -59,7 +58,7 @@ def stahni_realna_auta():
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(nalezena_auta, f, ensure_ascii=False, indent=4)
         
-    print(f"Hotovo! Uloženo {len(nalezena_auta)} inzerátů i s fotkami.")
+    print(f"Hotovo! Uloženo {len(nalezena_auta)} inzerátů s opravenou cenou.")
 
 if __name__ == "__main__":
     stahni_realna_auta()
