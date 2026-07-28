@@ -3,71 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Filtr Aut</title>
+    <title>Můj Osobní Autozastavárna</title>
+    <!-- Napojení moderního písma z Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
-        header { background-color: #333; color: white; padding: 15px 20px; text-align: center; }
-        nav { background-color: #444; padding: 10px; text-align: center; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-        nav a:hover { color: #4CAF50; }
+        /* ZÁKLADNÍ NASTAVENÍ */
+        body { 
+            font-family: 'Inter', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f3f4f6; /* Jemnější šedá */
+            color: #1f2937; 
+        }
         
-        .container { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        /* HLAVIČKA A MENU */
+        header { 
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Moderní modrý přechod */
+            color: white; 
+            padding: 30px 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 { margin: 0; font-size: 2.2em; font-weight: 700; }
         
-        .filtry { display: flex; gap: 10px; margin-bottom: 20px; }
-        .filtry select, .filtry button { padding: 10px; font-size: 16px; }
-        
-        /* NOVÝ STYL PRO INZERÁT S FOTKOU */
-        .inzerat { 
-            display: flex; /* Poskládá prvky vedle sebe */
-            align-items: flex-start;
-            gap: 20px; /* Mezera mezi fotkou a textem */
-            border: 1px solid #ddd; 
+        nav { 
+            background-color: #1e40af; 
             padding: 15px; 
-            margin-bottom: 15px; 
-            border-radius: 5px; 
-            background-color: #fafafa; 
+            text-align: center; 
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
-        .inzerat img {
-            width: 150px; /* Pevná šířka fotky */
-            height: auto;
-            border-radius: 5px;
-            object-fit: cover;
-        }
-        .inzerat-obsah {
-            flex: 1; /* Text zabere zbytek místa */
+        nav a { color: #bfdbfe; text-decoration: none; margin: 0 20px; font-weight: 600; transition: color 0.3s; }
+        nav a:hover { color: white; }
+        
+        /* HLAVNÍ KONTEJNER */
+        .container { 
+            max-width: 1200px; /* Rozšířeno pro mřížku */
+            margin: 30px auto; 
+            padding: 0 20px; 
         }
         
-        .inzerat h3 { margin-top: 0; color: #2c3e50; }
-        .inzerat .cena { font-size: 1.2em; font-weight: bold; color: #e74c3c; }
-        .inzerat .zdroj { font-size: 0.9em; color: #7f8c8d; }
+        /* PANEL FILTRŮ */
+        .filtry-panel { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            display: flex; 
+            gap: 15px; 
+            flex-wrap: wrap; 
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .filtry-panel p { margin: 0; font-weight: 600; color: #4b5563; margin-right: auto;}
+        .filtry-panel select, .filtry-panel input, .filtry-panel button { 
+            padding: 12px 15px; 
+            font-size: 15px; 
+            border: 1px solid #d1d5db; 
+            border-radius: 8px; 
+            outline: none;
+            font-family: inherit;
+        }
+        .filtry-panel input { width: 150px; }
+        .filtry-panel button { 
+            background-color: #3b82f6; 
+            color: white; 
+            font-weight: 600;
+            cursor: pointer; 
+            border: none; 
+            transition: background 0.2s;
+        }
+        .filtry-panel button:hover { background-color: #2563eb; }
+
+        /* MŘÍŽKA AUT (GRID) */
+        #seznam-aut { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+            gap: 25px; 
+        }
+
+        /* DESIGN KARTY INZERÁTU */
+        .karta-auto { 
+            background: white; 
+            border-radius: 12px; 
+            overflow: hidden; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            transition: transform 0.2s, box-shadow 0.2s; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        .karta-auto:hover { 
+            transform: translateY(-5px); /* Efekt nadzvednutí */
+            box-shadow: 0 12px 20px rgba(0,0,0,0.1); 
+        }
+        .karta-auto img { 
+            width: 100%; 
+            height: 200px; 
+            object-fit: cover; 
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .karta-obsah { 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            flex-grow: 1; 
+        }
+        .karta-obsah h3 { 
+            margin: 0 0 10px 0; 
+            font-size: 1.1em; 
+            color: #111827; 
+            line-height: 1.4;
+        }
+        .karta-cena { 
+            font-size: 1.5em; 
+            font-weight: 700; 
+            color: #ef4444; /* Výrazná červená pro cenu */
+            margin: 0 0 15px 0; 
+        }
+        
+        /* PATIČKA KARTY (Zdroj a Tlačítko) */
+        .karta-paticka { 
+            margin-top: auto; /* Zaručí, že patička bude vždy dole */
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding-top: 15px;
+            border-top: 1px solid #e5e7eb;
+        }
+        .stitky-zdroj { 
+            background: #f3f4f6; 
+            color: #4b5563; 
+            padding: 5px 10px; 
+            border-radius: 999px; 
+            font-size: 0.85em; 
+            font-weight: 600; 
+        }
+        .btn-odkaz { 
+            background: #10b981; /* Moderní zelená pro proklik */
+            color: white; 
+            padding: 8px 15px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-weight: 600; 
+            font-size: 0.9em;
+            transition: background 0.2s; 
+        }
+        .btn-odkaz:hover { background: #059669; }
+
+        /* Loader chybovka */
+        .zprava { text-align: center; font-size: 1.2em; color: #6b7280; padding: 40px; grid-column: 1 / -1; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Jan Novák - Nástroje</h1>
+        <h1>Můj Osobní Radar na Auta</h1>
     </header>
 
     <nav>
-        <a href="index.html">Můj Životopis</a>
-        <a href="auta.html">Aplikace: Filtr aut</a>
+        <a href="index.html">Životopis</a>
+        <a href="auta.html">Radar inzerátů</a>
     </nav>
 
     <div class="container">
-        <h2>Můj osobní filtr na auta</h2>
-        <p>Tyto inzeráty se stahují automaticky každé 3 hodiny.</p>
-
-        <div class="filtry">
+        
+        <div class="filtry-panel">
+            <p>Najdi svůj vysněný vůz:</p>
             <select id="filtr-znacka">
                 <option value="vse">Všechny značky</option>
                 <option value="Škoda">Škoda</option>
                 <option value="Volkswagen">Volkswagen</option>
                 <option value="BMW">BMW</option>
             </select>
-            <button onclick="filtrujAuta()">Filtrovat</button>
+            <input type="number" id="filtr-cena" placeholder="Max cena (Kč)" step="10000">
+            <button onclick="filtrujAuta()">Filtrovat výsledky</button>
         </div>
 
-        <div id="seznam-aut">Načítám inzeráty...</div>
+        <div id="seznam-aut">
+            <div class="zprava">Načítám nejnovější inzeráty z internetu...</div>
+        </div>
+        
     </div>
 
     <script>
@@ -78,19 +194,22 @@
             kontejner.innerHTML = ''; 
             
             if (auta.length === 0) {
-                kontejner.innerHTML = '<p>Nenašli jsme žádná auta podle tohoto filtru.</p>';
+                kontejner.innerHTML = '<div class="zprava">Nenašli jsme žádná auta. Zkus upravit filtr.</div>';
                 return;
             }
 
-            // Změněno: Přidán <img> a obal pro text
             auta.forEach(auto => {
                 kontejner.innerHTML += `
-                    <div class="inzerat">
-                        <img src="${auto.obrazek}" alt="Fotka vozu">
-                        <div class="inzerat-obsah">
+                    <div class="karta-auto">
+                        <img src="${auto.obrazek}" alt="Fotka vozu" loading="lazy">
+                        <div class="karta-obsah">
                             <h3>${auto.znacka} ${auto.model}</h3>
-                            <p class="cena">${auto.cena}</p>
-                            <p class="zdroj">Nalezeno na: ${auto.zdroj} | <a href="${auto.odkaz}" target="_blank">Přejít na inzerát</a></p>
+                            <p class="karta-cena">${auto.cena}</p>
+                            
+                            <div class="karta-paticka">
+                                <span class="stitky-zdroj">${auto.zdroj}</span>
+                                <a href="${auto.odkaz}" class="btn-odkaz" target="_blank">Otevřít</a>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -99,13 +218,26 @@
 
         function filtrujAuta() {
             const vybranaZnacka = document.getElementById('filtr-znacka').value;
+            const maxCenaVstup = document.getElementById('filtr-cena').value;
+            const maxCenaLimit = maxCenaVstup ? parseInt(maxCenaVstup) : Infinity;
             
-            if (vybranaZnacka === 'vse') {
-                zobrazAuta(nalezenaAuta);
-            } else {
-                const vyfiltrovana = nalezenaAuta.filter(auto => auto.znacka === vybranaZnacka);
-                zobrazAuta(vyfiltrovana);
-            }
+            const vyfiltrovana = nalezenaAuta.filter(auto => {
+                const sediZnacka = (vybranaZnacka === 'vse') || (auto.znacka === vybranaZnacka);
+                let sediCena = true;
+                
+                if (maxCenaLimit !== Infinity) {
+                    if (auto.cena.toLowerCase().includes("dohodou")) {
+                        sediCena = false;
+                    } else {
+                        const cistaCena = parseInt(auto.cena.replace(/[^0-9]/g, '')) || 0;
+                        sediCena = cistaCena <= maxCenaLimit;
+                    }
+                }
+                
+                return sediZnacka && sediCena;
+            });
+            
+            zobrazAuta(vyfiltrovana);
         }
 
         async function nactiData() {
@@ -114,8 +246,7 @@
                 nalezenaAuta = await odpoved.json();
                 zobrazAuta(nalezenaAuta);
             } catch (chyba) {
-                console.error("Jejda, data se nepodařilo načíst:", chyba);
-                document.getElementById('seznam-aut').innerHTML = '<p>Chyba při načítání dat.</p>';
+                document.getElementById('seznam-aut').innerHTML = '<div class="zprava">Chyba při stahování dat ze serveru.</div>';
             }
         }
 
