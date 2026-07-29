@@ -14,14 +14,18 @@ MIN_NAJEZD = 25000
 MAX_NAJEZD = 60000
 POVOLENE_ROKY = ["2022", "2023", "2024"]
 
-# Masivní filtr pro vyřazení dílů, doplňků a nafty
-ZAKAZANA_SLOVA = [
+# 1. KATASTROFY (Vyřadí inzerát, ať je to napsané KDEKOLIV - v nadpisu i hluboko v textu)
+ZAKAZANA_SLOVA_KATASTROFA = [
     "havarované", "rozprodám", "náhradní díly", "poškozené", "kroupy", 
-    "tdi", "nafta", "diesel", "alu", "kola", "kolo", "disk", "disky", 
-    "pneu", "pneumatiky", "poklice", "nárazník", "blatník", "světlo", 
-    "světla", "světlomet", "maska", "masky", "zrcátko", "kryt", "kryty", 
-    "příčníky", "koberečky", "koberce", "poloosa", "trysky", "klakson", 
-    "jednotek", "motor", "sada", "dveře", "kapota", "čerpadlo", "převodovka"
+    "tdi", "nafta", "diesel"
+]
+
+# 2. NÁHRADNÍ DÍLY (Hledáme JEN V NADPISU! Odstraněna slova pro kola/pneu)
+ZAKAZANA_SLOVA_DILY = [
+    "nárazník", "blatník", "světlo", "světla", "světlomet", "maska", "masky", 
+    "zrcátko", "kryt", "kryty", "příčníky", "koberečky", "koberce", "poloosa", 
+    "trysky", "klakson", "jednotek", "motor", "sada", "dveře", "kapota", 
+    "čerpadlo", "převodovka"
 ]
 
 # Modely s vysokou výbavou
@@ -55,16 +59,13 @@ def vyhledej_rok(text):
 def hloubkova_kontrola(cely_text):
     text_malym = cely_text.lower()
     
-    # 1. Musí to být Karoq
     if "karoq" not in text_malym:
         return False, "Není to Karoq"
         
-    # 2. Kontrola zakázaných slov (pro jistotu i v textu)
-    for slovo in ZAKAZANA_SLOVA:
+    for slovo in ZAKAZANA_SLOVA_KATASTROFA:
         if slovo in text_malym:
             return False, f"Zakázané slovo v textu: {slovo}"
             
-    # 3. Kontrola požadované vysoké výbavy a motoru
     ma_vybavu = any(vybava in text_malym for vybava in VYSOKA_VYBAVA)
     ma_motor = ("1.5" in text_malym or "1,5" in text_malym) and "tsi" in text_malym
     
@@ -73,21 +74,18 @@ def hloubkova_kontrola(cely_text):
     if not ma_motor:
         return False, "Chybí motor 1.5 TSI"
 
-    # 4. Kontrola nájezdu
     najezd = vyhledej_najezd(cely_text)
     if najezd == 0:
         return False, "Nenalezen nájezd v textu"
     if najezd < MIN_NAJEZD or najezd > MAX_NAJEZD:
         return False, f"Nájezd mimo limit ({najezd} km)"
 
-    # 5. Kontrola roku výroby
     roky = vyhledej_rok(cely_text)
     if not roky:
         return False, "Nenalezen rok 2022, 2023 nebo 2024"
 
     return True, "OK"
 
-# --- 1. BAZOŠ (Hloubkový sken s diagnostikou) ---
 def stahni_bazos_karoq():
     print("Stahuji Bazoš a analyzuji texty inzerátů...")
     auta = []
@@ -106,22 +104,27 @@ def stahni_bazos_karoq():
                 nazev = nadpis.text.strip()
                 odkaz = "https://auto.bazos.cz" + nadpis['href']
                 
-                # --- PŘEDFILTR: Okamžité vyřazení nesmyslů bez zdržování! ---
                 nazev_malym = nazev.lower()
                 zahozeno_predfiltrem = False
-                for slovo in ZAKAZANA_SLOVA:
+                
+                for slovo in ZAKAZANA_SLOVA_KATASTROFA:
                     if slovo in nazev_malym:
-                        # Vypisovat náhradní díly do konzole už nechceme, abychom nehltili log
                         zahozeno_predfiltrem = True
                         break
+                
+                if not zahozeno_predfiltrem and "tsi" not in nazev_malym and "1.5" not in nazev_malym and "1,5" not in nazev_malym:
+                    for slovo in ZAKAZANA_SLOVA_DILY:
+                        if slovo in nazev_malym:
+                            zahozeno_predfiltrem = True
+                            break
+
                 if zahozeno_predfiltrem:
                     continue
 
                 cena_blok = inzerat.find('div', class_='inzeratycena')
                 cena = cena_blok.text.strip() if cena_blok else ""
 
-                # --- OTEVŘENÍ DETAILU INZERÁTU ---
-                time.sleep(1.0) # ZPŮSOBNÉ ČEKÁNÍ
+                time.sleep(1.0) 
                 try:
                     detail_odpoved = requests.get(odkaz, headers=HLAVICKY, timeout=10)
                     detail_soup = BeautifulSoup(detail_odpoved.text, 'html.parser')
@@ -130,7 +133,6 @@ def stahni_bazos_karoq():
                     
                     komplet_data = nazev + " \n " + cely_text_inzeratu
                     
-                    # PROHNÁNÍ PŘÍSNÝM FILTREM + DIAGNOSTIKA
                     prosel, duvod = hloubkova_kontrola(komplet_data)
                     
                     if not prosel: 
