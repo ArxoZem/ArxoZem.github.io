@@ -3,46 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Můj web a portfolio</title>
+    <title>Můj vysněný Karoq</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
-        header { background-color: #333; color: white; padding: 15px 20px; text-align: center; }
-        nav { background-color: #444; padding: 10px; text-align: center; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-        nav a:hover { color: #4CAF50; }
-        .container { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h1, h2 { color: #333; }
-        .footer { text-align: center; margin-top: 40px; padding: 10px; color: #777; font-size: 0.9em; }
+        /* Celkový vzhled stránky */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .hlavicka {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Vzhled kouzelného tlačítka pro filtr */
+        .tlacitko-filtr {
+            background-color: #ffeaa7;
+            border: 2px solid #fdcb6e;
+            color: #2d3436;
+            padding: 15px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.2s;
+        }
+        .tlacitko-filtr:hover {
+            background-color: #fdcb6e;
+            transform: scale(1.05);
+        }
+
+        /* Mřížka pro kartičky s auty */
+        .mrizka-aut {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Vzhled jedné kartičky s autem */
+        .karta {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .karta img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .nazev-auta {
+            font-size: 16px;
+            margin: 15px 0 5px 0;
+            flex-grow: 1;
+        }
+
+        .cena {
+            font-size: 22px;
+            font-weight: bold;
+            color: #27ae60;
+            margin: 5px 0;
+        }
+
+        .zdroj {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        /* Odznak "TOP VÝBĚR" */
+        .odznak {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: gold;
+            color: #d35400;
+            padding: 5px 15px;
+            font-weight: bold;
+            border-radius: 20px;
+            font-size: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        /* Tlačítko pro otevření inzerátu */
+        .odkaz-btn {
+            display: block;
+            text-align: center;
+            background-color: #0984e3;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .odkaz-btn:hover {
+            background-color: #74b9ff;
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Jan Novák - Portfolio a Nástroje</h1>
-    </header>
-
-    <nav>
-        <a href="index.html">Můj Životopis</a>
-        <a href="auta.html">Aplikace: Filtr aut</a>
-    </nav>
-
-    <div class="container">
-        <h2>O mně</h2>
-        <p>Vítejte na mých osobních stránkách. Jmenuji se Jan Novák a věnuji se...</p>
-        
-        <h2>Pracovní zkušenosti</h2>
-        <ul>
-            <li><strong>Název pozice</strong> - Firma (2020 - současnost)</li>
-            <li><strong>Název pozice</strong> - Firma (2018 - 2020)</li>
-        </ul>
-
-        <h2>Vzdělání</h2>
-        <p>Střední/Vysoká škola - Obor (Rok ukončení)</p>
+    <div class="hlavicka">
+        <h1>Vyhledávač: Škoda Karoq</h1>
+        <!-- Naše přepínací tlačítko -->
+        <button id="tlacitko-filtr" class="tlacitko-filtr">
+            ⭐ Ukázat jen můj dokonalý výběr
+        </button>
     </div>
 
-    <div class="footer">
-        &copy; 2026 Jan Novák
-    </div>
+    <!-- Zde se budou vykreslovat auta -->
+    <div id="seznam-aut" class="mrizka-aut"></div>
 
+    <!-- Zde začíná onen "motor" (JavaScript) -->
+    <script>
+        let vsechnaAuta = [];
+        let ukazovatJenDokonale = false;
+        const kontejner = document.getElementById('seznam-aut');
+        const tlacitko = document.getElementById('tlacitko-filtr');
+
+        // Stažení dat ze souboru data.json, který vytváří náš robot
+        fetch('data.json')
+            .then(odpoved => odpoved.json())
+            .then(data => {
+                vsechnaAuta = data;
+                vykresliAuta(); // Spustíme vykreslení hned po načtení
+            })
+            .catch(chyba => {
+                kontejner.innerHTML = '<h3 style="color:red; text-align:center; width:100%;">Zatím se nenačetla žádná auta. Zkontroluj, jestli už robot úspěšně doběhl na GitHubu.</h3>';
+            });
+
+        // Co se stane po kliknutí na tlačítko
+        tlacitko.addEventListener('click', () => {
+            ukazovatJenDokonale = !ukazovatJenDokonale; // Zapneme/Vypneme filtr
+            
+            // Úprava textu na tlačítku
+            if (ukazovatJenDokonale) {
+                tlacitko.innerHTML = "🚗 Zobrazit úplně všechny Karoqy";
+                tlacitko.style.backgroundColor = "#e0e0e0";
+                tlacitko.style.borderColor = "#bdc3c7";
+            } else {
+                tlacitko.innerHTML = "⭐ Ukázat jen můj dokonalý výběr";
+                tlacitko.style.backgroundColor = "#ffeaa7";
+                tlacitko.style.borderColor = "#fdcb6e";
+            }
+            
+            vykresliAuta(); // Překreslíme seznam aut
+        });
+
+        // Funkce, která vezme auta a vytvoří z nich kartičky na obrazovce
+        function vykresliAuta() {
+            kontejner.innerHTML = ''; // Vymažeme stará data
+            
+            // Vybereme jen ta auta, která chceme aktuálně vidět
+            const autaKZobrazeni = ukazovatJenDokonale 
+                ? vsechnaAuta.filter(auto => auto.dokonale_auto === true) 
+                : vsechnaAuta;
+
+            // Projdeme vybraná auta jedno po druhém
+            autaKZobrazeni.forEach(auto => {
+                const karta = document.createElement('div');
+                karta.className = 'karta';
+                
+                // Pokud má auto štítek dokonalosti, přidáme mu zlatý odznak
+                const htmlOdznak = auto.dokonale_auto ? '<div class="odznak">⭐ TOP VÝBĚR</div>' : '';
+                
+                karta.innerHTML = `
+                    ${htmlOdznak}
+                    <img src="${auto.obrazek}" alt="Fotka vozu">
+                    <h3 class="nazev-auta">${auto.model}</h3>
+                    <div class="cena">${auto.cena}</div>
+                    <div class="zdroj">Nalezeno na: <b>${auto.zdroj}</b></div>
+                    <a href="${auto.odkaz}" target="_blank" class="odkaz-btn">Otevřít inzerát</a>
+                `;
+                
+                kontejner.appendChild(karta);
+            });
+        }
+    </script>
 </body>
 </html>
