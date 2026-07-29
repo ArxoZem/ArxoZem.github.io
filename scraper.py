@@ -3,76 +3,61 @@ from bs4 import BeautifulSoup
 import json
 import time
 import re
+import os
 
 # ==========================================
-# --- ⚙️ KONFIGURAČNÍ BLOK ---
+# --- ⚙️ KONFIGURACE (VŠECHNY KAROQY) ---
 # ==========================================
 MIN_CENA = 100000 
-MAX_CENA = 1500000  
-MIN_NAJEZD = 10000
-MAX_NAJEZD = 100000
-POVOLENE_ROKY = ["2022", "2023", "2024"]
+MAX_CENA = 2000000  
 
-ZAKAZANA_SLOVA_KATASTROFA = [
-    "havarované", "rozprodám", "náhradní díly", "poškozené", "kroupy", 
-    "tdi", "nafta", "diesel"
-]
+# Tyto vyhodíme, protože to vůbec nejsou auta (jen díly)
 ZAKAZANA_SLOVA_DILY = [
     "nárazník", "blatník", "světlo", "světla", "světlomet", "maska", "masky", 
     "zrcátko", "kryt", "kryty", "příčníky", "koberečky", "koberce", "poloosa", 
-    "trysky", "klakson", "jednotek", "motor", "sada", "dveře", "kapota", 
-    "čerpadlo", "převodovka"
+    "trysky", "klakson", "jednotek", "sada", "dveře", "kapota", "čerpadlo", "převodovka"
 ]
-
-VYSOKA_VYBAVA = ["sportline", "sport line", "sport-line", "style", "exclusive"]
-# ==========================================
 
 HLAVICKY = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
 }
 
-def vyhledej_najezd(text):
-    shody = re.findall(r'(\d{1,3}(?:[ \.]\d{3})*|\d{4,6})\s*(?:km|tis)', text, re.IGNORECASE)
-    shody_najeto = re.findall(r'najeto\s*[:\.]?\s*(\d{1,3}(?:[ \.]\d{3})*|\d{4,6})', text, re.IGNORECASE)
-    vsechna_cisla = shody + shody_najeto
-    for cislo_str in vsechna_cisla:
-        ciste_cislo = ''.join(filter(str.isdigit, cislo_str))
-        if ciste_cislo:
-            hodnota = int(ciste_cislo)
-            if hodnota < 1000 and "tis" in text.lower(): hodnota *= 1000
-            if hodnota > 1000: return hodnota
-    return 0
-
 def vyhledej_rok(text):
     return re.findall(r'(202[2-4])', text)
 
-def hloubkova_kontrola(nazev, cely_text):
-    nazev_malym = nazev.lower()
+def je_to_top_stav(nazev, cely_text):
     text_malym = cely_text.lower()
     
-    # TVRDÝ FILTR: "Karoq" musí být přímo v nadpisu, jinak to zablokujeme (konec falešných Octavií)
-    if "karoq" not in nazev_malym:
-        return False
-        
-    ma_vybavu = any(vybava in text_malym for vybava in VYSOKA_VYBAVA)
+    # Podmínka 1: Motor 1.5 TSI
     ma_motor = ("1.5" in text_malym or "1,5" in text_malym) and "tsi" in text_malym
-    
-    if not ma_vybavu or not ma_motor: return False
+    if not ma_motor: return False
 
-    najezd = vyhledej_najezd(cely_text)
-    if najezd == 0 or najezd < MIN_NAJEZD or najezd > MAX_NAJEZD: return False
-
+    # Podmínka 2: Roky 2022, 2023, 2024
     roky = vyhledej_rok(cely_text)
     if not roky: return False
 
+    # (Pokud bys chtěl vrátit i požadavek na Sportline nebo nájezd, stačí ho sem dopsat)
     return True
+
+def vycisti_obrazek(odkaz_na_obrazek, zdroj):
+    """Pokusí se opravit rozbité nebo zástupné obrázky"""
+    if not odkaz_na_obrazek or 'placeholder' in odkaz_na_obrazek or 'avatar' in odkaz_na_obrazek.lower():
+        return f"https://via.placeholder.com/300x200?text=Bez+fotky+({zdroj})"
+    
+    if odkaz_na_obrazek.startswith('//'):
+        return "https:" + odkaz_na_obrazek
+    if odkaz_na_obrazek.startswith('/') and zdroj == "Tipcars":
+        return "https://www.tipcars.com" + odkaz_na_obrazek
+        
+    return odkaz_na_obrazek
 
 # --- 1. BAZOŠ ---
 def stahni_bazos_karoq():
-    print("Stahuji Bazoš...")
+    print("Stahuji Bazoš (všechny Karoqy)...")
     auta = []
-    for offset in range(0, 100, 20): 
+    # Zvýšili jsme počet stránek, ať jich je víc! (0 až 300)
+    for offset in range(0, 300, 20): 
         url = "https://auto.bazos.cz/skoda/?hledat=karoq" if offset == 0 else f"https://auto.bazos.cz/skoda/{offset}/?hledat=karoq"
         try:
             odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
@@ -84,89 +69,79 @@ def stahni_bazos_karoq():
                 nadpis = inzerat.find('h2', class_='nadpis').find('a')
                 if not nadpis: continue
                 nazev = nadpis.text.strip()
-                odkaz = "https://auto.bazos.cz" + nadpis['href']
                 nazev_malym = nazev.lower()
                 
-                # Pokud to není karoq už v náhledu, zahoď to
+                # Zahození náhradních dílů a čehokoliv, co není Karoq
                 if "karoq" not in nazev_malym: continue
-                
-                zahozeno_predfiltrem = False
-                for slovo in ZAKAZANA_SLOVA_KATASTROFA:
-                    if slovo in nazev_malym: zahozeno_predfiltrem = True; break
-                
-                if not zahozeno_predfiltrem and "tsi" not in nazev_malym and "1.5" not in nazev_malym and "1,5" not in nazev_malym:
-                    for slovo in ZAKAZANA_SLOVA_DILY:
-                        if slovo in nazev_malym: zahozeno_predfiltrem = True; break
+                je_dil = jakykoliv_dil in nazev_malym for jakykoliv_dil in ZAKAZANA_SLOVA_DILY
+                if je_dil and "tsi" not in nazev_malym and "tdi" not in nazev_malym: continue
 
-                if zahozeno_predfiltrem: continue
-
+                odkaz = "https://auto.bazos.cz" + nadpis['href']
                 cena_blok = inzerat.find('div', class_='inzeratycena')
                 cena = cena_blok.text.strip() if cena_blok else ""
 
-                time.sleep(1.0) 
+                # Hodnocení TOP STAVU (mrkneme do textu, pokud se nezabanujeme)
+                top_stav = False
                 try:
-                    detail_odpoved = requests.get(odkaz, headers=HLAVICKY, timeout=10)
-                    detail_soup = BeautifulSoup(detail_odpoved.text, 'html.parser')
-                    hlavni_text = detail_soup.find('div', class_='popisdetail')
-                    cely_text_inzeratu = hlavni_text.text if hlavni_text else ""
-                    
-                    komplet_data = nazev + " \n " + cely_text_inzeratu
-                    je_dokonaly = hloubkova_kontrola(nazev, komplet_data)
-                except Exception: continue
+                    time.sleep(0.5) 
+                    det = requests.get(odkaz, headers=HLAVICKY, timeout=5)
+                    det_soup = BeautifulSoup(det.text, 'html.parser')
+                    popis = det_soup.find('div', class_='popisdetail')
+                    if popis:
+                        top_stav = je_to_top_stav(nazev, nazev + " " + popis.text)
+                except: pass
 
-                obrazek_tag = inzerat.find('img')
-                obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Bez+fotky"
+                img_tag = inzerat.find('img')
+                obrazek = vycisti_obrazek(img_tag['src'] if img_tag else "", "Bazoš")
                 
-                auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": je_dokonaly})
-        except Exception: pass
+                auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
+        except: pass
     return auta
 
 # --- 2. SAUTO ---
 def stahni_sauto_karoq():
-    print("Stahuji Sauto.cz...")
+    print("Stahuji Sauto.cz (všechny Karoqy)...")
     auta = []
     api_url = "https://www.sauto.cz/api/v1/items/search"
-    for offset in [0, 20, 40]: 
+    # Sauto limit: stáhneme více stránek
+    for offset in range(0, 100, 20): 
         parametry = {"manufacturer_model_seo": "skoda|karoq", "limit": 20, "offset": offset}
         try:
             odpoved = requests.get(api_url, params=parametry, headers=HLAVICKY, timeout=10)
             if odpoved.status_code != 200: continue
             inzeraty = odpoved.json().get('results', [])
+            
             for item in inzeraty:
-                try:
-                    nazev = item.get('name', 'Škoda Karoq')
-                    # Hned vyhodíme Octavie atd.
-                    if "karoq" not in nazev.lower(): continue
-                    
-                    cena_int = item.get('price', 0)
-                    if cena_int < MIN_CENA or cena_int > MAX_CENA: continue
-                    cena_text = f"{cena_int:,} Kč".replace(',', ' ')
-                    
-                    item_id = item.get('id', '')
-                    seo_name = item.get('seoName', item.get('seo_name', ''))
-                    odkaz = f"https://www.sauto.cz/osobni/detail/skoda/karoq/{seo_name}/{item_id}" if seo_name and item_id else f"https://www.sauto.cz/osobni/detail/skoda/karoq/{item_id}"
+                nazev = item.get('name', 'Škoda Karoq')
+                if "karoq" not in nazev.lower(): continue
+                
+                cena_int = item.get('price', 0)
+                cena_text = f"{cena_int:,} Kč".replace(',', ' ')
+                
+                item_id = item.get('id', '')
+                seo_name = item.get('seoName', item.get('seo_name', ''))
+                odkaz = f"https://www.sauto.cz/osobni/detail/skoda/karoq/{seo_name}/{item_id}" if seo_name and item_id else f"https://www.sauto.cz/osobni/detail/{item_id}"
 
-                    item_str = json.dumps(item)
-                    je_dokonaly = hloubkova_kontrola(nazev, nazev + " " + item_str)
+                item_str = json.dumps(item)
+                top_stav = je_to_top_stav(nazev, nazev + " " + item_str)
 
-                    # OPRAVA FOTEK SAUTO: Přeskakujeme loga autobazarů
-                    obrazek = "https://via.placeholder.com/150?text=Sauto"
-                    nalezene_url = re.findall(r'https?://[^\s"\'\\]+sdn\.cz[^\s"\'\\]+', item_str)
-                    for url_img in nalezene_url:
-                        url_img = url_img.replace('\\/', '/')
-                        if 'logo' not in url_img.lower() and 'avatar' not in url_img.lower():
-                            obrazek = url_img.replace('{width}', '400').replace('{height}', '300').replace('{ext}', 'jpg')
-                            break # Vezmeme hned první fotku auta
-
-                    auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": je_dokonaly})
-                except Exception: continue
-        except Exception: pass
+                # OPRAVA OBRÁZKŮ SAUTO: Spolehlivější hledání CDN
+                obrazek_url = ""
+                nalezene = re.findall(r'(//(?:[a-z0-9-]+\.)?sdn\.cz/d_[a-z0-9_]+/[a-zA-Z0-9_-]+\.(?:jpg|jpeg|png|webp))', item_str)
+                for img in nalezene:
+                    if 'logo' not in img.lower() and 'avatar' not in img.lower():
+                        obrazek_url = "https:" + img.replace('\\/', '/')
+                        break
+                
+                obrazek = vycisti_obrazek(obrazek_url, "Sauto")
+                auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
+        except: pass
         time.sleep(1.0)
     return auta
 
 # --- 3. TIPCARS ---
 def stahni_tipcars_karoq():
-    print("Stahuji Tipcars...")
+    print("Stahuji Tipcars (všechny Karoqy)...")
     auta = []
     try:
         odpoved = requests.get("https://www.tipcars.com/skoda-karoq/", headers=HLAVICKY, timeout=15)
@@ -190,39 +165,79 @@ def stahni_tipcars_karoq():
                     
                 if "karoq" not in nazev.lower(): continue
                 
-                text_karty = rodic.text
-                je_dokonaly = hloubkova_kontrola(nazev, nazev + " " + text_karty)
+                top_stav = je_to_top_stav(nazev, nazev + " " + rodic.text)
                 
                 cena_text = ""
                 for t in rodic.find_all(string=True):
                     if "Kč" in t: cena_text = t.strip(); break
                 
-                # OPRAVA FOTEK TIPCARS: Hledáme opravdovou fotku, ne ikonky
-                obrazek = "https://via.placeholder.com/150?text=Tipcars"
-                vsechny_obrazky = rodic.find_all('img')
-                for img in vsechny_obrazky:
-                    src = img.get('data-original') or img.get('data-src') or img.get('data-lazy') or img.get('src') or ""
-                    if src and 'placeholder' not in src.lower() and 'logo' not in src.lower() and 'blank' not in src.lower() and 'icon' not in src.lower():
-                        if src.startswith('//'): src = "https:" + src
-                        elif src.startswith('/'): src = "https://www.tipcars.com" + src
-                        obrazek = src
+                # OPRAVA OBRÁZKŮ TIPCARS
+                obrazek_url = ""
+                vsechny_obr = rodic.find_all('img')
+                for img in vsechny_obr:
+                    src = img.get('src') or img.get('data-src') or img.get('data-original') or ""
+                    if src and not src.endswith('.svg') and 'icon' not in src:
+                        obrazek_url = src
                         break
-                    
-                auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": je_dokonaly})
-            except Exception: continue
-    except Exception: pass
+
+                obrazek = vycisti_obrazek(obrazek_url, "Tipcars")
+                auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
+            except: continue
+    except: pass
+    return auta
+
+# --- 4. MOBILE.DE (ScraperAPI) ---
+def stahni_mobile_de_karoq():
+    print("Stahuji Mobile.de (všechny Karoqy)...")
+    auta = []
+    api_key = os.getenv('SCRAPER_API_KEY')
+    if not api_key:
+        print("Mobile.de přeskočeno (chybí SCRAPER_API_KEY).")
+        return auta
+        
+    url = "https://suchen.mobile.de/fahrzeuge/search.html?dam=0&isSearchRequest=true&ms=22900%3A22%3A%3A%3A&ref=srpHead&s=Car&vc=Car"
+    try:
+        # Použití ScraperAPI, protože jinak nás Mobile.de okamžitě zablokuje
+        odpoved = requests.get('http://api.scraperapi.com', params={'api_key': api_key, 'url': url, 'render': 'true'}, timeout=60)
+        soup = BeautifulSoup(odpoved.text, 'html.parser')
+        
+        inzeraty = soup.select('.list-entry, .cBox-body--resultitem')
+        for inzerat in inzeraty:
+            nadpis_element = inzerat.select_one('.h3, h3')
+            if not nadpis_element: continue
+            nazev = nadpis_element.text.strip()
+            if "karoq" not in nazev.lower(): continue
+            
+            odkaz_tag = inzerat.find('a', href=True)
+            if not odkaz_tag: continue
+            odkaz = odkaz_tag['href']
+            
+            cena_element = inzerat.select_one('.price-block, .u-text-bold')
+            cena_text = cena_element.text.strip() if cena_element else "Cena na dotaz"
+            
+            top_stav = je_to_top_stav(nazev, nazev + " " + inzerat.text)
+            
+            img = inzerat.find('img')
+            obrazek_url = img.get('src') if img else ""
+            obrazek = vycisti_obrazek(obrazek_url, "Mobile.de")
+            
+            auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Mobile.de", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
+    except Exception as e:
+        print(f"Chyba při stahování Mobile.de: {e}")
     return auta
 
 def spust_agregatory():
-    print("Stahuji všechny Karoqy a značkuji ty dokonalé...")
+    print("Spouštím stahování všech Karoqů s označením těch dokonalých...")
     vsechna_auta = []
     vsechna_auta.extend(stahni_bazos_karoq())
     vsechna_auta.extend(stahni_sauto_karoq())
     vsechna_auta.extend(stahni_tipcars_karoq())
+    vsechna_auta.extend(stahni_mobile_de_karoq())
     
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(vsechna_auta, f, ensure_ascii=False, indent=4)
-    print(f"Hotovo! Stáhnuto {len(vsechna_auta)} aut.")
+        
+    print(f"Hotovo! Našli jsme celkem {len(vsechna_auta)} inzerátů.")
 
 if __name__ == "__main__":
     spust_agregatory()
