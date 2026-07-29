@@ -37,11 +37,9 @@ def je_to_top_stav(nazev, cely_text):
     roky = vyhledej_rok(cely_text)
     if not roky: return False
 
-    # (Pokud bys chtěl vrátit i požadavek na Sportline nebo nájezd, stačí ho sem dopsat)
     return True
 
 def vycisti_obrazek(odkaz_na_obrazek, zdroj):
-    """Pokusí se opravit rozbité nebo zástupné obrázky"""
     if not odkaz_na_obrazek or 'placeholder' in odkaz_na_obrazek or 'avatar' in odkaz_na_obrazek.lower():
         return f"https://via.placeholder.com/300x200?text=Bez+fotky+({zdroj})"
     
@@ -56,7 +54,6 @@ def vycisti_obrazek(odkaz_na_obrazek, zdroj):
 def stahni_bazos_karoq():
     print("Stahuji Bazoš (všechny Karoqy)...")
     auta = []
-    # Zvýšili jsme počet stránek, ať jich je víc! (0 až 300)
     for offset in range(0, 300, 20): 
         url = "https://auto.bazos.cz/skoda/?hledat=karoq" if offset == 0 else f"https://auto.bazos.cz/skoda/{offset}/?hledat=karoq"
         try:
@@ -73,14 +70,15 @@ def stahni_bazos_karoq():
                 
                 # Zahození náhradních dílů a čehokoliv, co není Karoq
                 if "karoq" not in nazev_malym: continue
-                je_dil = jakykoliv_dil in nazev_malym for jakykoliv_dil in ZAKAZANA_SLOVA_DILY
+                
+                # OPRAVA: Přidáno any()
+                je_dil = any(jakykoliv_dil in nazev_malym for jakykoliv_dil in ZAKAZANA_SLOVA_DILY)
                 if je_dil and "tsi" not in nazev_malym and "tdi" not in nazev_malym: continue
 
                 odkaz = "https://auto.bazos.cz" + nadpis['href']
                 cena_blok = inzerat.find('div', class_='inzeratycena')
                 cena = cena_blok.text.strip() if cena_blok else ""
 
-                # Hodnocení TOP STAVU (mrkneme do textu, pokud se nezabanujeme)
                 top_stav = False
                 try:
                     time.sleep(0.5) 
@@ -103,7 +101,6 @@ def stahni_sauto_karoq():
     print("Stahuji Sauto.cz (všechny Karoqy)...")
     auta = []
     api_url = "https://www.sauto.cz/api/v1/items/search"
-    # Sauto limit: stáhneme více stránek
     for offset in range(0, 100, 20): 
         parametry = {"manufacturer_model_seo": "skoda|karoq", "limit": 20, "offset": offset}
         try:
@@ -125,7 +122,6 @@ def stahni_sauto_karoq():
                 item_str = json.dumps(item)
                 top_stav = je_to_top_stav(nazev, nazev + " " + item_str)
 
-                # OPRAVA OBRÁZKŮ SAUTO: Spolehlivější hledání CDN
                 obrazek_url = ""
                 nalezene = re.findall(r'(//(?:[a-z0-9-]+\.)?sdn\.cz/d_[a-z0-9_]+/[a-zA-Z0-9_-]+\.(?:jpg|jpeg|png|webp))', item_str)
                 for img in nalezene:
@@ -171,7 +167,6 @@ def stahni_tipcars_karoq():
                 for t in rodic.find_all(string=True):
                     if "Kč" in t: cena_text = t.strip(); break
                 
-                # OPRAVA OBRÁZKŮ TIPCARS
                 obrazek_url = ""
                 vsechny_obr = rodic.find_all('img')
                 for img in vsechny_obr:
@@ -197,7 +192,6 @@ def stahni_mobile_de_karoq():
         
     url = "https://suchen.mobile.de/fahrzeuge/search.html?dam=0&isSearchRequest=true&ms=22900%3A22%3A%3A%3A&ref=srpHead&s=Car&vc=Car"
     try:
-        # Použití ScraperAPI, protože jinak nás Mobile.de okamžitě zablokuje
         odpoved = requests.get('http://api.scraperapi.com', params={'api_key': api_key, 'url': url, 'render': 'true'}, timeout=60)
         soup = BeautifulSoup(odpoved.text, 'html.parser')
         
