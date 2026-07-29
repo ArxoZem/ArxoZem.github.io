@@ -25,11 +25,11 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 1.6 TDI 85kw DSG STYLE PLUS, 5/2019, 116tkm, ČR",
-        "cena": "410 000 Kč",
+        "model": "Škoda Karoq 4x4 DSG SPORTLINE FullLED PANORAMA TAŽNÉ",
+        "cena": "509 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221540550/skoda-karoq-16-tdi-85kw-dsg-style-plus-52019-116tkm-cr.php",
-        "obrazek": "https://www.bazos.cz/img/1t/550/221540550.jpg?t=1785142412"
+        "odkaz": "https://auto.bazos.cz/inzerat/221907434/skoda-karoq-4x4-dsg-sportline-fullled-panorama-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/434/221907434.jpg?t=1785324867"
     },
     {
         "znacka": "Škoda",
@@ -185,14 +185,6 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDI Sportline 4x4",
-        "cena": "419 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/220267995/skoda-karoq-20-tdi-sportline-4x4.php",
-        "obrazek": "https://www.bazos.cz/img/1t/995/220267995.jpg?t=1783075739"
-    },
-    {
-        "znacka": "Škoda",
         "model": "Škoda Karoq 2.0 TDI 4x4 Style FAKTURACIA BEZ DPH",
         "cena": "533 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -250,10 +242,10 @@
     {
         "znacka": "Škoda",
         "model": "KAROQ 1.5 TSI DSG - STYLE - 2018 - 1. MAJITEL - LED - ALU 18",
-        "cena": "415 000 Kč",
+        "cena": "409 900 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221260406/karoq-15-tsi-dsg-style-2018-1-majitel-led-alu-18.php",
-        "obrazek": "https://www.bazos.cz/img/1t/406/221260406.jpg?t=1784294413"
+        "obrazek": "https://www.bazos.cz/img/1t/406/221260406.jpg?t=1785337563"
     },
     {
         "znacka": "Škoda",
@@ -297,11 +289,27 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI SPORTLINE, 2025, ZÁRUKA, 8500km",
+        "cena": "799 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221906524/skoda-karoq-15-tsi-sportline-2025-zaruka-8500km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/524/221906524.jpg?t=1785323197"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda karoq 2021",
         "cena": "379 900 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221900854/skoda-karoq-2021.php",
         "obrazek": "https://www.bazos.cz/img/1t/854/221900854.jpg?t=1785313606"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2019, 1.6TDi 85kW, 31 tis.n., Ambition+",
+        "cena": "480 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221171337/skoda-karoq-2019-16tdi-85kw-31-tisn-ambition.php",
+        "obrazek": "https://www.bazos.cz/img/1t/337/221171337.jpg?t=1785327508"
     },
     {
         "znacka": "Škoda",
@@ -369,6 +377,14 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 tdi 85kw  Najeto 79tis Full Led Koupené v ČR",
+        "cena": "399 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220112162/skoda-karoq-16-tdi-85kw-najeto-78tis-km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/162/220112162.jpg?t=1785332121"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq TSi model 2022 facelift navi tažný",
         "cena": "305 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -398,6 +414,54 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/220206271/skoda-karoq.php",
         "obrazek": "https://www.bazos.cz/img/1t/271/220206271.jpg?t=1784940548"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2,0 TDI Style",
+        "cena": "430 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221914030/skoda-karoq-20-tdi-style.php",
+        "obrazek": "https://www.bazos.cz/obrazky/empty.gif"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "KAROQ 1,5 TSI 110 KW",
+        "cena": "465 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221913712/karoq-15-tsi-110-kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/712/221913712.jpg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI SCR Style 4x4 DSG",
+        "cena": "479 500 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221913565/skoda-karoq-20-tdi-scr-style-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/565/221913565.jpg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,6TDI PARK.S ALU VYHŘ.SED.",
+        "cena": "319 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221909555/skoda-karoq-16tdi-parks-alu-vyhrsed.php",
+        "obrazek": "https://www.bazos.cz/img/1t/555/221909555.jpg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,6TDI PARK.S ALU VYHŘ.SED.",
+        "cena": "279 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221909113/skoda-karoq-16tdi-parks-alu-vyhrsed.php",
+        "obrazek": "https://www.bazos.cz/img/1t/113/221909113.jpg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI 110kW DSG STYLE",
+        "cena": "339 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221908624/skoda-karoq-15-tsi-110kw-dsg-style.php",
+        "obrazek": "https://www.bazos.cz/img/1t/624/221908624.jpg"
     },
     {
         "znacka": "Škoda",
@@ -489,14 +553,6 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 1.6 tdi 85kw  Najeto 79tis Full Led Koupené v ČR",
-        "cena": "399 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/220112162/skoda-karoq-16-tdi-85kw-najeto-78tis-km.php",
-        "obrazek": "https://www.bazos.cz/img/1t/162/220112162.jpg?t=1784992302"
-    },
-    {
-        "znacka": "Škoda",
         "model": "Škoda Karoq 2.0 TDI 110kW, 4x4, DSG",
         "cena": "471 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -533,7 +589,7 @@
         "cena": "369 000 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221874530/skoda-karoq-20-tdi-62021-led-keyless-carplay.php",
-        "obrazek": "https://www.bazos.cz/img/1t/530/221874530.jpg?t=1785247214"
+        "obrazek": "https://www.bazos.cz/img/1t/530/221874530.jpg?t=1785324155"
     },
     {
         "znacka": "Škoda",
@@ -817,14 +873,6 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSI 110kW DSG STYLE",
-        "cena": "339 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221802388/skoda-karoq-15-tsi-110kw-dsg-style.php",
-        "obrazek": "https://www.bazos.cz/img/1t/388/221802388.jpg?t=1785143727"
-    },
-    {
-        "znacka": "Škoda",
         "model": "ŠKODA KAROQ 1,0 TSI, 85Kw, 6-rychlostí, r.v. 09/2020,77500km",
         "cena": "404 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -862,14 +910,6 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221783091/skoda-karoq15tsi-110kw-dsg99tkm2023-matrixvirtualcr.php",
         "obrazek": "https://www.bazos.cz/img/1t/091/221783091.jpg?t=1785077676"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2019, 1.6TDi 85kW, 31 tis.n., Ambition+",
-        "cena": "490 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221171337/skoda-karoq-2019-16tdi-85kw-31-tisn-ambition.php",
-        "obrazek": "https://www.bazos.cz/img/1t/337/221171337.jpg?t=1785070315"
     },
     {
         "znacka": "Škoda",
@@ -917,7 +957,7 @@
         "cena": "740 000 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221756067/skoda-karoq-20tdi-110kw-4x4-exclusive.php",
-        "obrazek": "https://www.bazos.cz/img/1t/067/221756067.jpg?t=1785129697"
+        "obrazek": "https://www.bazos.cz/img/1t/067/221756067.jpg?t=1785328623"
     },
     {
         "znacka": "Škoda",
@@ -950,14 +990,6 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221751358/skoda-karoq-20tdi-dsg-4x4-style-virtual-matrix.php",
         "obrazek": "https://www.bazos.cz/img/1t/358/221751358.jpg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "KAROQ 1,5 TSI 110 KW",
-        "cena": "465 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221750312/karoq-15-tsi-110-kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/312/221750312.jpg"
     },
     {
         "znacka": "Škoda",
@@ -1073,27 +1105,11 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 1,5 TSI, 110 Kw 18”, ČR, 1. MAJ, rok 21, 69 tkm",
-        "cena": "490 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221714420/skoda-karoq-15-tsi-110-kw-18-cr-1-maj-rok-21-69-tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/420/221714420.jpg"
-    },
-    {
-        "znacka": "Škoda",
         "model": "Škoda Karoq Style 2.0 TDI 85 kW 2023",
         "cena": "579 000 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221713920/skoda-karoq-style-20-tdi-85-kw-2023.php",
         "obrazek": "https://www.bazos.cz/img/1t/920/221713920.jpg?t=1784973629"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSI SPORTLINE, 2025, ZÁRUKA, 8500km",
-        "cena": "799 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/220790523/skoda-karoq-15-tsi-sportline.php",
-        "obrazek": "https://www.bazos.cz/img/1t/523/220790523.jpg?t=1785190869"
     },
     {
         "znacka": "Škoda",
@@ -1313,522 +1329,450 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDI STYLE, DSG F1, 4x4, 110kW, Navi, LED,TOP",
-        "cena": "399 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221655492/skoda-karoq-20-tdi-style-dsg-f1-4x4-110kw-navi-ledtop.php",
-        "obrazek": "https://www.bazos.cz/img/1t/492/221655492.jpg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Přední blatník Škoda Karoq",
-        "cena": "Dohodou",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221655007/predni-blatnik-skoda-karoq.php",
-        "obrazek": "https://www.bazos.cz/obrazky/empty.gif"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.0TSI",
-        "cena": "399 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221367988/skoda-karoq-10tsi.php",
-        "obrazek": "https://www.bazos.cz/img/1t/988/221367988.jpg?t=1784184173"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Karoq 2.0 TDI Style DSG, LED, Ambient, Ťažné, Mŕtvy uhol",
-        "cena": "520 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221652494/karoq-20-tdi-style-dsg-led-ambient-tazne-mrtvy-uhol.php",
-        "obrazek": "https://www.bazos.cz/img/1t/494/221652494.jpg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSi Style DSG, koup.ČR, odp.DPH,i na splátky",
-        "cena": "529 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221651037/skoda-karoq-15-tsi-style-dsg-koupcr-odpdph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/037/221651037.jpg?t=1784786412"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Octavia",
-        "cena": "250 000 Kč",
+        "model": "Toyota Rav4, 2.5 Hybrid, Kamera",
+        "cena": "1 050 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210847007",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZCi1E9E6eHVsopS/bf8c.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210769871",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrB9kIMBRHbHNFgxj/ffd9.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Mercedes-Benz Třídy S, 500 AMG 4M | ZARUKA l DPH | CZ",
-        "cena": "1 999 000 Kč",
+        "model": "Hyundai Staria, 2.2 CRDi, 1Maj, ČR, DPH",
+        "cena": "880 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//207515661",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_m2_A/kPX8laQTIibrfMUb0r88/d95b.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210600749",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmC5zFH7MKHMc4ro/dfc1.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen ID.4, Pro 150kW 82 kWh Tepelko Tažné",
-        "cena": "746 000 Kč",
+        "model": "Škoda Karoq, 2.0 TDI 110KW 7°automat 4x4",
+        "cena": "700 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210842672",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yDNiHVFBzHVojbc/ee2e.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210003894",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_p9_A/nCTUX1iX5BWZuTZsF704ia/89ec.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen ID.3, Pro S 150kW / Velká bat. 82kWh",
-        "cena": "463 000 Kč",
+        "model": "Mercedes-Benz CLA, 45S AMG 4M+ 310kW ČR 1M",
+        "cena": "1 288 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210841406",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yDmAsMEp0HVoYh3/83c6.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849722",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZCL67dCmdHV1fQc/a2e7.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV, iV 80 150 kW / Kůže Suite",
-        "cena": "799 000 Kč",
+        "model": "Škoda Kodiaq, Sportline 2.0TDI / 142kW 4x4 7",
+        "cena": "1 169 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210840911",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yDNiHVEQhHVoPRx/b8e9.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849716",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZDr63VWfHV1eZy/c144.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen ID.3, Pro 150kW / Tepelné čerpadlo",
-        "cena": "565 000 Kč",
+        "model": "Škoda Kodiaq, 2,0 TDI / 147 kW / Style / 4x4",
+        "cena": "699 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210840680",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZCL67dGXOHVoeIO/6216.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849713",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yCpHP2HbgHV1eEW/13b7.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Cupra Born, Born 150kW / ACC / Kamery",
-        "cena": "573 000 Kč",
+        "model": "Volvo XC90, Volvo PLUS dark Mild Hybrid B5",
+        "cena": "1 419 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210840380",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZDPeBmBsEHVoKsU/5edd.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849593",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZCL67dCugHV1PfE/9856.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV, iV 60 132kW / Tepelné čerpadlo",
-        "cena": "685 000 Kč",
+        "model": "Škoda Enyaq Coupé, 85X 210kW Laurin a Klemet",
+        "cena": "1 289 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210839977",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yHy5jG1jHVoTvC/68f2.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849710",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yDRXV9HhQHV1dKL/e6da.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Octavia, 2.0  TDI 110kW DSG / Webasto",
-        "cena": "422 000 Kč",
+        "model": "Toyota Proace Verso, 2.0D 106kW FAMILY WEBASTO 8S",
+        "cena": "959 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210839871",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZBRWuKBooHVonb5/c428.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849707",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yBZFliGIaHV1c3x/c2b6.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV, IV 60 132kW / Záruka",
-        "cena": "568 000 Kč",
+        "model": "Škoda Scala, 1.0TSi 85kW TOP SELECTION",
+        "cena": "439 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210825401",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kOyy3Gv43yBJIAKKviHTUrpq/1053.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849704",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZCCONkCSkHV1cmh/54a6.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen ID.4, Pro 150kW / 82 kWh Certifikát",
-        "cena": "563 000 Kč",
+        "model": "Škoda Kodiaq, 2.0TDi 142kW 4X4 SPORTLINE 7S",
+        "cena": "1 149 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210825218",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kOyy3Gv43yC3TVQNhIHTVF6K/3a12.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849701",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yBZFliGIaHV1cSg/a1df.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Octavia, iV Combi 150kW DSG / Tažné",
-        "cena": "392 000 Kč",
+        "model": "Cupra Terramar, 1.5 eTSI 150k DSG",
+        "cena": "889 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210825179",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kOyy3Gv43yC3TVQNExHTVNEM/316f.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849698",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yC3TVQMV0HV1cHs/1148.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen ID.3, ID.3 Pro 150kW / Certifikát",
-        "cena": "449 000 Kč",
+        "model": "Škoda Scala, 1.5TSi 110kW 6MT MONTE CARLO",
+        "cena": "429 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210820163",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nEwftpXyZJX4uWeHSvBkS/e99b.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849695",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZCi1E9FoFHV1b8F/2ddd.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen Passat, 2.0 TDI 110kW DSG / Záruka",
-        "cena": "414 000 Kč",
+        "model": "Norton Commando, Commando 961 Classic FINAL EDI",
+        "cena": "599 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210818087",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nEwftpXyZBRWuKxtHSvG2n/e1d7.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210340724",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/nCTUX1iX5BWLrlBMdeGhleJe/04ce.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Superb, Style 2.0 TDI 110kW DSG Tažné",
-        "cena": "558 000 Kč",
+        "model": "Škoda Octavia, Combi 2.0 TDi 110kW Soleil",
+        "cena": "398 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210817211",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nEwftpXyZCi1E9WYHSvMaP/0aa9.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849680",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yCpHP2HbgHV1aoo/20c0.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen Tiguan, 1.4 TSI eHybrid PHEV 180kW DSG",
-        "cena": "435 000 Kč",
+        "model": "Škoda Kamiq, 1.0 TSi 85kW Selection",
+        "cena": "457 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210817100",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kOyy3Gv43yC3TVQFjvHSvYpQ/5e18.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849677",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yCpHP2HbgHV1aYw/d0d3.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Seat Tarraco, 2.0 TDI 110kW DSG / Tažné",
-        "cena": "524 000 Kč",
+        "model": "Škoda Kodiaq, 2.0 TDi 147kW L&K",
+        "cena": "738 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210817064",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kOyy3Gv43yC3TVQF3NHSvTCH/32ed.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849674",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yC3TVQMV0HV1aHj/f3e7.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV, iV 80 150kW Tažné / Tepelko",
-        "cena": "748 000 Kč",
+        "model": "Škoda Octavia, 1.5 TSI 110 kW Sportline",
+        "cena": "689 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210816755",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nEwftpXyZ4AdfWVHSu6lP/e192.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849671",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZJX4uCFBHV1Zye/d523.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq, TDI 110kW 4x4 DSG Sportline",
-        "cena": "720 000 Kč",
+        "model": "Škoda Kodiaq, 2.0 TSI 180 kW DSG 4x4 RS",
+        "cena": "849 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210813461",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrud5yBmqlHSI3X2/5f5a.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849665",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZCCONkCSkHV1ZeC/f8b2.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Seat Arona, 1.0 TSI 85kW FR-Line DSG",
-        "cena": "382 000 Kč",
+        "model": "Škoda Karoq, 2.0 TSI 140 kW DSG 4x4 Sportli",
+        "cena": "919 900 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210804593",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrC2szhCM3FHRivLO/a99d.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849662",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yCpHP2HUbHV1Y8v/e341.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Kodiaq, TDI 147 kW 4×4 DSG Sportline",
-        "cena": "886 000 Kč",
+        "model": "BMW Řada 5, 520d",
+        "cena": "499 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210803600",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmBDkXaBA8HHRjA02/b0ad.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//206919240",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_QI_EM/gRcJmS.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Kodiaq, TDI 147 kW 4×4 DSG Sportline",
-        "cena": "896 000 Kč",
+        "model": "BMW X7, xDrive40i, M Sportpaket Pro",
+        "cena": "2 199 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210803390",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmBDkXaBBTNHRi27H/4e42.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208597841",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oa_A/nsLxLojIECb6rD7GDahy0X/8ad7.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV, ---ZÁLOHOVÁNO---",
-        "cena": "661 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210792557",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrDPliFBPdiHPxgpg/f13c.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Kodiaq, TDI 147kW 4x4 DSG / Webasto",
-        "cena": "680 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210792407",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrRICCBwYXHPx8b6/831a.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen ID.3, ---ZÁLOHOVÁNO---",
-        "cena": "559 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210792029",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrDPliFBPdYHPxqEj/3369.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen ID.4, ---ZÁLOHOVÁNO---",
-        "cena": "611 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210791825",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrBgjUXBNwpHPx2Zw/678c.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen ID.4, ID.4 GTX 220kW 4x4",
-        "cena": "736 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210791627",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrCe62NBQfPHPxxGg/ca05.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen Taigo, ---ZÁLOHOVÁNO---",
-        "cena": "372 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210790439",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmEA35RBRONHPPgs4/e558.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Superb, ---ZÁLOHOVÁNO---",
-        "cena": "589 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210789944",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmwiaBBVDzHPNbqI/f07c.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen ID.3, ID.3 Pro 150kW / IQ.Lights",
-        "cena": "588 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210789803",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrCP7qOBJGXHPN2Ps/a564.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Cupra Born, ---ZÁLOHOVÁNO---",
-        "cena": "597 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210789206",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrBgjUXBHReHPNv9F/45d0.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Superb, TDI 110kW DSG / Matrix / Tažné",
-        "cena": "560 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210788384",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrCe62NBKnKHPN6kt/f030.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Superb, Laurin & Klement 2.0 TDI 140kW",
-        "cena": "396 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210786821",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrB9kIMBqSlHPNe2J/59d0.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Superb, ---ZÁLOHOVÁNO---",
-        "cena": "598 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210786749",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrud5yBKQjHPNXxK/52eb.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen ID.3, ID.3 Pro 150kW / Záruka",
-        "cena": "533 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210786383",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmD87zETgtHPNzKf/6185.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen ID.5, ID.5 Pro 128kW / ALU 20''+ ALU",
-        "cena": "623 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210786326",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmEA35RBQX3HPNRXi/e1f8.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Superb, ---ZÁLOHOVÁNO---",
-        "cena": "487 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210783893",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrCP7qOBDkKHOoUky/4435.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Superb, Laurin & Klement TSI 160kW iV",
-        "cena": "649 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210783338",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrScbvBFgaHOomGa/7e02.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Kodiaq, TDI 140kW 4x4 Webasto Tažné",
-        "cena": "389 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210782651",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmCCIyqBw79HOn3O9/9c93.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Kodiaq, Sportline TDI 142kW 4x4 Weba.",
-        "cena": "1 084 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210779597",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrCP7qOBDkKHOoDOG/61b1.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Kodiaq, TDI 147kW 4x4 DSG",
-        "cena": "742 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210770348",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmCni4DBEhKHNeRop/2036.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Kodiaq, Sportline 2.0TDI 147kW 4x4 DSG",
-        "cena": "740 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210770288",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrB9kIMBUBiHNeGZU/b091.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Audi A6, 2.0 TFSI 195kW 4x4 Matrix Led",
-        "cena": "817 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210769874",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrScbv58WHNeAod/ae47.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen Passat, 2.0 TDI 147kW DSG R-line",
-        "cena": "540 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210769322",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmCni4DBEhKHNeh9i/3998.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Kodiaq, ---ZÁLOHOVÁNO---",
-        "cena": "1 060 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210768473",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmEA35RBCxDHNeMVI/ceb0.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Seat Tarraco, Style 2.0 TDI 110kW DSG Tažné",
-        "cena": "451 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210767927",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrCDmo65Z6HNemZR/b9c6.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen Touran, Highline 2.0 TDI 110kW DSG",
-        "cena": "585 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210766745",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmChFvGExzHNessU/e11d.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Audi Q4 e-tron, 220kW 4x4 S-line / ALU 20''",
-        "cena": "735 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210766163",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmCni4DBXJxHPyKpK/8560.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen ID.3, Pro 150kW IQ.Lights / ALU 19\"",
+        "model": "BMW i3, 120Ah, SoH 100%",
         "cena": "539 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210766105",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrScbv5n3HNecuR/0f65.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209552091",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_of_B/nDJ4VEZEqD86wCDMXFDv3u8/0232.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq, 2.0 TSI 4x4 DSG Sportline",
-        "cena": "993 000 Kč",
+        "model": "BMW Řada 3, 320D xDrive",
+        "cena": "429 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210763214",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrCe62N1KDHM2SvK/6ed4.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209588154",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_A/nDJ4VEZEqx7ONGJpFH0VjK/5b63.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Audi Q4 e-tron, Q4 e-tron 35 128kW S-Line",
-        "cena": "747 000 Kč",
+        "model": "BMW iX, xDrive45 M paket Pro",
+        "cena": "1 839 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210763196",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmEA35R8MDHM2fWw/0e95.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209672181",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_B/kOzkBkwYBTDq3nMIArFSVOoo/adb4.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen ID.5, ID.5 Pro 150kW / ALU 19''",
-        "cena": "786 000 Kč",
+        "model": "BMW iX, xDrive45, M Paket Pro",
+        "cena": "1 849 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210754322",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmEA35RyKLHLruD2/1fad.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210045960",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_p9_A/kcHp2YdDtBM3KVCX4GB8jMZ/71ac.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen ID.5, ID.5 Pro 150kW / ALU 19''",
-        "cena": "760 000 Kč",
+        "model": "BMW X5, xDrive30d",
+        "cena": "1 050 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210753998",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmwiaBz0XHLr0no/2daa.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210260912",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qA_B/kcHp2YdDtCJexHxTdGW51Tz/3462.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq, 2.0TDI 110kW DSG 4x4 LED",
-        "cena": "392 000 Kč",
+        "model": "BMW X3, xDrive30i",
+        "cena": "629 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210752021",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmChFvGsjkHLHe34/09ba.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210366800",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/kcHp2YdDtDgLT0BC3TGh9B8t/c0b4.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Audi A6, 3.0 50TDI 210kW 4x4 / 2x sada",
-        "cena": "781 000 Kč",
+        "model": "BMW Řada 3, 330e SportLine",
+        "cena": "639 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210747818",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmCni4DtiyHLGdi3/64da.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210367469",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/nCTUX1iX5DwDWzBkagGiAQcA/df17.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Scala, 1.5TSI 110kW / ALU 16''+ zimní",
-        "cena": "347 000 Kč",
+        "model": "Cupra Leon, SP 2.0",
+        "cena": "689 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210745373",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/nO2CysqjGrDPliFfGIHKj93A/7d67.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210368867",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/nCTUX1iX5bIUBBO06GiGNo1/3211.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Volkswagen Passat, 2.0 TDI 110kW DSG / Virtual",
-        "cena": "422 000 Kč",
+        "model": "Audi A4 Avant, 2.0 Tdi Quattro",
+        "cena": "639 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210744518",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/nO2CysqjGrDPliFfwhHKkIlU/c1fe.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210516608",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_C/nO2CysqjGrRICCDN9GwJ4GC/187a.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Superb, Style 2.0 TSI 140kW DSG / ALU",
-        "cena": "590 000 Kč",
+        "model": "BMW X5, xDrive30d",
+        "cena": "549 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210744134",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmwiaBpVzHKkWR0/7da8.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210549104",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_A/kQMlcCt5zmCCIyqFicGzj7fk/bb3a.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Kodiaq, 2.0 TDI 142kW 4x4 DSG / Tažné",
-        "cena": "962 000 Kč",
+        "model": "BMW Řada 5, 530d xDrive Touring",
+        "cena": "599 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210743930",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/nO2CysqjGrC2szhrDEHKjuS8/5fc5.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210583373",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_A/nO2CysqjGrCe62NIT3G3IICE/d5a2.jpeg"
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Kodiaq, Sportline 2.0 TDI 147kW 4x4",
-        "cena": "729 000 Kč",
+        "model": "BMW Řada 5, BMW 540i xDrive Touring",
+        "cena": "1 250 000 Kč",
         "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210741872",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/nO2CysqjGrRICCsktHKjpZy/7626.jpeg"
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210589502",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_A/kQMlcCt5zmEA35RFyJG3nCMB/cc49.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "BMW XM, Label",
+        "cena": "3 490 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210590438",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_B/nO2CysqjGrB9kIMMu2G3p09Q/4b84.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Alpina, XB7 ALPINA",
+        "cena": "1 950 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210623591",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_B/kQMlcCt5zmCCIyqLWdG7Mfmd/a29f.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "BMW iX, xDrive60, Maximální výbava",
+        "cena": "2 159 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210641477",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_B/nO2CysqjGrud5yNCqG8XhY4/797d.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "BMW X6, xDrive30d",
+        "cena": "749 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210765953",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrRICCBJ3THM42m5/6f11.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "BMW i3, i3S 120Ah, SoH 98%",
+        "cena": "589 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210778493",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrBgjUX8JmHOBrsB/5295.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "BMW Řada 3, 325i, 160kW",
+        "cena": "195 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210778907",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrB9kIMBa6THODXYg/d847.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Superb, 2.0 TDI DSG 4x4 Sportline Comb",
+        "cena": "649 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209998206",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_p9_A/nPVpfd5QLLEA4WVJenF7TSry/a6e0.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1.6 TDI 85kW DSG STYLE ČR",
+        "cena": "419 999 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849653",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZDPeBmicHV1Qz2/4779.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Volvo V60, RECHARGE T6, AWD PLUS DARK ČR",
+        "cena": "819 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//207718636",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qA_C/kcHp2YdDtBRc2UBwKGfJuGn/5807.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Transit, Trend L3H3 2,0Ecoblue 96kW",
+        "cena": "549 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//207482958",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_m2_A/nEEmzB06ylFXFYI1aww/3add.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Citroën Jumpy, L3, 2.0 HDI, 90kW, ČR, 1. MAJ.",
+        "cena": "449 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//206409852",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_QN_E6/o5sNWL.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Puma, GEN-E Premium 123kW, 43 kWh",
+        "cena": "719 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208977492",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oc_A/kcukOQcMmmtzdCqLEEWnb6/99cf.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Galaxy, 2.0 Ecoblue,140kW, 7MÍST",
+        "cena": "399 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208900242",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oc_A/nPvSisOTaMCeL2xkBD6GhVh/1161.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Transit, L3H2 Trend 2,0Ecoblue,ČR,1.MAJ",
+        "cena": "579 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208687196",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oa_B/kPxAuWMbDHDRgpQBR0DkcZ73/5976.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford S-MAX, 2.5 Duratec Hybrid HEV, ČR",
+        "cena": "579 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208668731",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oa_B/nO7kYQIzllzLYfDJYDlBtR6/b871.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia, 1.5 TSI, 110 kW, Ambition, ČR",
+        "cena": "409 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208387127",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oZ_A/kBkJRwehYDlimkCA0DMck4v/fdb6.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Focus, TREND+, 1.5 ECOBLUE, ČR",
+        "cena": "264 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208102283",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oX_A/kPWmeC9soBCihh3j4Cj4K3o/0809.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Mondeo, 2.0 TDCi, Titanium, AWD, AUT.",
+        "cena": "299 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209600343",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_A/kOzkBkwYBTDq3nMD6zFJh8Yu/1341.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Kuga, Titanium 2,0EcoBlue AT AWD, ČR",
+        "cena": "379 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209443185",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_of_A/kPRtHkVQLlDN44a0oE1f0ws/6ffa.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Tourneo Custom, L1 Titanium X 125kW AT, ČR",
+        "cena": "1 349 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209234169",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oe_B/kOzmiQlmfoCswkNBcaEn6XXi/a404.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Tourneo Custom, L2 Titanium X 125kW AT, ČR",
+        "cena": "1 399 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209233776",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_A/kOzkBkwYBTDqlCCEuHFKuEwG/3f23.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Mercedes-Benz CLS, 350 CDI, 4MATIC, FINAL EDITION",
+        "cena": "709 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209160141",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_od_B/kOy0N9usHcBTCYHBTXEXDrjw/01d0.jpeg"
     }
 ]
