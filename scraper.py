@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 import os
+import re
 
 # --- ZÁKLADNÍ NASTAVENÍ ---
 HLAVICKY = {
@@ -20,7 +21,7 @@ def je_to_auto(nazev):
             return False
     return True
 
-# --- 1. BAZOŠ (Funguje skvěle) ---
+# --- 1. BAZOŠ ---
 def stahni_bazos_karoq():
     print("Stahuji Bazoš...")
     auta = []
@@ -51,7 +52,7 @@ def stahni_bazos_karoq():
         time.sleep(1)
     return auta
 
-# --- 2. SAUTO (API + Opravené obrázky) ---
+# --- 2. SAUTO (Opravené obrázky pomocí Regexu) ---
 def stahni_sauto_karoq():
     print("Stahuji Sauto.cz...")
     auta = []
@@ -73,16 +74,14 @@ def stahni_sauto_karoq():
                     seo_name = item.get('seoName', item.get('seo_name', ''))
                     odkaz = f"https://www.sauto.cz/osobni/detail/skoda/karoq/{seo_name}/{item_id}" if seo_name and item_id else "https://www.sauto.cz"
 
-                    # Oprava obrázků: Sauto je ukládá do _links -> gallery
+                    # SUPER-OPRAVA OBRÁZKŮ SAUTA: Převedeme data na text a vylovíme první reálnou URL adresu
                     obrazek = "https://via.placeholder.com/150?text=Sauto"
-                    if '_links' in item and 'gallery' in item['_links'] and len(item['_links']['gallery']) > 0:
-                        obrazek = item['_links']['gallery'][0].get('href', obrazek)
-                    elif 'images' in item and len(item['images']) > 0:
-                        prvni = item['images'][0]
-                        obrazek = prvni.get('url', prvni.get('path', obrazek)) if isinstance(prvni, dict) else prvni
-
-                    if obrazek.startswith('//'):
-                        obrazek = 'https:' + obrazek
+                    item_str = json.dumps(item)
+                    match = re.search(r'(https?://[^\s"\'\\]+sdn\.cz[^\s"\'\\]+)', item_str)
+                    if match:
+                        obrazek = match.group(1).replace('\\/', '/')
+                        # Nahradíme zástupné znaky pro šířku a výšku pevnými čísly, aby se fotka načetla!
+                        obrazek = obrazek.replace('{width}', '400').replace('{height}', '300').replace('{ext}', 'jpg')
 
                     if je_to_auto(nazev):
                         auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek})
@@ -91,87 +90,97 @@ def stahni_sauto_karoq():
         time.sleep(1)
     return auta
 
-# --- 3. AAA AUTO (Přes ScraperAPI s renderováním) ---
+# --- 3. AAA AUTO (Lovec odkazů) ---
 def stahni_aaaauto_karoq():
     print("Stahuji AAA Auto...")
     auta = []
     api_key = os.getenv('SCRAPER_API_KEY')
-    if not api_key: 
-        print("Chybí SCRAPER_API_KEY!")
-        return auta
-        
-    url = "https://www.aaaauto.cz/ojete-vozy/skoda/karoq"
+    if not api_key: return auta
     try:
+        url = "https://www.aaaauto.cz/ojete-vozy/skoda/karoq"
         odpoved = requests.get('http://api.scraperapi.com', params={'api_key': api_key, 'url': url, 'render': 'true'}, timeout=60)
-        if odpoved.status_code == 200:
-            soup = BeautifulSoup(odpoved.text, 'html.parser')
-            # Hledáme všechny možné verze kontejnerů pro inzeráty v AAA
-            inzeraty = soup.select('.carCard, .car-box, .vehicle-card')
-            
-            for inzerat in inzeraty:
-                try:
-                    nadpis = inzerat.find(['h2', 'h3'])
-                    if not nadpis: continue
-                    nazev = nadpis.text.strip()
-                    
-                    odkaz_tag = inzerat.find('a', href=True)
-                    odkaz = "https://www.aaaauto.cz" + odkaz_tag['href'] if odkaz_tag and odkaz_tag['href'].startswith('/') else (odkaz_tag['href'] if odkaz_tag else url)
-                    
-                    cena_tag = inzerat.select_one('.price, .car-price, strong')
-                    cena = cena_tag.text.strip() if cena_tag else ""
-                    cena_cista = ''.join(filter(str.isdigit, cena))
-                    if cena_cista and int(cena_cista) < MIN_CENA: continue
-                    
-                    img_tag = inzerat.find('img')
-                    obrazek = "https://via.placeholder.com/150?text=AAA+Auto"
-                    if img_tag:
-                        obrazek = img_tag.get('src', img_tag.get('data-src', obrazek))
-                        
-                    if je_to_auto(nazev) and "karoq" in nazev.lower():
-                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek})
-                except Exception: continue
-    except Exception as e:
-        print(f"Chyba AAA Auto: {e}")
+        soup = BeautifulSoup(odpoved.text, 'html.parser')
+        
+        # Ignorujeme strukturu a hledáme rovnou odkazy na detail Karoqa
+        odkazy = soup.find_all('a', href=lambda h: h and '/cz/skoda/karoq/' in h.lower())
+        zpracovano = set()
+        
+        for a in odkazy:
+            try:
+                href = a.get('href', '')
+                odkaz = "https://www.aaaauto.cz" + href if href.startswith('/') else href
+                if odkaz in zpracovano: continue
+                zpracovano.add(odkaz)
+                
+                # Jdeme nahoru pro kontejner auta
+                rodic = a.find_parent('div', class_=lambda x: x and ('car' in x.lower() or 'box' in x.lower() or 'card' in x.lower()))
+                if not rodic: continue
+                
+                nadpis = rodic.find(['h2', 'h3'])
+                nazev = nadpis.text.strip() if nadpis else "Škoda Karoq"
+                
+                cena_text = ""
+                for t in rodic.find_all(string=True):
+                    if "Kč" in t or "CZK" in t:
+                        cena_text = t.strip()
+                        break
+                cena_cista = ''.join(filter(str.isdigit, cena_text))
+                if not cena_cista or int(cena_cista) < MIN_CENA: continue
+                
+                img = rodic.find('img')
+                obrazek = img.get('data-src', img.get('src', 'https://via.placeholder.com/150?text=AAA')) if img else 'https://via.placeholder.com/150?text=AAA'
+                
+                if je_to_auto(nazev):
+                    auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek})
+            except Exception: continue
+    except Exception as e: print(f"Chyba AAA: {e}")
     return auta
 
-# --- 4. TIPCARS (Napřímo - HTML Scrape) ---
+# --- 4. TIPCARS (Lovec odkazů) ---
 def stahni_tipcars_karoq():
     print("Stahuji Tipcars...")
     auta = []
-    url = "https://www.tipcars.com/skoda-karoq/"
     try:
-        # Tipcars většinou pustí normální dotaz
-        odpoved = requests.get(url, headers=HLAVICKY, timeout=15)
-        if odpoved.status_code == 200:
-            soup = BeautifulSoup(odpoved.text, 'html.parser')
-            # Různé varianty CSS tříd Tipcars
-            inzeraty = soup.select('div.inzerat, div.card, article.item')
-            
-            for inzerat in inzeraty:
-                try:
-                    nadpis = inzerat.select_one('.title, h2, h3, a.inzerat-link')
-                    if not nadpis: continue
-                    nazev = nadpis.text.strip()
+        odpoved = requests.get("https://www.tipcars.com/skoda-karoq/", headers=HLAVICKY, timeout=15)
+        soup = BeautifulSoup(odpoved.text, 'html.parser')
+        
+        # Hledáme odkazy, které končí dlouhým číslem (ID inzerátu na Tipcars)
+        odkazy = soup.find_all('a', href=lambda h: h and 'skoda-karoq' in h.lower() and re.search(r'-\d{6,}', h))
+        zpracovano = set()
+        
+        for a in odkazy:
+            try:
+                href = a.get('href', '')
+                odkaz = "https://www.tipcars.com" + href if href.startswith('/') else href
+                if odkaz in zpracovano: continue
+                zpracovano.add(odkaz)
+                
+                rodic = a.find_parent(['div', 'article'])
+                if not rodic: continue
+                
+                nazev = a.text.strip()
+                if len(nazev) < 5: 
+                    nadpis = rodic.find(['h2', 'h3', 'a'])
+                    nazev = nadpis.text.strip() if nadpis else "Škoda Karoq"
                     
-                    odkaz_tag = inzerat.find('a', href=True)
-                    odkaz = "https://www.tipcars.com" + odkaz_tag['href'] if odkaz_tag and odkaz_tag['href'].startswith('/') else (odkaz_tag['href'] if odkaz_tag else url)
+                cena_text = ""
+                for t in rodic.find_all(string=True):
+                    if "Kč" in t:
+                        cena_text = t.strip()
+                        break
+                cena_cista = ''.join(filter(str.isdigit, cena_text))
+                if not cena_cista or int(cena_cista) < MIN_CENA: continue
+                
+                img = rodic.find('img')
+                obrazek = "https://via.placeholder.com/150?text=Tipcars"
+                if img:
+                    obrazek = img.get('data-src', img.get('src', obrazek))
+                    if obrazek.startswith('//'): obrazek = "https:" + obrazek
                     
-                    cena_tag = inzerat.select_one('.price, .fs-price, .cena')
-                    cena = cena_tag.text.strip() if cena_tag else ""
-                    cena_cista = ''.join(filter(str.isdigit, cena))
-                    if cena_cista and int(cena_cista) < MIN_CENA: continue
-                    
-                    img_tag = inzerat.find('img')
-                    obrazek = "https://via.placeholder.com/150?text=Tipcars"
-                    if img_tag:
-                        obrazek = img_tag.get('data-src', img_tag.get('src', obrazek))
-                        if obrazek.startswith('//'): obrazek = 'https:' + obrazek
-                        
-                    if je_to_auto(nazev) and "karoq" in nazev.lower():
-                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek})
-                except Exception: continue
-    except Exception as e:
-        print(f"Chyba Tipcars: {e}")
+                if je_to_auto(nazev):
+                    auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek})
+            except Exception: continue
+    except Exception as e: print(f"Chyba Tipcars: {e}")
     return auta
 
 # --- HLAVNÍ FUNKCE AGREGÁTORU ---
