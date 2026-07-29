@@ -36,7 +36,6 @@ def je_to_top_stav(nazev, cely_text):
     return True
 
 def vycisti_obrazek(odkaz_na_obrazek, zdroj):
-    """Záchrana reálných fotek a vyházení zástupných placeholderů"""
     if not odkaz_na_obrazek:
         return f"https://via.placeholder.com/400x300?text=Bez+fotky+({zdroj})"
         
@@ -101,7 +100,7 @@ def stahni_bazos_karoq():
     print(f"✅ Bazoš úspěšně stažen. Nalezeno inzerátů: {len(auta)}")
     return auta
 
-# --- 2. SAUTO (Přepsáno na přímé HTML stahování pro spolehlivost) ---
+# --- 2. SAUTO ---
 def stahni_sauto_karoq():
     print("⏳ Stahuji Sauto.cz (všechny Karoqy)...")
     auta = []
@@ -207,7 +206,7 @@ def spust_agregatory():
     vsechna_auta.extend(stahni_sauto_karoq())
     vsechna_auta.extend(stahni_tipcars_karoq())
     
-    # 🎲 Náhodné proházení všech inzerátů
+    # 🎲 Tady probíhá náhodné proházení inzerátů
     random.shuffle(vsechna_auta)
     
     with open('data.json', 'w', encoding='utf-8') as f:
