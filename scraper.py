@@ -105,37 +105,52 @@ def stahni_esa_karoq():
     except Exception as e: print(f"Chyba ESA: {e}")
     return auta
 
-# --- 4. AAA AUTO (Skryté API) ---
+# --- 4. AAA AUTO (Skryté API - opravené) ---
 def stahni_aaaauto_karoq():
     print("Stahuji AAA Auto přes SKRYTÉ API...")
     auta = []
     url = "https://www.aaaauto.cz/api/filter"
+    
     aaa_hlavicky = {
-        "accept": "application/json",
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "cs,en;q=0.9",
         "referrer": "https://www.aaaauto.cz/ojete-vozy/skoda/karoq",
-        "User-Agent": HLAVICKY["User-Agent"]
+        "User-Agent": HLAVICKY["User-Agent"],
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin"
     }
+    
     try:
         odpoved = requests.get(url, headers=aaa_hlavicky, timeout=10)
         if odpoved.status_code == 200:
-            data = odpoved.json()
-            inzeraty = data.get('cars', data.get('items', data.get('results', data.get('vehicles', []))))
-            if isinstance(data, list): inzeraty = data
-            for item in inzeraty:
-                try:
-                    nazev = item.get('name', item.get('carName', item.get('model', 'Škoda Karoq')))
-                    cena_raw = item.get('price', item.get('priceData', {}).get('price', 0))
-                    cena_cista = int(''.join(filter(str.isdigit, str(cena_raw)))) if cena_raw else 0
-                    if cena_cista < MIN_CENA: continue
-                    cena_text = f"{cena_cista:,} Kč".replace(',', ' ')
-                    url_auta = item.get('url', item.get('link', ''))
-                    odkaz = f"https://www.aaaauto.cz{url_auta}" if url_auta.startswith('/') else url_auta
-                    if not odkaz or odkaz == "https://www.aaaauto.cz": odkaz = "https://www.aaaauto.cz/ojete-vozy/skoda/karoq"
-                    obrazek = item.get('image', item.get('photo', item.get('mainImage', 'https://via.placeholder.com/150?text=AAA+Auto')))
-                    if je_to_auto(nazev):
-                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek})
-                except Exception: continue
-    except Exception as e: print(f"Chyba AAA: {e}")
+            # Pojistka: zkontrolujeme, jestli nám server vrátil opravdu JSON a ne HTML chybovku
+            if "application/json" in odpoved.headers.get("Content-Type", ""):
+                data = odpoved.json()
+                inzeraty = data.get('cars', data.get('items', data.get('results', data.get('vehicles', []))))
+                if isinstance(data, list): inzeraty = data
+                
+                for item in inzeraty:
+                    try:
+                        nazev = item.get('name', item.get('carName', item.get('model', 'Škoda Karoq')))
+                        cena_raw = item.get('price', item.get('priceData', {}).get('price', 0))
+                        cena_cista = int(''.join(filter(str.isdigit, str(cena_raw)))) if cena_raw else 0
+                        if cena_cista < MIN_CENA: continue
+                        cena_text = f"{cena_cista:,} Kč".replace(',', ' ')
+                        url_auta = item.get('url', item.get('link', ''))
+                        odkaz = f"https://www.aaaauto.cz{url_auta}" if url_auta.startswith('/') else url_auta
+                        if not odkaz or odkaz == "https://www.aaaauto.cz": odkaz = "https://www.aaaauto.cz/ojete-vozy/skoda/karoq"
+                        obrazek = item.get('image', item.get('photo', item.get('mainImage', 'https://via.placeholder.com/150?text=AAA+Auto')))
+                        if je_to_auto(nazev):
+                            auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek})
+                    except Exception: continue
+            else:
+                print("AAA Auto vrátilo HTML namísto JSON dat (možná blokace).")
+        else:
+            print(f"AAA Auto vrátilo stavový kód: {odpoved.status_code}")
+    except Exception as e: 
+        print(f"Chyba AAA: {e}")
+        
     return auta
 
 # --- HLAVNÍ FUNKCE AGREGÁTORU ---
