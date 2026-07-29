@@ -10,8 +10,8 @@ import re
 MIN_CENA = 100000 
 MAX_CENA = 1500000  
 
-MIN_NAJEZD = 25000
-MAX_NAJEZD = 60000
+MIN_NAJEZD = 0
+MAX_NAJEZD = 100000
 POVOLENE_ROKY = ["2022", "2023", "2024"]
 
 # 1. KATASTROFY (Vyřadí inzerát, ať je to napsané KDEKOLIV)
@@ -28,7 +28,6 @@ ZAKAZANA_SLOVA_DILY = [
     "čerpadlo", "převodovka"
 ]
 
-VYSOKA_VYBAVA = ["sportline", "sport line", "sport-line", "style", "exclusive"]
 # ==========================================
 
 HLAVICKY = {
