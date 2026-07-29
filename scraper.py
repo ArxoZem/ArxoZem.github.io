@@ -5,15 +5,14 @@ import time
 import re
 
 # ==========================================
-# --- ⚙️ KONFIGURAČNÍ BLOK (PRO TAJNÝ ŠTÍTEK) ---
+# --- ⚙️ KONFIGURAČNÍ BLOK ---
 # ==========================================
 MIN_CENA = 100000 
 MAX_CENA = 1500000  
-MIN_NAJEZD = 2000
+MIN_NAJEZD = 10000
 MAX_NAJEZD = 100000
 POVOLENE_ROKY = ["2022", "2023", "2024"]
 
-# Tyto vyhazujeme úplně (nechceme je ani v seznamu "všech")
 ZAKAZANA_SLOVA_KATASTROFA = [
     "havarované", "rozprodám", "náhradní díly", "poškozené", "kroupy", 
     "tdi", "nafta", "diesel"
@@ -48,14 +47,18 @@ def vyhledej_najezd(text):
 def vyhledej_rok(text):
     return re.findall(r'(202[2-4])', text)
 
-# Tato funkce už inzeráty nevyhazuje, jen určuje, jestli dostanou "hvězdičku"
-def hloubkova_kontrola(cely_text):
+def hloubkova_kontrola(nazev, cely_text):
+    nazev_malym = nazev.lower()
     text_malym = cely_text.lower()
+    
+    # TVRDÝ FILTR: "Karoq" musí být přímo v nadpisu, jinak to zablokujeme (konec falešných Octavií)
+    if "karoq" not in nazev_malym:
+        return False
+        
     ma_vybavu = any(vybava in text_malym for vybava in VYSOKA_VYBAVA)
     ma_motor = ("1.5" in text_malym or "1,5" in text_malym) and "tsi" in text_malym
     
-    if not ma_vybavu: return False
-    if not ma_motor: return False
+    if not ma_vybavu or not ma_motor: return False
 
     najezd = vyhledej_najezd(cely_text)
     if najezd == 0 or najezd < MIN_NAJEZD or najezd > MAX_NAJEZD: return False
@@ -69,7 +72,6 @@ def hloubkova_kontrola(cely_text):
 def stahni_bazos_karoq():
     print("Stahuji Bazoš...")
     auta = []
-    # Záměrně stahujeme jen menší vzorek, abychom nedostali BAN za otevírání každého detailu
     for offset in range(0, 100, 20): 
         url = "https://auto.bazos.cz/skoda/?hledat=karoq" if offset == 0 else f"https://auto.bazos.cz/skoda/{offset}/?hledat=karoq"
         try:
@@ -83,8 +85,9 @@ def stahni_bazos_karoq():
                 if not nadpis: continue
                 nazev = nadpis.text.strip()
                 odkaz = "https://auto.bazos.cz" + nadpis['href']
-                
                 nazev_malym = nazev.lower()
+                
+                # Pokud to není karoq už v náhledu, zahoď to
                 if "karoq" not in nazev_malym: continue
                 
                 zahozeno_predfiltrem = False
@@ -108,21 +111,13 @@ def stahni_bazos_karoq():
                     cely_text_inzeratu = hlavni_text.text if hlavni_text else ""
                     
                     komplet_data = nazev + " \n " + cely_text_inzeratu
-                    
-                    # TADY PŘIDÁVÁME ŠTÍTEK!
-                    je_dokonaly = hloubkova_kontrola(komplet_data)
-                        
+                    je_dokonaly = hloubkova_kontrola(nazev, komplet_data)
                 except Exception: continue
 
                 obrazek_tag = inzerat.find('img')
                 obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Bez+fotky"
                 
-                # Zapisujeme do JSONu vše, ale s novou vlastností "dokonale_auto"
-                auta.append({
-                    "znacka": "Škoda", "model": nazev, "cena": cena, 
-                    "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek,
-                    "dokonale_auto": je_dokonaly
-                })
+                auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": je_dokonaly})
         except Exception: pass
     return auta
 
@@ -140,6 +135,9 @@ def stahni_sauto_karoq():
             for item in inzeraty:
                 try:
                     nazev = item.get('name', 'Škoda Karoq')
+                    # Hned vyhodíme Octavie atd.
+                    if "karoq" not in nazev.lower(): continue
+                    
                     cena_int = item.get('price', 0)
                     if cena_int < MIN_CENA or cena_int > MAX_CENA: continue
                     cena_text = f"{cena_int:,} Kč".replace(',', ' ')
@@ -149,17 +147,18 @@ def stahni_sauto_karoq():
                     odkaz = f"https://www.sauto.cz/osobni/detail/skoda/karoq/{seo_name}/{item_id}" if seo_name and item_id else f"https://www.sauto.cz/osobni/detail/skoda/karoq/{item_id}"
 
                     item_str = json.dumps(item)
-                    je_dokonaly = hloubkova_kontrola(nazev + " " + item_str)
+                    je_dokonaly = hloubkova_kontrola(nazev, nazev + " " + item_str)
 
+                    # OPRAVA FOTEK SAUTO: Přeskakujeme loga autobazarů
                     obrazek = "https://via.placeholder.com/150?text=Sauto"
-                    match = re.search(r'(https?://[^\s"\'\\]+sdn\.cz[^\s"\'\\]+)', item_str)
-                    if match: obrazek = match.group(1).replace('\\/', '/').replace('{width}', '400').replace('{height}', '300').replace('{ext}', 'jpg')
+                    nalezene_url = re.findall(r'https?://[^\s"\'\\]+sdn\.cz[^\s"\'\\]+', item_str)
+                    for url_img in nalezene_url:
+                        url_img = url_img.replace('\\/', '/')
+                        if 'logo' not in url_img.lower() and 'avatar' not in url_img.lower():
+                            obrazek = url_img.replace('{width}', '400').replace('{height}', '300').replace('{ext}', 'jpg')
+                            break # Vezmeme hned první fotku auta
 
-                    auta.append({
-                        "znacka": "Škoda", "model": nazev, "cena": cena_text, 
-                        "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek,
-                        "dokonale_auto": je_dokonaly
-                    })
+                    auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": je_dokonaly})
                 except Exception: continue
         except Exception: pass
         time.sleep(1.0)
@@ -189,27 +188,27 @@ def stahni_tipcars_karoq():
                     nadpis = rodic.find(['h2', 'h3', 'a'])
                     nazev = nadpis.text.strip() if nadpis else "Škoda Karoq"
                     
+                if "karoq" not in nazev.lower(): continue
+                
                 text_karty = rodic.text
-                je_dokonaly = hloubkova_kontrola(nazev + " " + text_karty)
+                je_dokonaly = hloubkova_kontrola(nazev, nazev + " " + text_karty)
                 
                 cena_text = ""
                 for t in rodic.find_all(string=True):
                     if "Kč" in t: cena_text = t.strip(); break
                 
-                img = rodic.find('img')
+                # OPRAVA FOTEK TIPCARS: Hledáme opravdovou fotku, ne ikonky
                 obrazek = "https://via.placeholder.com/150?text=Tipcars"
-                if img:
-                    for attr in ['data-original', 'data-src', 'data-lazy', 'src']:
-                        if img.get(attr) and 'placeholder' not in img.get(attr) and 'blank' not in img.get(attr):
-                            obrazek = img.get(attr); break
-                    if obrazek.startswith('//'): obrazek = "https:" + obrazek
-                    elif obrazek.startswith('/'): obrazek = "https://www.tipcars.com" + obrazek
+                vsechny_obrazky = rodic.find_all('img')
+                for img in vsechny_obrazky:
+                    src = img.get('data-original') or img.get('data-src') or img.get('data-lazy') or img.get('src') or ""
+                    if src and 'placeholder' not in src.lower() and 'logo' not in src.lower() and 'blank' not in src.lower() and 'icon' not in src.lower():
+                        if src.startswith('//'): src = "https:" + src
+                        elif src.startswith('/'): src = "https://www.tipcars.com" + src
+                        obrazek = src
+                        break
                     
-                auta.append({
-                    "znacka": "Škoda", "model": nazev, "cena": cena_text, 
-                    "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek,
-                    "dokonale_auto": je_dokonaly
-                })
+                auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": je_dokonaly})
             except Exception: continue
     except Exception: pass
     return auta
