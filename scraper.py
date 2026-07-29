@@ -4,6 +4,7 @@ import json
 import time
 import os
 
+# --- ZÁKLADNÍ NASTAVENÍ ---
 HLAVICKY = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
@@ -19,7 +20,7 @@ def je_to_auto(nazev):
             return False
     return True
 
-# --- 1. BAZOŠ ---
+# --- 1. BAZOŠ (Funguje skvěle) ---
 def stahni_bazos_karoq():
     print("Stahuji Bazoš...")
     auta = []
@@ -32,20 +33,25 @@ def stahni_bazos_karoq():
             inzeraty = soup.find_all('div', class_='inzeraty')
             for inzerat in inzeraty:
                 nadpis = inzerat.find('h2', class_='nadpis').find('a')
+                if not nadpis: continue
                 nazev = nadpis.text.strip()
                 odkaz = "https://auto.bazos.cz" + nadpis['href']
+                
                 cena_blok = inzerat.find('div', class_='inzeratycena')
                 cena = cena_blok.text.strip() if cena_blok else ""
                 cena_cista = ''.join(filter(str.isdigit, cena))
                 if cena_cista and int(cena_cista) < MIN_CENA: continue
-                obrazek = inzerat.find('img')['src'] if inzerat.find('img') else "https://via.placeholder.com/150?text=Bez+fotky"
+                
+                obrazek_tag = inzerat.find('img')
+                obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=Bez+fotky"
+                
                 if "karoq" in nazev.lower() and je_to_auto(nazev):
                     auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek})
         except Exception: pass
         time.sleep(1)
     return auta
 
-# --- 2. SAUTO ---
+# --- 2. SAUTO (API + Opravené obrázky) ---
 def stahni_sauto_karoq():
     print("Stahuji Sauto.cz...")
     auta = []
@@ -65,17 +71,18 @@ def stahni_sauto_karoq():
                     
                     item_id = item.get('id', '')
                     seo_name = item.get('seoName', item.get('seo_name', ''))
-                    if seo_name and item_id:
-                        odkaz = f"https://www.sauto.cz/osobni/detail/skoda/karoq/{seo_name}/{item_id}"
-                    else:
-                        odkaz = f"https://www.sauto.cz/osobni/detail/{item_id}" if item_id else "https://www.sauto.cz"
+                    odkaz = f"https://www.sauto.cz/osobni/detail/skoda/karoq/{seo_name}/{item_id}" if seo_name and item_id else "https://www.sauto.cz"
 
+                    # Oprava obrázků: Sauto je ukládá do _links -> gallery
                     obrazek = "https://via.placeholder.com/150?text=Sauto"
-                    fotky = item.get('images', [])
-                    if fotky and len(fotky) > 0:
-                        prvni = fotky[0]
-                        if isinstance(prvni, dict): obrazek = prvni.get('url', prvni.get('path', obrazek))
-                        elif isinstance(prvni, str): obrazek = prvni
+                    if '_links' in item and 'gallery' in item['_links'] and len(item['_links']['gallery']) > 0:
+                        obrazek = item['_links']['gallery'][0].get('href', obrazek)
+                    elif 'images' in item and len(item['images']) > 0:
+                        prvni = item['images'][0]
+                        obrazek = prvni.get('url', prvni.get('path', obrazek)) if isinstance(prvni, dict) else prvni
+
+                    if obrazek.startswith('//'):
+                        obrazek = 'https:' + obrazek
 
                     if je_to_auto(nazev):
                         auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek})
@@ -84,57 +91,87 @@ def stahni_sauto_karoq():
         time.sleep(1)
     return auta
 
-# --- 3. TIPCARS (Přímé API napojení podle tvého screenshotu) ---
-def stahni_tipcars_karoq():
-    print("Stahuji Tipcars přes API...")
+# --- 3. AAA AUTO (Přes ScraperAPI s renderováním) ---
+def stahni_aaaauto_karoq():
+    print("Stahuji AAA Auto...")
     auta = []
-    # Využijeme typový filtr, který jsi našel v Network panelu (např. typ pro Karoq / osobní vozy)
-    api_url = "https://www.tipcars.com/api/search" # nebo obdobný endpoint podle detailu
-    
-    # Zkusíme dotaz přímo na jejich vyhledávací API s parametry pro Karoq
-    parametry = {
-        "q": "karoq",
-        "limit": 50
-    }
-    
-    tipcars_hlavicky = {
-        "accept": "application/json",
-        "referrer": "https://www.tipcars.com/skoda-karoq/",
-        "User-Agent": HLAVICKY["User-Agent"]
-    }
-    
+    api_key = os.getenv('SCRAPER_API_KEY')
+    if not api_key: 
+        print("Chybí SCRAPER_API_KEY!")
+        return auta
+        
+    url = "https://www.aaaauto.cz/ojete-vozy/skoda/karoq"
     try:
-        # Alternativně se můžeme napojit na konkrétní filtr, pokud jej prohlížeč vrací jako JSON
-        odpoved = requests.get("https://www.tipcars.com/api/list", params={"type": "34770"}, headers=tipcars_hlavicky, timeout=10)
-        if odpoved.status_code != 200:
-            # Záložní pokus na hlavní vyhledávání
-            odpoved = requests.get("https://www.tipcars.com/api/search", params={"q": "karoq"}, headers=tipcars_hlavicky, timeout=10)
+        odpoved = requests.get('http://api.scraperapi.com', params={'api_key': api_key, 'url': url, 'render': 'true'}, timeout=60)
+        if odpoved.status_code == 200:
+            soup = BeautifulSoup(odpoved.text, 'html.parser')
+            # Hledáme všechny možné verze kontejnerů pro inzeráty v AAA
+            inzeraty = soup.select('.carCard, .car-box, .vehicle-card')
             
-        if odpoved.status_code == 200 and "application/json" in odpoved.headers.get("Content-Type", ""):
-            data = odpoved.json()
-            inzeraty = data.get('items', data.get('results', data.get('cars', [])))
-            if isinstance(data, list): inzeraty = data
-            
-            for item in inzeraty:
+            for inzerat in inzeraty:
                 try:
-                    nazev = item.get('name', item.get('title', 'Škoda Karoq'))
-                    if "karoq" not in nazev.lower(): continue
+                    nadpis = inzerat.find(['h2', 'h3'])
+                    if not nadpis: continue
+                    nazev = nadpis.text.strip()
                     
-                    cena_int = item.get('price', item.get('priceVat', 0))
-                    if cena_int and int(cena_int) < MIN_CENA: continue
-                    cena_text = f"{int(cena_int):,} Kč".replace(',', ' ') if cena_int else "Cena na dotaz"
+                    odkaz_tag = inzerat.find('a', href=True)
+                    odkaz = "https://www.aaaauto.cz" + odkaz_tag['href'] if odkaz_tag and odkaz_tag['href'].startswith('/') else (odkaz_tag['href'] if odkaz_tag else url)
                     
-                    url_auta = item.get('url', item.get('link', ''))
-                    odkaz = f"https://www.tipcars.com{url_auta}" if url_auta.startswith('/') else (url_auta if url_auta else "https://www.tipcars.com/skoda-karoq/")
+                    cena_tag = inzerat.select_one('.price, .car-price, strong')
+                    cena = cena_tag.text.strip() if cena_tag else ""
+                    cena_cista = ''.join(filter(str.isdigit, cena))
+                    if cena_cista and int(cena_cista) < MIN_CENA: continue
                     
-                    obrazek = item.get('image', item.get('photo', 'https://via.placeholder.com/150?text=Tipcars'))
-                    
-                    if je_to_auto(nazev):
-                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek})
+                    img_tag = inzerat.find('img')
+                    obrazek = "https://via.placeholder.com/150?text=AAA+Auto"
+                    if img_tag:
+                        obrazek = img_tag.get('src', img_tag.get('data-src', obrazek))
+                        
+                    if je_to_auto(nazev) and "karoq" in nazev.lower():
+                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek})
                 except Exception: continue
     except Exception as e:
-        print(f"Chyba Tipcars API: {e}")
-        
+        print(f"Chyba AAA Auto: {e}")
+    return auta
+
+# --- 4. TIPCARS (Napřímo - HTML Scrape) ---
+def stahni_tipcars_karoq():
+    print("Stahuji Tipcars...")
+    auta = []
+    url = "https://www.tipcars.com/skoda-karoq/"
+    try:
+        # Tipcars většinou pustí normální dotaz
+        odpoved = requests.get(url, headers=HLAVICKY, timeout=15)
+        if odpoved.status_code == 200:
+            soup = BeautifulSoup(odpoved.text, 'html.parser')
+            # Různé varianty CSS tříd Tipcars
+            inzeraty = soup.select('div.inzerat, div.card, article.item')
+            
+            for inzerat in inzeraty:
+                try:
+                    nadpis = inzerat.select_one('.title, h2, h3, a.inzerat-link')
+                    if not nadpis: continue
+                    nazev = nadpis.text.strip()
+                    
+                    odkaz_tag = inzerat.find('a', href=True)
+                    odkaz = "https://www.tipcars.com" + odkaz_tag['href'] if odkaz_tag and odkaz_tag['href'].startswith('/') else (odkaz_tag['href'] if odkaz_tag else url)
+                    
+                    cena_tag = inzerat.select_one('.price, .fs-price, .cena')
+                    cena = cena_tag.text.strip() if cena_tag else ""
+                    cena_cista = ''.join(filter(str.isdigit, cena))
+                    if cena_cista and int(cena_cista) < MIN_CENA: continue
+                    
+                    img_tag = inzerat.find('img')
+                    obrazek = "https://via.placeholder.com/150?text=Tipcars"
+                    if img_tag:
+                        obrazek = img_tag.get('data-src', img_tag.get('src', obrazek))
+                        if obrazek.startswith('//'): obrazek = 'https:' + obrazek
+                        
+                    if je_to_auto(nazev) and "karoq" in nazev.lower():
+                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek})
+                except Exception: continue
+    except Exception as e:
+        print(f"Chyba Tipcars: {e}")
     return auta
 
 # --- HLAVNÍ FUNKCE AGREGÁTORU ---
@@ -147,8 +184,12 @@ def spust_agregatory():
     vsechna_auta.extend(auta_bazos)
     
     auta_sauto = stahni_sauto_karoq()
-    print(f}📊 VÝSLEDEK SAUTO: {len(auta_sauto)} aut")
+    print(f"📊 VÝSLEDEK SAUTO: {len(auta_sauto)} aut")
     vsechna_auta.extend(auta_sauto)
+    
+    auta_aaa = stahni_aaaauto_karoq()
+    print(f"📊 VÝSLEDEK AAA AUTO: {len(auta_aaa)} aut")
+    vsechna_auta.extend(auta_aaa)
     
     auta_tipcars = stahni_tipcars_karoq()
     print(f"📊 VÝSLEDEK TIPCARS: {len(auta_tipcars)} aut")
