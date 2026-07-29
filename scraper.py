@@ -52,11 +52,17 @@ def vycisti_obrazek(odkaz_na_obrazek, zdroj):
         
     return odkaz_na_obrazek
 
-# --- 1. BAZOŠ ---
+# --- 1. BAZOŠ (Nyní s náhodným stahováním stránek) ---
 def stahni_bazos_karoq():
     print("⏳ Stahuji Bazoš (všechny Karoqy)...")
     auta = []
-    for offset in range(0, 200, 20): 
+    
+    # Vytvoříme si seznam stránek (0, 20, 40 ... až 180)
+    stranky = list(range(0, 200, 20))
+    # Náhodně je promícháme, aby robot nechodil popořadě!
+    random.shuffle(stranky)
+    
+    for offset in stranky: 
         url = "https://auto.bazos.cz/skoda/?hledat=karoq" if offset == 0 else f"https://auto.bazos.cz/skoda/{offset}/?hledat=karoq"
         try:
             odpoved = requests.get(url, headers=HLAVICKY, timeout=10)
@@ -97,7 +103,9 @@ def stahni_bazos_karoq():
                 except: continue
         except: pass
     
-    print(f"✅ Bazoš úspěšně stažen. Nalezeno inzerátů: {len(auta)}")
+    # Ještě jednou promícháme výsledná auta z Bazoše mezi sebou
+    random.shuffle(auta)
+    print(f"✅ Bazoš úspěšně stažen a promíchán. Nalezeno inzerátů: {len(auta)}")
     return auta
 
 # --- 2. SAUTO ---
@@ -206,7 +214,7 @@ def spust_agregatory():
     vsechna_auta.extend(stahni_sauto_karoq())
     vsechna_auta.extend(stahni_tipcars_karoq())
     
-    # 🎲 Tady probíhá náhodné proházení inzerátů
+    # 🎲 Finální hromadné proházení všech inzerátů ze všech webů
     random.shuffle(vsechna_auta)
     
     with open('data.json', 'w', encoding='utf-8') as f:
