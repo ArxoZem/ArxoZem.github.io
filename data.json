@@ -1,6 +1,24 @@
 [
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDI 110kw 4x4 SPORTLINE FL,Webasto,Tažné,2023",
+        "cena": "579 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221780762/skoda-karoq-20tdi-110kw-4x4-sportline-flwebastotazne2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/762/221780762.jpg?t=1785101052",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq TDI 110kW 4x4 DSG Sportline - záruka Autodraft",
+        "cena": "720 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221633761/skoda-karoq-tdi-110kw-4x4-dsg-sportline-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/761/221633761.jpg?t=1784745556",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq 1.5 TSI 110 kW",
         "cena": "399 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -19,6 +37,15 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi 110kw 4x4 DSG 2023 48.tis km",
+        "cena": "579 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221759367/skoda-karoq-20tdi-110kw-4x4-dsg-2023-48tis-km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/367/221759367.jpg?t=1785015670",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq Sportline 1.5TSI 110kW DSG Kamera Canton Matrix",
         "cena": "484 990 Kč",
         "zdroj": "Bazoš.cz",
@@ -33,6 +60,24 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221285498/skoda-karoq-15tsi-dsgvirtualnaviacctempkameradph.php",
         "obrazek": "https://www.bazos.cz/img/1t/498/221285498.jpg?t=1784187818",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 2.0 TDI DSG / Facelift / Asistenti / Spotřeba 5 l",
+        "cena": "429 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221354384/karoq-20-tdi-dsg-facelift-asistenti-spotreba-5-l.php",
+        "obrazek": "https://www.bazos.cz/img/1t/384/221354384.jpg?t=1784152511",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 110kW 4x4 DSG / Full LED / ACC / KESSY /",
+        "cena": "419 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221353965/skoda-karoq-20-tdi-110kw-4x4-dsg-full-led-acc-kessy.php",
+        "obrazek": "https://www.bazos.cz/img/1t/965/221353965.jpg?t=1784152221",
         "dokonale_auto": false
     },
     {
@@ -51,6 +96,15 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221174468/karoq-15-tsi-sportline-2021-dsg-tazne-virtual-servis.php",
         "obrazek": "https://www.bazos.cz/img/1t/468/221174468.jpg?t=1785237213",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Style 4x4 2.0 TDI 110kW DSG - záruka Autodraft",
+        "cena": "392 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221146179/skoda-karoq-style-4x4-20-tdi-110kw-dsg-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/179/221146179.jpg?t=1783706892",
         "dokonale_auto": false
     },
     {
@@ -87,7 +141,7 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221900530/skoda-karoq-sportline-edition-15-tsi-man-2022-nehavar-155-t.php",
         "obrazek": "https://www.bazos.cz/img/1t/530/221900530.jpg?t=1785313658",
-        "dokonale_auto": false
+        "dokonale_auto": true
     },
     {
         "znacka": "Škoda",
@@ -96,6 +150,33 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/220890438/skoda-karoq-4x4-sportline-20-tsi-140kwdsgf120221m-dph.php",
         "obrazek": "https://www.bazos.cz/img/1t/438/220890438.jpg?t=1783153241",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi 4x4 DSG Sportline 2023 MATRIX NEZ.TOPENÍ",
+        "cena": "639 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221379084/skoda-karoq-20-tdi-4x4-dsg-sportline-2023-matrix-neztopeni.php",
+        "obrazek": "https://www.bazos.cz/img/1t/084/221379084.jpg?t=1784886247",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI 85 kW AMBITION",
+        "cena": "359 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221817850/skoda-karoq-16-tdi-85-kw-ambition.php",
+        "obrazek": "https://www.bazos.cz/img/1t/850/221817850.jpg?t=1785146093",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 85kW DSG / Facelift - záruka Autodraft",
+        "cena": "429 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220858707/skoda-karoq-20-tdi-85kw-dsg-full-led-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/707/220858707.jpg?t=1784464964",
         "dokonale_auto": false
     },
     {
@@ -118,12 +199,21 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 4x4 Style FAKTURACIA BEZ DPH",
+        "cena": "533 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221391671/skoda-karoq-20-tdi-4x4-style-bez-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/671/221391671.jpg?t=1785112935",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq Sport Line 1.5 TSI KAMERA VIRTUAL",
         "cena": "430 000 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/220801183/skoda-karoq-sport-line-15-tsi-kamera-virtual.php",
         "obrazek": "https://www.bazos.cz/img/1t/183/220801183.jpg?t=1784398709",
-        "dokonale_auto": false
+        "dokonale_auto": true
     },
     {
         "znacka": "Škoda",
@@ -132,7 +222,7 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/220800519/skoda-karoq-sport-line-2022-15-tsi-tazne-kamera-virtual.php",
         "obrazek": "https://www.bazos.cz/img/1t/519/220800519.jpg?t=1784148273",
-        "dokonale_auto": false
+        "dokonale_auto": true
     },
     {
         "znacka": "Škoda",
@@ -195,6 +285,33 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/220909502/skoda-karoq-sportline-15-tsi-mod-2022-tazne-canton-dsg.php",
         "obrazek": "https://www.bazos.cz/img/1t/502/220909502.jpg?t=1785254273",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2,0TDi 110kW 4x4 STYLE DSG Koup.ČR,TAŽNÉ,2022",
+        "cena": "539 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220619238/skoda-karoq-20tdi-110kw-4x4-style-dsg-koupcrtazne2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/238/220619238.jpg?t=1784020732",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda karoq 4x4 2019,110 kW TDI manuál",
+        "cena": "429 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221114551/prodam-skoda-karoq-4x4-2019110-kw-tdi-manual.php",
+        "obrazek": "https://www.bazos.cz/img/1t/551/221114551.jpg?t=1783656509",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,6Tdi,85kW,7st.DSG",
+        "cena": "390 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221677456/skoda-karoq-16tdi85kw7stdsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/456/221677456.jpg?t=1784829070",
         "dokonale_auto": false
     },
     {
@@ -217,6 +334,33 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2019, 1.6TDi 85kW, 31 tis.n., Ambition+",
+        "cena": "480 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221171337/skoda-karoq-2019-16tdi-85kw-31-tisn-ambition.php",
+        "obrazek": "https://www.bazos.cz/img/1t/337/221171337.jpg?t=1785327508",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Scout 4x4 DSG 2.0 TDI 110kW,2021,159tkm,ČR,1maj",
+        "cena": "500 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220465507/skoda-karoq-scout-4x4-dsg-20tdi-110kw2021156tkmcr1maj.php",
+        "obrazek": "https://www.bazos.cz/img/1t/507/220465507.jpg?t=1783942396",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0TDI.MANUÁL.ACC.KAMERA.EL.KUFR",
+        "cena": "438 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221547159/skoda-karoq-20tdimanualacckameraelkufr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/159/221547159.jpg?t=1784624451",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq 110kW STYLE 4x4 DSG 1MAJITEL BOHATÁ VÝBAVA DPH",
         "cena": "349 800 Kč",
         "zdroj": "Bazoš.cz",
@@ -231,6 +375,24 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/220621550/skoda-karoq-sportline-15-tsi-2x-originalni-kola-v-cene.php",
         "obrazek": "https://www.bazos.cz/img/1t/550/220621550.jpg?t=1785085378",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "► ŠKODA KAROQ 2.0TDI 110KW SPORTLINE FULL-LED-KAME-ACC-TAŽNÉ",
+        "cena": "484 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221710214/skoda-karoq-20tdi-110kw-sportline-full-led-kame-acc-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/214/221710214.jpg?t=1785059695",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI DSG",
+        "cena": "325 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221271924/skoda-karoq-16-tdi-gsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/924/221271924.jpg?t=1783972975",
         "dokonale_auto": false
     },
     {
@@ -253,11 +415,38 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 tdi 85kw  Najeto 79tis Full Led Koupené v ČR",
+        "cena": "399 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220112162/skoda-karoq-16-tdi-85kw-najeto-78tis-km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/162/220112162.jpg?t=1785332121",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq TSi model 2022 facelift navi tažný",
         "cena": "305 000 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221669118/skoda-karoq-tsi-model-2022-facelift-navi-tazny.php",
         "obrazek": "https://www.bazos.cz/img/1t/118/221669118.jpg?t=1784813266",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 4x4 DSG Sport line",
+        "cena": "490 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221637275/skoda-karog-20-tdi-4x4-dsg-sport-line.php",
+        "obrazek": "https://www.bazos.cz/img/1t/275/221637275.jpg?t=1784837503",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2.0TDI 110KW 4X4 DSG 18000KM  ČR",
+        "cena": "599 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221919097/skoda-karoq-20tdi-110kw-4x4-dsg-18000km-cr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/097/221919097.jpg",
         "dokonale_auto": false
     },
     {
@@ -289,11 +478,47 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2,0 TDI Style",
+        "cena": "430 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221914030/skoda-karoq-20-tdi-style.php",
+        "obrazek": "https://www.bazos.cz/obrazky/empty.gif",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "KAROQ 1,5 TSI 110 KW",
         "cena": "465 000 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221913712/karoq-15-tsi-110-kw.php",
         "obrazek": "https://www.bazos.cz/img/1t/712/221913712.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI SCR Style 4x4 DSG",
+        "cena": "479 500 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221913565/skoda-karoq-20-tdi-scr-style-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/565/221913565.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,6TDI PARK.S ALU VYHŘ.SED.",
+        "cena": "319 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221909555/skoda-karoq-16tdi-parks-alu-vyhrsed.php",
+        "obrazek": "https://www.bazos.cz/img/1t/555/221909555.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,6TDI PARK.S ALU VYHŘ.SED.",
+        "cena": "279 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221909113/skoda-karoq-16tdi-parks-alu-vyhrsed.php",
+        "obrazek": "https://www.bazos.cz/img/1t/113/221909113.jpg",
         "dokonale_auto": false
     },
     {
@@ -334,11 +559,47 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI Style 4x4 / 110kW / M6 / 2018",
+        "cena": "497 327 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221895254/skoda-karoq-20-tdi-style-4x4-110kw-m6-2018.php",
+        "obrazek": "https://www.bazos.cz/img/1t/254/221895254.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq Sportline Exclusive 2,0 TSI 140kW DSG 4x4 PANORA",
         "cena": "1 095 000 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221154416/skoda-karoq-sportline-exclusive-20-tsi-140kw-dsg-4x4.php",
         "obrazek": "https://www.bazos.cz/img/1t/416/221154416.jpg?t=1783738612",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI Sportline 4x4 DSG NardoGrey",
+        "cena": "506 475 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221886495/skoda-karoq-20-tdi-sportline-4x4-dsg-nardogrey.php",
+        "obrazek": "https://www.bazos.cz/img/1t/495/221886495.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0 TDI DSG 4x4 Facelift",
+        "cena": "629 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221886229/skoda-karoq-sportline-20-tdi-dsg-4x4-facelift.php",
+        "obrazek": "https://www.bazos.cz/img/1t/229/221886229.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq,2.0 tdi,110kw,ACC,DCC,4x4,Webasto,Kessy,Tažné",
+        "cena": "350 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221885494/skoda-karoq20-tdi110kwaccdcc4x4webastokessytazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/494/221885494.jpg",
         "dokonale_auto": false
     },
     {
@@ -352,11 +613,29 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2tdi DSG Nový model m.r2023 ful led kamera acc",
+        "cena": "419 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221883617/skoda-karoq-2tdi-dsg-novy-model-mr2023-ful-led-kamera-acc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/617/221883617.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq 1.5tsi Sportline m.r2023 Matrix kamera",
         "cena": "469 999 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221883397/skoda-karoq-15tsi-sportline-mr2023-matrix-kamera.php",
         "obrazek": "https://www.bazos.cz/img/1t/397/221883397.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 110kW, 4x4, DSG",
+        "cena": "471 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221880517/skoda-karoq-20-tdi-110kw-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/517/221880517.jpg",
         "dokonale_auto": false
     },
     {
@@ -379,6 +658,24 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi DSG 4x4 Style Virtual Matrix",
+        "cena": "638 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221875346/skoda-karoq-20tdi-dsg-4x4-style-virtual-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/346/221875346.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 6/2021 / LED / KEYLESS / CARPLAY",
+        "cena": "369 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221874530/skoda-karoq-20-tdi-62021-led-keyless-carplay.php",
+        "obrazek": "https://www.bazos.cz/img/1t/530/221874530.jpg?t=1785324155",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq, 1,5TSI/110kW ČR DSG LED 2.Maj",
         "cena": "459 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -397,6 +694,15 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Karoq 4x4 2,0Tdi naj jen 44660km pekna vybava",
+        "cena": "489 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221873048/karoq-4x4-20tdi-naj-jen-44660km-pekna-vybava.php",
+        "obrazek": "https://www.bazos.cz/img/1t/048/221873048.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda karoq 1,0TSi 85KW, 1.MaJ,JEN 64000km LED,Temp,TZ",
         "cena": "355 000 Kč",
         "zdroj": "Bazoš.cz",
@@ -406,11 +712,47 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI ,4X4, r.v. 2018 , najeto 95.700 km",
+        "cena": "485 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221872197/skoda-karoq-20-tdi-4x4-rv-2018-najeto-95700.php",
+        "obrazek": "https://www.bazos.cz/img/1t/197/221872197.jpg?t=1785243206",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Karoq 1.5 TSI, DSG, benzín, 2026 možnosť financovania",
         "cena": "798 638 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221871782/skoda-karoq-15-tsi-dsg-benzin-2026-moznost-financovania.php",
         "obrazek": "https://www.bazos.cz/img/1t/782/221871782.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Š Karoq 2,0 TDI 85 kW",
+        "cena": "620 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221868534/s-karoq-20-tdi-85-kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/534/221868534.jpg?t=1785348109",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi 110 kW DSG 4x4 1.MAJITEL r.v. 2022 DPH",
+        "cena": "565 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221867772/skoda-karoq-20-tdi-110-kw-dsg-4x4-1majitel-rv-2022-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/772/221867772.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "KAROQ 2.0TDI 85kW STYLE+ NOVÝ MODEL NAVI LED KAMERA ČR DPH",
+        "cena": "349 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221866388/karoq-20tdi-85kw-style-novy-model-navi-led-kamera-cr-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/388/221866388.jpg?t=1785235845",
         "dokonale_auto": false
     },
     {
@@ -429,6 +771,15 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/221862407/skoda-karoq-15tsi-dsg-style-rv2021-tazne-matrix.php",
         "obrazek": "https://www.bazos.cz/img/1t/407/221862407.jpg?t=1785237229",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq STYLE 2.0TDi 110kW 6M záruka",
+        "cena": "475 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221859895/karoq-style-20tdi-110kw-6m-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/895/221859895.jpg",
         "dokonale_auto": false
     },
     {
@@ -460,11 +811,1478 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq, 1.5tsi,1.maj,ČR",
+        "model": "Škoda Karoq 2.0TDi Style Virtual Assist LED",
+        "cena": "528 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221854107/skoda-karoq-20tdi-style-virtual-assist-led.php",
+        "obrazek": "https://www.bazos.cz/img/1t/107/221854107.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2,0 TDI 110kW,4X4,SERVISKA",
+        "cena": "399 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221853578/skoda-karoq-20-tdi-110kw4x4serviska.php",
+        "obrazek": "https://www.bazos.cz/img/1t/578/221853578.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1,6TDI 85KW STYLE WEBASTO",
+        "cena": "370 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221851858/skoda-karoq-16tdi-85kw-style-webasto.php",
+        "obrazek": "https://www.bazos.cz/img/1t/858/221851858.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1,0TSI STYLE 85KW 6.RYCHL",
+        "cena": "309 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221851750/skoda-karoq-10tsi-style-85kw-6rychl.php",
+        "obrazek": "https://www.bazos.cz/img/1t/750/221851750.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0 TSI DSG 4x4 140KW 2020",
+        "cena": "580 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221850267/skoda-karoq-sportline-20-tsi-dsg-4x4-140kw-2020.php",
+        "obrazek": "https://www.bazos.cz/img/1t/267/221850267.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Kolo karoq ateca",
+        "cena": "500 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221849894/kolo-karoq-ateca.php",
+        "obrazek": "https://www.bazos.cz/img/1t/894/221849894.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Skoda Karoq led svetlomet levy",
+        "cena": "4 500 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221846758/skoda-karoq-led-svetlomet-levy.php",
+        "obrazek": "https://www.bazos.cz/img/1t/758/221846758.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq,SPORTLINE 2,0TDi 110KW A7F",
+        "cena": "919 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221844625/skoda-karoqsportline-20tdi-110kw-a7f.php",
+        "obrazek": "https://www.bazos.cz/img/1t/625/221844625.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq,KAROQ SEL TS 110/1.5 A7F",
+        "cena": "699 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221844604/skoda-karoqkaroq-sel-ts-11015-a7f.php",
+        "obrazek": "https://www.bazos.cz/img/1t/604/221844604.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0TDI 110KW DSG 1.MAJ 55 000K",
+        "cena": "445 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221843446/skoda-karoq-20tdi-110kw-dsg-1maj-55-000k.php",
+        "obrazek": "https://www.bazos.cz/img/1t/446/221843446.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI Style Plus 85 kW, DSG",
+        "cena": "509 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221839049/skoda-karoq-20-tdi-style-plus-85-kw-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/049/221839049.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.0TSi,85kw,r.v.7/2018",
+        "cena": "345 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221836637/skoda-karoq-10tsi85kwrv72018.php",
+        "obrazek": "https://www.bazos.cz/img/1t/637/221836637.jpg?t=1785182175",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SCOUT 2.0 TDI 110 kW 4×4 automatická převodovka",
+        "cena": "465 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221551125/skoda-karoq-scout-20-tdi-110-kw-44-automaticka-prevodovka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/125/221551125.jpg?t=1784566113",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.0 TSI  81 kW  Ambition 2023",
+        "cena": "450 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221539927/skoda-karoq-10-tsi-ambition-2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/927/221539927.jpg?t=1784555555",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda Karoq 1.5TSI 110KW DSG 1.MajDPHČR",
+        "cena": "389 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221825555/prodam-skoda-karoq-15tsi-110kw-dsg-1majdphcr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/555/221825555.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA Karoq 1.5 TSI 110kW DSG SPORTLINE - ČR - 1.majitel",
+        "cena": "688 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221825412/skoda-karoq-15-tsi-110kw-dsg-sportline-cr-1majitel.php",
+        "obrazek": "https://www.bazos.cz/img/1t/412/221825412.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 110kW,4x4,TAŽNÉ,ČR,DPH",
+        "cena": "339 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221822563/skoda-karoq-20-tdi-110kw4x4taznecrdph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/563/221822563.jpg?t=1785152637",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI Style DSG / 85kW / A7 / 2019",
+        "cena": "441 070 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221821800/skoda-karoq-16-tdi-style-dsg-85kw-a7-2019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/800/221821800.jpg?t=1785151943",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1.5 TSI super stav",
+        "cena": "399 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221817183/skoda-karoq-15-tsi-super-stav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/183/221817183.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi 110Kw/DSG/Kamera/Fuuled/Tažný/149Tkm",
+        "cena": "399 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221816019/skoda-karoq-15-tsi-110kwdsgkamerafuuledtazny149tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/019/221816019.jpg?t=1785152430",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.0 TSI 85 kW LED klima ČR 136tkm 1.majitel STK",
+        "cena": "339 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221812612/skoda-karoq-10-tsi-85-kw-led-klima-cr-136tkm-1majitel-stk.php",
+        "obrazek": "https://www.bazos.cz/img/1t/612/221812612.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq,SPORTLINE 2,0TDi 110KW A7F 1",
+        "cena": "839 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221809350/skoda-karoqsportline-20tdi-110kw-a7f-1.php",
+        "obrazek": "https://www.bazos.cz/img/1t/350/221809350.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 Tdi 85 kw DSG-NAVI-LED",
+        "cena": "420 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221804483/skoda-karoq-20-tdi-85-kw-dsg-navi-led.php",
+        "obrazek": "https://www.bazos.cz/img/1t/483/221804483.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1,0 TSI, 85Kw, 6-rychlostí, r.v. 09/2020,77500km",
+        "cena": "404 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221800735/skoda-karoq-10-tsi-85kw-6-rychlosti-rv-092020.php",
+        "obrazek": "https://www.bazos.cz/img/1t/735/221800735.jpg?t=1785223143",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI SPORTLINE",
+        "cena": "639 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220804178/skoda-karoq-15-tsi-sportline.php",
+        "obrazek": "https://www.bazos.cz/img/1t/178/220804178.jpg?t=1784005560",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 4x4",
+        "cena": "425 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221785520/skoda-karoq-20-tdi-4x4.php",
+        "obrazek": "https://www.bazos.cz/img/1t/520/221785520.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi DSG 4x4 Style Virtual Matrix",
+        "cena": "628 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221783808/skoda-karoq-20tdi-dsg-4x4-style-virtual-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/808/221783808.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "✅Škoda Karoq|1.5TSI 110kW |DSG|99tkm|2023| MATRIX|Virtual|ČR",
+        "cena": "649 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221783091/skoda-karoq15tsi-110kw-dsg99tkm2023-matrixvirtualcr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/091/221783091.jpg?t=1785077676",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA Karoq 2.0TDI 85kW Selection ČR ZÁRUKA 5 let/100 000km",
+        "cena": "559 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221766058/skoda-karoq-20tdi-85kw-selection-cr-zaruka-5-let100-000km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/058/221766058.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq,SPORTLINE TDi 2.0/110KW A7F",
+        "cena": "699 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221760960/skoda-karoqsportline-tdi-20110kw-a7f.php",
+        "obrazek": "https://www.bazos.cz/img/1t/960/221760960.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0TDI,4x4,DSG,ČR,1.MAJ,TAŽNÉ",
+        "cena": "569 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221760658/skoda-karoq-20tdi4x4dsgcr1majtazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/658/221760658.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0TDI,85kW,DSG,1MAJ,ČR,KAMERA",
+        "cena": "479 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221760657/skoda-karoq-20tdi85kwdsg1majcrkamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/657/221760657.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Alu Disk škoda Karoq R17",
+        "cena": "9 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221760101/alu-disk-skoda-karoq-r17.php",
+        "obrazek": "https://www.bazos.cz/img/1t/101/221760101.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.0 TSI 85 KW, Ambition Plus 7/2019 - tažné",
+        "cena": "436 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221756424/skoda-karoq-10-tsi-85-kw-ambition-plus.php",
+        "obrazek": "https://www.bazos.cz/img/1t/424/221756424.jpg?t=1785005594",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda karoq 2,0tdi 110kw 4x4 exclusive",
+        "cena": "740 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221756067/skoda-karoq-20tdi-110kw-4x4-exclusive.php",
+        "obrazek": "https://www.bazos.cz/img/1t/067/221756067.jpg?t=1785328623",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq DSG",
+        "cena": "366 500 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221755674/skoda-karoq-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/674/221755674.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA Karoq, 1.5 TSi, r.v. 2022, DSG, plný servis",
+        "cena": "438 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220888410/skoda-karoq-15-tsi-rv-2022-dsg-plny-servis.php",
+        "obrazek": "https://www.bazos.cz/img/1t/410/220888410.jpg?t=1784480541",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA Karoq, 1.5 TSi, r.v. 2023, DSG, LED",
+        "cena": "538 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220889101/skoda-karoq-15-tsi-rv-2023-dsg-led.php",
+        "obrazek": "https://www.bazos.cz/img/1t/101/220889101.jpg?t=1784479937",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi DSG 4x4 Style Virtual Matrix",
+        "cena": "578 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221751358/skoda-karoq-20tdi-dsg-4x4-style-virtual-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/358/221751358.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI 110kW|15.000 km|NEZÁVÍSLÉ TOPENÍ|TAŽNÉ",
+        "cena": "699 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221747892/skoda-karoq-15-tsi-110kw15000-kmnezavisle-topenitazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/892/221747892.jpg?t=1784985075",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI Solein 110KW",
+        "cena": "389 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221745690/skoda-karoq-20-tdi-solein-110kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/690/221745690.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2,0 TDI",
+        "cena": "690 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221743418/skoda-karoq-sportline-20-tdi.php",
+        "obrazek": "https://www.bazos.cz/img/1t/418/221743418.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Alu kolo Trinity 18“ Karoq.",
+        "cena": "15 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221742518/alu-kolo-trinity-18-karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/518/221742518.jpg?t=1784975148",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "PRODÁNO Škoda Karoq SPORTLINE 1.5 TSI DSG TAŽNÉ KAMERA ALARM",
+        "cena": "479 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220097959/skoda-karoq-sportline-15-tsi-dsg-tazne-kamera-alarm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/959/220097959.jpg?t=1782732176",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6tdi 81kw STk 8/27",
+        "cena": "299 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221739500/skoda-karoq-16tdi-81kw-stk-827.php",
+        "obrazek": "https://www.bazos.cz/img/1t/500/221739500.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,5 1TSI,110KW,DSG,RADAR",
+        "cena": "499 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221733488/skoda-karoq-15-1tsi110kwdsgradar.php",
+        "obrazek": "https://www.bazos.cz/img/1t/488/221733488.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1.5TSI automat,4x4,Virtual,Style,tažne",
+        "cena": "440 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221733366/skoda-karoq-15tsi-automat4x4virtualstyletazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/366/221733366.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq,KAROQ SEL TD 85/2.0 M6F",
+        "cena": "644 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221733260/skoda-karoqkaroq-sel-td-8520-m6f.php",
+        "obrazek": "https://www.bazos.cz/img/1t/260/221733260.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2.0 TDI 110KW 4x4 FULLLED NAV FRONT OPCPARK",
+        "cena": "389 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221730509/skoda-karoq-20-tdi-110kw-4x4-fullled-nav-front-opcpark.php",
+        "obrazek": "https://www.bazos.cz/img/1t/509/221730509.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Skoda Karoq 2020",
+        "cena": "319 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221728935/skoda-karoq-2020.php",
+        "obrazek": "https://www.bazos.cz/img/1t/935/221728935.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,0 TSI 85kw Ambition - ČR/ nehavarované",
+        "cena": "315 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221721325/skoda-karoq-10-tsi-85kw-ambition-cr-nehavarovane.php",
+        "obrazek": "https://www.bazos.cz/img/1t/325/221721325.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI DSG 110 kW",
+        "cena": "779 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221720202/skoda-karoq-sportline-15-tsi-dsg-110-kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/202/221720202.jpg?t=1785063752",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDI DSG TOP STAV",
+        "cena": "456 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221718847/skoda-karoq-20tdi-dsg-top-stav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/847/221718847.jpg?t=1785316241",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 64 000km",
+        "cena": "580 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221717218/karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/218/221717218.jpg?t=1784922703",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Kola zimní karoq",
+        "cena": "2 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221717146/kola-zimni-karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/146/221717146.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi 140KW Panorama DSG 4x4 1. maj full servis",
+        "cena": "429 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221428430/skoda-karoq-20tdi-140kw-panorama-dsg-4x4-1-maj-full-servis.php",
+        "obrazek": "https://www.bazos.cz/img/1t/430/221428430.jpg?t=1784306417",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Style 2.0 TDI 85 kW 2023",
+        "cena": "579 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221713920/skoda-karoq-style-20-tdi-85-kw-2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/920/221713920.jpg?t=1784973629",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI, automat, navigace, r. 2018",
+        "cena": "450 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220807619/skoda-karoq-20-tdi-automat-navigace-r-2018.php",
+        "obrazek": "https://www.bazos.cz/img/1t/619/220807619.jpg?t=1783881705",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi TOUR 1.MAJ. SERVIS ŠKODA VÝBAVA + DPH",
+        "cena": "399 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221711759/skoda-karoq-15-tsi-tour-1maj-servis-skoda-vybava-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/759/221711759.jpg?t=1785308912",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda Karoq, 1.5TSI Style, ČR, r.v. 2020, 72000 km",
+        "cena": "518 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221423739/prodam-skoda-karoq-15tsi-style-cr-rv-2020-72000-km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/739/221423739.jpg?t=1784544846",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "2021 KAROQ 4x4 2.0tdi DSG facelift FULL-možná výměna,splátky",
+        "cena": "449 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221710707/2021-karoq-4x4-20tdi-dsg-facelift-full-mozna-vymenasplatky.php",
+        "obrazek": "https://www.bazos.cz/img/1t/707/221710707.jpg?t=1785312271",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI,110KW,2020,DSG,Style,TZ,1.maj.ČR,-21%DPH",
+        "cena": "399 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221708408/skoda-karoq-15tsi110kw2020dsgstyletz1majcr-21dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/408/221708408.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi DSG 4x4 Sportline LED Matrix",
+        "cena": "668 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221707067/skoda-karoq-20tdi-dsg-4x4-sportline-led-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/067/221707067.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "2022 Karoq TSI DSG",
+        "cena": "360 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221704268/2022-karoq-tsi-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/268/221704268.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDi 85kW DSG STYLE, LED, ACC",
+        "cena": "397 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221703843/skoda-karoq-16-tdi-85kw-dsg-style-led-acc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/843/221703843.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI r.v.2017 (85 kw) 1.Maj.serv.kn",
+        "cena": "399 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221703134/skoda-karoq-16-tdi-rv2017-85-kw-1majservkn.php",
+        "obrazek": "https://www.bazos.cz/img/1t/134/221703134.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI r.v.2018 Ambition Plus 1.Majitel (DPH)",
+        "cena": "429 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221703103/skoda-karoq-15-tsi-rv2018-ambition-plus-1majitel-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/103/221703103.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0TDi 4x4 150PS NAVI 360°KAMERA TAŽNÉ",
+        "cena": "939 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221702953/skoda-karoq-sportline-20tdi-4x4-150ps-navi-360kamera-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/953/221702953.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq TSi DSG SPORTLINE MATRIX VIRTUAL KAMERA TAŽNÉ",
+        "cena": "595 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221700284/skoda-karoq-tsi-dsg-sportline-matrix-virtual-kamera-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/284/221700284.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI SCR Style SUV 4x4 DSG",
+        "cena": "143 560 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221699839/skoda-karoq-20-tdi-scr-style-suv-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/839/221699839.jpg?t=1784880600",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1.5TSI 110KW 1.MAJ 37075KM TOP",
+        "cena": "545 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221683786/skoda-karoq-15tsi-110kw-1maj-37075km-top.php",
+        "obrazek": "https://www.bazos.cz/img/1t/786/221683786.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1.5TSI,STYLE PLUS - záruka do 10/2027",
+        "cena": "529 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220928122/prodam-skoda-karoq-style-plus-zaruka-do-102027.php",
+        "obrazek": "https://www.bazos.cz/img/1t/122/220928122.jpg?t=1784797366",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2.0 TDI 85 kW | 1. MAJITEĽ | 2 ROKY ZARUKA",
+        "cena": "655 128 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221682942/skoda-karoq-20-tdi-85-kw-1-majitel-2-roky-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/942/221682942.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 4x4 Style  BEZ DPH",
+        "cena": "533 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221677908/skoda-karoq-20-tdi-4x4-style-bez-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/908/221677908.jpg?t=1785112961",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 4x4 2.0 TDI 110KW.2022.DSG.XENONY.NAVI.KAMERA.",
+        "cena": "399 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221675665/skoda-karoq-4x4-20-tdi-110kw2022dsgxenonynavikamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/665/221675665.jpg?t=1784825503",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0TDi 4x4 150PS Side Assist ACC TAŽNÉ",
+        "cena": "939 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221671213/skoda-karoq-sportline-20tdi-4x4-150ps-side-assist-acc-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/213/221671213.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0TDi 4x4 NAVI DCC PANO Webasto TAŽNÉ",
+        "cena": "1 025 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221670651/skoda-karoq-sportline-20tdi-4x4-navi-dcc-pano-webasto-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/651/221670651.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi 110kw 4x4 DSG Style+ 1. majitel",
+        "cena": "629 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220828591/skoda-karoq-20-tdi-110kw-4x4-dsg-style-1-majitel.php",
+        "obrazek": "https://www.bazos.cz/img/1t/591/220828591.jpg?t=1784827378",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "KAROQ,1.5TSI,110KW,SPORTLINE,DSG,FULL-LED,NAVI,VÝHŘEV,TZ,TOP",
+        "cena": "409 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221668320/karoq15tsi110kwsportlinedsgfull-lednavivyhrevtztop.php",
+        "obrazek": "https://www.bazos.cz/img/1t/320/221668320.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "PRODÁM Škoda Karoq 1.6TDI-85KW-DSG-NOVÁ STK",
+        "cena": "365 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221666279/prodam-skoda-karoq-16tdi-85kw-dsg-nova-stk.php",
+        "obrazek": "https://www.bazos.cz/img/1t/279/221666279.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi DSG Sportline Virtual Kamera",
+        "cena": "599 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221664153/skoda-karoq-20tdi-dsg-sportline-virtual-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/153/221664153.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI 4x2 - navi,LED,temp,150 PS",
+        "cena": "529 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221662165/skoda-karoq-sportline-15-tsi-4x2-naviledtemp150-ps.php",
+        "obrazek": "https://www.bazos.cz/img/1t/165/221662165.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TSI Sportline 4x4 DSG",
+        "cena": "531 251 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221658982/skoda-karoq-20-tsi-sportline-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/982/221658982.jpg?t=1785142306",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "KAROQ 1,5 TSi-110 kW DSG, 458.000,-Kč",
+        "cena": "458 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221656997/karoq-15-tsi-110-kw-dsg-458000-kc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/997/221656997.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI STYLE, DSG F1, 4x4, 110kW, Navi, LED,TOP",
+        "cena": "399 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221655492/skoda-karoq-20-tdi-style-dsg-f1-4x4-110kw-navi-ledtop.php",
+        "obrazek": "https://www.bazos.cz/img/1t/492/221655492.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.0TSI",
+        "cena": "399 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221367988/skoda-karoq-10tsi.php",
+        "obrazek": "https://www.bazos.cz/img/1t/988/221367988.jpg?t=1784184173",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 2.0 TDI Style DSG, LED, Ambient, Ťažné, Mŕtvy uhol",
+        "cena": "520 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221652494/karoq-20-tdi-style-dsg-led-ambient-tazne-mrtvy-uhol.php",
+        "obrazek": "https://www.bazos.cz/img/1t/494/221652494.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi Style DSG, koup.ČR, odp.DPH,i na splátky",
+        "cena": "529 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221651037/skoda-karoq-15-tsi-style-dsg-koupcr-odpdph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/037/221651037.jpg?t=1784786412",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq FL 2022 Style 1.5TSI 110kW DSG Kamera,LED,Navi",
+        "cena": "610 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221649241/skoda-karoq-15tsi-110kw-style-2023-nehavarovane-lednavi.php",
+        "obrazek": "https://www.bazos.cz/img/1t/241/221649241.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.6 TDI",
+        "cena": "369 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221120779/skoda-karoq-sportline-16-tdi.php",
+        "obrazek": "https://www.bazos.cz/img/1t/779/221120779.jpg?t=1784823527",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI Style DSG",
+        "cena": "401 879 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221645699/skoda-karoq-16-tdi-style-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/699/221645699.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI 110 kW | 2021 MODEL",
+        "cena": "449 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221638984/skoda-karoq-sportline-15-tsi-110-kw-2021-model.php",
+        "obrazek": "https://www.bazos.cz/img/1t/984/221638984.jpg?t=1784745847",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI DSG 4x4 Style Plus, servisováno",
+        "cena": "459 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221637402/skoda-karoq-20-tdi-dsg-4x4-style-plus-servisovano.php",
+        "obrazek": "https://www.bazos.cz/img/1t/402/221637402.jpg?t=1785337951",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0 TSI 140 kW 4x4 DSG, 2019",
+        "cena": "V textu",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221637132/skoda-karoq-sportline-20-tsi-140-kw-4x4-dsg-2019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/132/221637132.jpg?t=1785163931",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0TDI Style,původ ČR,1.Maj.",
+        "cena": "378 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221630942/skoda-karoq-20tdi-stylepuvod-cr1maj.php",
+        "obrazek": "https://www.bazos.cz/img/1t/942/221630942.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1,5TSi ACT, DSG, STYLE, TZ",
+        "cena": "435 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221628576/skoda-karoq-15tsi-act-dsg-style-tz.php",
+        "obrazek": "https://www.bazos.cz/img/1t/576/221628576.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1.5TSI, Style, Tažné, DPH",
+        "cena": "449 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221623279/skoda-karoq-15tsi-style-tazne-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/279/221623279.jpg?t=1785159058",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2,0 TDi 4x4 DSG, EL.TAŽNÉ, ČR, SERVIS ŠKODA",
+        "cena": "479 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221621330/skoda-karoq-20-tdi-4x4-dsg-eltazne-cr-servis-skoda.php",
+        "obrazek": "https://www.bazos.cz/img/1t/330/221621330.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI, navi, 2 x vyhř. sedadla, BT, SMART",
+        "cena": "375 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221620367/skoda-karoq-15-tsi-navi-2-x-vyhr-sedadla-bt-smart.php",
+        "obrazek": "https://www.bazos.cz/img/1t/367/221620367.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq",
+        "cena": "Nabídněte",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221620328/skoda-karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/328/221620328.jpg?t=1785150032",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 2.0TDI, rok 2023, DSG, NAVI, driving mode",
+        "cena": "459 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221618733/karoq-20tdi-rok-2023-dsg-navi-driving-mode.php",
+        "obrazek": "https://www.bazos.cz/img/1t/733/221618733.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq prodej sady kol",
+        "cena": "24 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221613230/skoda-karoqa-prodej-sady-kol.php",
+        "obrazek": "https://www.bazos.cz/img/1t/230/221613230.jpg?t=1784706396",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq TDi DSG PRODANO",
+        "cena": "339 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220649898/skoda-karoq-tdi-dsg-virtual-kessy-kamera-tazny-elvrata.php",
+        "obrazek": "https://www.bazos.cz/img/1t/898/220649898.jpg?t=1784640183",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5TSI 110kW DSG 2023 MATRIX ACC",
+        "cena": "545 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221603748/skoda-karoq-sportline-15tsi-110kw-dsg-2023-matrix-acc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/748/221603748.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq",
+        "cena": "245 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221603180/skoda-karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/180/221603180.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 2.0 TDI 110kW 4x4 DSG SPORTLINE-1.maj-koupČR-NEHAV-DPH",
+        "cena": "577 997 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221601499/karoq-20-tdi-110kw-4x4-dsg-sportline-1maj-koupcr-nehav-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/499/221601499.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq STYLE 2.0TDI 110kW 4x4 DSG NAVI KAM KŮŽE CarPlay",
+        "cena": "419 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221312918/skoda-karoq-style-20tdi-110kw-4x4-dsg-kam-led-kuze-carplay.php",
+        "obrazek": "https://www.bazos.cz/img/1t/918/221312918.jpg?t=1784057470",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "KAROQ 2.0 TDI najeto 51 tis km",
+        "cena": "550 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221596997/karoq-20-tdi-najeto-51-tis-km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/997/221596997.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI Style  – CEBIA, PO SERVISU",
+        "cena": "399 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/219949763/karoq-16-tdi-top-vybava-po-1-majiteli.php",
+        "obrazek": "https://www.bazos.cz/img/1t/763/219949763.jpg?t=1785230166",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi - DSG - 2025 - ČR1 / FACELIFT / DPH",
+        "cena": "599 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221587486/skoda-karoq-15-tsi-dsg-2025-cr1-facelift-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/486/221587486.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi / 4x4 / DSG / ČR 1 / ROZVODY",
+        "cena": "315 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221587297/skoda-karoq-20tdi-4x4-dsg-cr-1-rozvody.php",
+        "obrazek": "https://www.bazos.cz/img/1t/297/221587297.jpg?t=1784716660",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 Tsi DSG rv.2022 1.maj. ČR, Navigace",
+        "cena": "499 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220715185/karoq-15-tsi-dsg-rv2022-1maj-cr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/185/220715185.jpg?t=1783969728",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi / 59TIS / 2023 / ČR / FACELIFT / TAŽNÝ",
+        "cena": "469 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221586595/skoda-karoq-20tdi-59tis-2023-cr-facelift-tazny.php",
+        "obrazek": "https://www.bazos.cz/img/1t/595/221586595.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 4x4 DSG STYLE VIRTUAL FullLED PANORAMA TAŽNÉ",
+        "cena": "549 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221586499/skoda-karoq-4x4-dsg-style-virtual-fullled-panorama-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/499/221586499.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TSI Sportline 4x4 DSG / 140kW / A7 /",
+        "cena": "520 577 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221585883/skoda-karoq-20-tsi-sportline-4x4-dsg-140kw-a7.php",
+        "obrazek": "https://www.bazos.cz/img/1t/883/221585883.jpg?t=1784642611",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 Tsi 110kw DSG, ACC, CANTON, 2022",
+        "cena": "497 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221585182/skoda-karoq-15-tsi-110kw-dsg-acc-2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/182/221585182.jpg?t=1785154771",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,5tsi 110kw dsg 2021",
+        "cena": "510 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221584792/skoda-karoq-15tsi-110kw-dsg-2021.php",
+        "obrazek": "https://www.bazos.cz/img/1t/792/221584792.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Ambition,   2,0TDi, 4x4, r.v. 2019",
+        "cena": "370 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221584627/skoda-karoq-ambition-20tdi-4x4-rv-2019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/627/221584627.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Nabídka Škoda Karoq Style 2,0TDI 4x4",
+        "cena": "439 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221583087/nabidka-skoda-karoq-style-20tdi-4x4.php",
+        "obrazek": "https://www.bazos.cz/img/1t/087/221583087.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda karoq 16.tdi rok 2018",
+        "cena": "380 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221580257/prodam-skoda-karoq-16tdi-rok-2018.php",
+        "obrazek": "https://www.bazos.cz/img/1t/257/221580257.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline - Atrakt. design. prahy,19\"kola, 21tk",
+        "cena": "849 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221580112/karoq-sportline-atraktivni-designove-prahy19kola-21-tk.php",
+        "obrazek": "https://www.bazos.cz/img/1t/112/221580112.jpg?t=1784626759",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Scout 2019 2.0 TDI 110 kW ČR",
+        "cena": "440 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221579863/skoda-karoq-scout-2019-20-tdi-110-kw-cr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/863/221579863.jpg?t=1784625436",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,5TSi 110kW DSG",
+        "cena": "589 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221575764/skoda-karoq-15tsi-110kw-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/764/221575764.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,5TSi 110kW DSG",
+        "cena": "639 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221575741/skoda-karoq-15tsi-110kw-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/741/221575741.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0 TDI 110 kW, Automat, 4x4",
+        "cena": "459 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221574664/skoda-karoq-20-tdi-110-kw-automat-4x4.php",
+        "obrazek": "https://www.bazos.cz/img/1t/664/221574664.jpg?t=1784619448",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 1,5TSI Style",
+        "cena": "599 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220370019/karoq-15tsi-style.php",
+        "obrazek": "https://www.bazos.cz/img/1t/019/220370019.jpg?t=1782627797",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 4x4 DSG",
+        "cena": "415 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221561720/skoda-karoq-20-tdi-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/720/221561720.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2.0 TDI 110kW 4x4 DSG SPORTLINE-2019-162.881KM-",
+        "cena": "449 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221557985/skoda-karoq-20-tdi-110kw-4x4-dsg-sportline-2019-162881km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/985/221557985.jpg?t=1784580617",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2.0 TDI 110kw 4x4 DSG 2021 /FULLLED/KESSY/",
+        "cena": "420 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221554061/skoda-karoq-20-tdi-110kw-4x4-dsg-2021.php",
+        "obrazek": "https://www.bazos.cz/img/1t/061/221554061.jpg?t=1784609839",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 tdi Dsg 4x4 Style",
+        "cena": "420 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221549868/skoda-karoq-20-tdi-dsg-4x4.php",
+        "obrazek": "https://www.bazos.cz/img/1t/868/221549868.jpg?t=1784660581",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDI 85kw DSG 2024 / Kúpené na SK / V záruke",
+        "cena": "638 683 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221548846/skoda-karoq-20tdi-85kw-dsg-2024-kupene-na-sk-v-zaruke.php",
+        "obrazek": "https://www.bazos.cz/img/1t/846/221548846.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq sportline 2.0 TDI 110kw manuál,Canton,kamera,DCC",
+        "cena": "469 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221546399/skoda-karoq-sportline-20-tdi-110kw-manualcantonkameradcc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/399/221546399.jpg?t=1784558795",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq",
+        "cena": "330 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220503966/skoda-karoq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/966/220503966.jpg?t=1782660093",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI DSG 110 kW 2024-DPH",
+        "cena": "528 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221539316/skoda-karoq-15-tsi-dsg-110-kw-2024-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/316/221539316.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0Tdi 110kw 4x4 DSG",
+        "cena": "330 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221527755/skoda-karoq-20tdi-110kw-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/755/221527755.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Virtual cocpit na Karoq ,565 920 790 D",
+        "cena": "18 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221526720/virtual-cocpit-pristrojovy-stit.php",
+        "obrazek": "https://www.bazos.cz/img/1t/720/221526720.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5tsi dsg facelift",
+        "cena": "499 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221526156/skoda-karoq-15tsi-dsg-facelift.php",
+        "obrazek": "https://www.bazos.cz/img/1t/156/221526156.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI Style DSG / ACC / Pano / Canton",
+        "cena": "339 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221525695/skoda-karoq-16-tdi-style-dsg-acc-pano-canton.php",
+        "obrazek": "https://www.bazos.cz/img/1t/695/221525695.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 Tsi sportline ,2022, 1 majitel servis skoda",
+        "cena": "459 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221524856/skoda-karoq-15-tsi-sportline-2022-1-majitel-servis-skoda.php",
+        "obrazek": "https://www.bazos.cz/img/1t/856/221524856.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,5 TSi Style DSG, tažné",
+        "cena": "529 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221520680/skoda-karoq-15-tsi-style-dsg-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/680/221520680.jpg?t=1785239682",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0TSI 4x4 DSG 140kw LED KAMERA TAŽNÉ",
+        "cena": "464 800 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221520102/skoda-karoq-sportline-20tsi-4x4-dsg-140kw-led-kamera-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/102/221520102.jpg?t=1784524759",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Style",
+        "cena": "349 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220081177/skoda-karoq-style.php",
+        "obrazek": "https://www.bazos.cz/img/1t/177/220081177.jpg?t=1784060230",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI SPORTLINE DSG 2021",
+        "cena": "499 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220097642/skoda-karoq-15-tsi-sportline-dsg-2021.php",
+        "obrazek": "https://www.bazos.cz/img/1t/642/220097642.jpg?t=1783504446",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Style 2.0 TDI 110KW 4X4 DSG TOP VYBAVA",
+        "cena": "329 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221507768/skoda-karoq-style-20-tdi-110kw-4x4-dsg-top-vybava.php",
+        "obrazek": "https://www.bazos.cz/img/1t/768/221507768.jpg?t=1785326840",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI 2022",
+        "cena": "478 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220801434/skoda-karoq-sportline-15-tsi-2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/434/220801434.jpg?t=1782995172",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi Tour 110 kW 2022  10 100 km",
+        "cena": "599 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221503442/skoda-karoq-15-tsi-tour-1498-ccm-110-kw-2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/442/221503442.jpg?t=1784549428",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "EXKLUZIVNÍ Š KAROQ 2.0TDI DSG 4X4,VELKA VYBAVA,ZARUKA KM.",
+        "cena": "419 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/220975077/s-karoq-20tdi-dsg-4x4velka-vybavazaruka-km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/077/220975077.jpg?t=1785221975",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI sportline",
+        "cena": "590 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221486481/skoda-karoq-15-tsi-sportline.php",
+        "obrazek": "https://www.bazos.cz/img/1t/481/221486481.jpg?t=1784459530",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline, 1.5 TSI, automat ,2021",
+        "cena": "369 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221486325/skoda-karoq-sportline-15-tsi-automat-2021.php",
+        "obrazek": "https://www.bazos.cz/img/1t/325/221486325.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI 110kw SPORTLINE r.v. 2020",
+        "cena": "579 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221485713/skoda-karoq-15tsi-110kw-sportline-rv-2020.php",
+        "obrazek": "https://www.bazos.cz/img/1t/713/221485713.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI 110kw/50tis.km/DSG/Záruka",
+        "cena": "619 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221476777/skoda-karoq-15tsi-110kw50tiskmdsgzaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/777/221476777.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi 4x4 Dsg",
+        "cena": "480 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221471411/skoda-karoq-20-tdi-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/411/221471411.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 110 kW | Model 2021 | Drive 125 Years",
         "cena": "385 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq/210850112",
-        "obrazek": "https://d48-a.sdn.cz/d_48/c_img_E_E/YIQCpp.png",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221469498/skoda-karoq-20-tdi-110-kw-model-2021-drive-125-yearsn.php",
+        "obrazek": "https://www.bazos.cz/img/1t/498/221469498.jpg?t=1784415798",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1.0 TSI-81 kw, 299  tis. včetně DPH",
+        "cena": "299 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221467779/skoda-karoq-10-tsi-81-kw-333-tis-vcetne-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/779/221467779.jpg?t=1785262013",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5tsi DSG 2024",
+        "cena": "749 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221459699/skoda-karoq-sportline-15tsi-dsg-2024.php",
+        "obrazek": "https://www.bazos.cz/img/1t/699/221459699.jpg?t=1784385918",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi/STYLE/2023/DSG/DPH/facelift",
+        "cena": "419 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221450426/skoda-karoq-20-tdistyle2023dsgdphfacelift.php",
+        "obrazek": "https://www.bazos.cz/img/1t/426/221450426.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 ACT Sportline DSG 110kW AT7",
+        "cena": "433 100 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221436466/skoda-karoq-15-act-sportline-dsg-110kw-at7.php",
+        "obrazek": "https://www.bazos.cz/img/1t/466/221436466.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda KaroQ 1.5 TSi, DSG, Style, záruka",
+        "cena": "579 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221432629/skoda-karoq-15-tsi-dsg-style-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/629/221432629.jpg?t=1784788240",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2,0 TSi Sportline 140kW 4x4 2019",
+        "cena": "589 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221428323/skoda-karoq-20-tsi-sportline-140kw-4x4-2019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/323/221428323.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI 110kW DSG, TOP",
+        "cena": "Dohodou",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221420961/skoda-karoq-sportline-15-tsi-110kw-dsg-top.php",
+        "obrazek": "https://www.bazos.cz/img/1t/961/221420961.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi 4x4 110kW DSG 1Maj.ČR Stylex4",
+        "cena": "479 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221420540/skoda-karoq-20tdi-110kw-dsg-1majcr-style.php",
+        "obrazek": "https://www.bazos.cz/img/1t/540/221420540.jpg?t=1784916946",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDi Ambiente Full LED Navi Smartlink",
+        "cena": "425 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221411190/skoda-karoq-20tdi-ambiente-full-led-navi-smartlink.php",
+        "obrazek": "https://www.bazos.cz/img/1t/190/221411190.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi DSG, navi, smart, kamera,/ZADÁNO/",
+        "cena": "365 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221380709/skoda-karoq-15-tsi-dsg-navi-smart-tempomat-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/709/221380709.jpg?t=1784635014",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda Karoq 1.6 webasto",
+        "cena": "393 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221380290/prodam-skoda-karoq-16-webasto.php",
+        "obrazek": "https://www.bazos.cz/img/1t/290/221380290.jpg?t=1784207693",
         "dokonale_auto": false
     },
     {
@@ -472,8 +2290,8 @@
         "model": "Škoda Karoq",
         "cena": "809 000 Kč",
         "zdroj": "Tipcars",
-        "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-2-0-tdi-top-selection-9804958.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-2-0-tdi-top-selection-9804701.html",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -482,7 +2300,7 @@
         "cena": "620 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-sportline-2-0tsi-140kw-4x4-7-a-59921970.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -491,7 +2309,7 @@
         "cena": "649 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-1-5-tsi-110-kw-top-selection-27032876.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -500,7 +2318,7 @@
         "cena": "919 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/kombi/benzin/skoda-karoq-2-0-tsi-140-kw-dsg-4x4-sportli-9520011.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -509,7 +2327,7 @@
         "cena": "419 999 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-1-6-tdi-85kw-dsg-style-cr-15900282.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -518,7 +2336,7 @@
         "cena": "485 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-1-5-tsi-ambition-dph-cr-1-maj-52930181.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -527,7 +2345,7 @@
         "cena": "768 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-classic-1-5-tsi-dsg-9174355.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -536,7 +2354,7 @@
         "cena": "884 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-55971049.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -545,7 +2363,7 @@
         "cena": "499 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-55971045.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -554,7 +2372,7 @@
         "cena": "499 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-55971050.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -563,7 +2381,7 @@
         "cena": "879 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-55971044.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -572,7 +2390,7 @@
         "cena": "349 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-55971033.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -581,7 +2399,7 @@
         "cena": "599 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/nafta/skoda-karoq-ambition-2-0tdi-110kw-dsg-4x4-36857130.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -590,7 +2408,7 @@
         "cena": "764 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-sportline-1-5tsi-110kw-7-autom-59921026.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -599,7 +2417,7 @@
         "cena": "469 480 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/kombi/benzin/skoda-karoq-1-5-tsi-110kw-6-mp-style-58806218.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -608,7 +2426,7 @@
         "cena": "609 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-55971021.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -617,7 +2435,7 @@
         "cena": "459 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-1-5tsi-110kw-ambition-tazne-9575473.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -626,7 +2444,7 @@
         "cena": "849 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-2-0tsi-4x4-140kw-sportline-taz-9575994.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -635,7 +2453,7 @@
         "cena": "849 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-2-0tsi-140kw-4x4-sportline-taz-9576624.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -644,7 +2462,7 @@
         "cena": "485 000 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-1-5-tsi-ambition-dph-cr-1-maj-52930175.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     },
     {
@@ -653,7 +2471,7 @@
         "cena": "589 900 Kč",
         "zdroj": "Tipcars",
         "odkaz": "https://www.tipcars.com/skoda-karoq/suv/benzin/skoda-karoq-55971008.html",
-        "obrazek": "https://via.placeholder.com/150?text=Tipcars",
+        "obrazek": "https://via.placeholder.com/300x200?text=Bez+fotky+(Tipcars)",
         "dokonale_auto": false
     }
 ]
