@@ -1329,6 +1329,54 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Ostatní, FLHTCUTG Tri Glide Ultra Class",
+        "cena": "600 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849746",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZJX4uC4fHV1sbD/1958.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Volkswagen Multivan, 2.0 Tdi,110kw,Led,2xposuvDveře",
+        "cena": "759 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210794090",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrRICCBxmKHP27ve/b8b0.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia, DSG 1.5 TSI  M-HEV / 110 kW /",
+        "cena": "739 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849737",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZJX4uC4jHV1nNO/88a1.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Mini Aceman",
+        "cena": "895 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849734",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZDMeBxwsHV1mex/84d7.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "BMW X5, M50D TOP VÝBAVA 294kW DPH",
+        "cena": "1 299 999 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210849728",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yBVeAVG9sHV1koP/0a4c.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Volkswagen Tiguan, 1,5 eTSI",
+        "cena": "1 099 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//210752990",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/nO2CysqjGrB9kIM0mtHLEr5D/1401.jpeg"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Toyota Rav4, 2.5 Hybrid, Kamera",
         "cena": "1 050 000 Kč",
         "zdroj": "Sauto.cz",
@@ -1718,61 +1766,5 @@
         "zdroj": "Sauto.cz",
         "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208668731",
         "obrazek": "//d19-a.sdn.cz/d_19/c_img_oa_B/nO7kYQIzllzLYfDJYDlBtR6/b871.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Octavia, 1.5 TSI, 110 kW, Ambition, ČR",
-        "cena": "409 900 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208387127",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oZ_A/kBkJRwehYDlimkCA0DMck4v/fdb6.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Ford Focus, TREND+, 1.5 ECOBLUE, ČR",
-        "cena": "264 900 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//208102283",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oX_A/kPWmeC9soBCihh3j4Cj4K3o/0809.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Ford Mondeo, 2.0 TDCi, Titanium, AWD, AUT.",
-        "cena": "299 900 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209600343",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_A/kOzkBkwYBTDq3nMD6zFJh8Yu/1341.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Ford Kuga, Titanium 2,0EcoBlue AT AWD, ČR",
-        "cena": "379 900 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209443185",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_of_A/kPRtHkVQLlDN44a0oE1f0ws/6ffa.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Ford Tourneo Custom, L1 Titanium X 125kW AT, ČR",
-        "cena": "1 349 900 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209234169",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_oe_B/kOzmiQlmfoCswkNBcaEn6XXi/a404.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Ford Tourneo Custom, L2 Titanium X 125kW AT, ČR",
-        "cena": "1 399 900 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209233776",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_A/kOzkBkwYBTDqlCCEuHFKuEwG/3f23.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Mercedes-Benz CLS, 350 CDI, 4MATIC, FINAL EDITION",
-        "cena": "709 900 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/skoda/karoq//209160141",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_od_B/kOy0N9usHcBTCYHBTXEXDrjw/01d0.jpeg"
     }
 ]
