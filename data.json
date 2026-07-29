@@ -401,6 +401,14 @@
     },
     {
         "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1.0 Tsi",
+        "cena": "328 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221916740/skoda-karoq-10-tsi.php",
+        "obrazek": "https://www.bazos.cz/img/1t/740/221916740.jpg"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda KaroQ",
         "cena": "Dohodou",
         "zdroj": "Bazoš.cz",
@@ -1321,6 +1329,110 @@
     },
     {
         "znacka": "Škoda",
+        "model": "Škoda Kodiaq, SPORTLINE 2.0TDI 110KW DSG",
+        "cena": "709 900 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210849779",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yBZFliGIeHV16Di/e3e9.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Ford Mustang, 5.0 GT V8 Magneride",
+        "cena": "1 100 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210706961",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmCni4DM3WHFjOkI/c054.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Tesla Model Y, LR AWD TAŽNÉ SOH 93.7% DPH",
+        "cena": "899 990 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210849602",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yDRXV9HydHV1lE3/8e52.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Citroën SpaceTourer, 2.0HDi 130kW AUTOMAT DPH",
+        "cena": "578 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210384296",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/nCTUX1iX5Do9kXBQKbGlgCVw/09f5.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia, 2.0 TDI 110KW ČR NOVÉ",
+        "cena": "188 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210555692",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_A/kQMlcCt5zmD87zEELZG0Iwtc/75dc.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Fabia, 1.0 TSI 70KW STYLE ČR 1MAJITEL",
+        "cena": "228 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210688679",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_C/nO2CysqjGrC2szhaTsHEJDMW/c593.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Octavia, 1.5TSI 110kW DSG STYLE ČR NOVÉ",
+        "cena": "408 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210737924",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmCCIyqwslHJihqj/08e9.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Mercedes-Benz GLE, 300d 200kW 4MATIC TAŽNÉ",
+        "cena": "898 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210751172",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmUKhkpqFHKsAuh/4bcf.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Hyundai Tucson, 1.6CRDi 100kW STYLE 4x4",
+        "cena": "498 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210751253",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/nO2CysqjGrBgjUXhCHHKsP7h/238d.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Fabia, 1.0TSI 70kW STYLE ČR NOVÉ",
+        "cena": "238 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210769529",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/kQMlcCt5zmBDp4mCQ7HNERMe/ec6d.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Jaguar E-Pace, Jaguar E-Pace P250 AWD 184 kW",
+        "cena": "550 000 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210731081",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/kQMlcCt5zmCCIyqq75HI8DJt/4a9c.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Hyundai i30, 1.5T-GDi 118kW SMART ČR NOVÉ",
+        "cena": "324 800 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210769532",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrud5y20vHNERXa/c20a.jpeg"
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Volkswagen Transporter, 2.0TDI 110kW DSG 1.MAJITEL ČR",
+        "cena": "428 700 Kč",
+        "zdroj": "Sauto.cz",
+        "odkaz": "https://www.sauto.cz/osobni/detail/210816776",
+        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nOa03Se6MmClBXqWBHSMGA6/adb6.jpeg"
+    },
+    {
+        "znacka": "Škoda",
         "model": "Škoda Octavia, 2.0TDI AMBITION ČR NOVÉ 1.MAJ",
         "cena": "314 800 Kč",
         "zdroj": "Sauto.cz",
@@ -1438,30 +1550,6 @@
         "zdroj": "Sauto.cz",
         "odkaz": "https://www.sauto.cz/osobni/detail/210849734",
         "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/nEwftpXyZDMeBxwsHV1mex/84d7.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW X5, M50D TOP VÝBAVA 294kW DPH",
-        "cena": "1 299 999 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210849728",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_C/kOyy3Gv43yBVeAVG9sHV1koP/0a4c.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Volkswagen Tiguan, 1,5 eTSI",
-        "cena": "1 099 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210752990",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_A/nO2CysqjGrB9kIM0mtHLEr5D/1401.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Toyota Rav4, 2.5 Hybrid, Kamera",
-        "cena": "1 050 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210769871",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qD_B/nO2CysqjGrB9kIMBRHbHNFgxj/ffd9.jpeg"
     },
     {
         "znacka": "Škoda",
@@ -1670,85 +1758,5 @@
         "zdroj": "Sauto.cz",
         "odkaz": "https://www.sauto.cz/osobni/detail/209588154",
         "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_A/nDJ4VEZEqx7ONGJpFH0VjK/5b63.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW iX, xDrive45 M paket Pro",
-        "cena": "1 839 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/209672181",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_og_B/kOzkBkwYBTDq3nMIArFSVOoo/adb4.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW iX, xDrive45, M Paket Pro",
-        "cena": "1 849 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210045960",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_p9_A/kcHp2YdDtBM3KVCX4GB8jMZ/71ac.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW X5, xDrive30d",
-        "cena": "1 050 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210260912",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qA_B/kcHp2YdDtCJexHxTdGW51Tz/3462.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW X3, xDrive30i",
-        "cena": "629 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210366800",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/kcHp2YdDtDgLT0BC3TGh9B8t/c0b4.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW Řada 3, 330e SportLine",
-        "cena": "639 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210367469",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/nCTUX1iX5DwDWzBkagGiAQcA/df17.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Cupra Leon, SP 2.0",
-        "cena": "689 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210368867",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_A/nCTUX1iX5bIUBBO06GiGNo1/3211.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Audi A4 Avant, 2.0 Tdi Quattro",
-        "cena": "639 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210516608",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qB_C/nO2CysqjGrRICCDN9GwJ4GC/187a.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW X5, xDrive30d",
-        "cena": "549 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210549104",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_A/kQMlcCt5zmCCIyqFicGzj7fk/bb3a.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW Řada 5, 530d xDrive Touring",
-        "cena": "599 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210583373",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_A/nO2CysqjGrCe62NIT3G3IICE/d5a2.jpeg"
-    },
-    {
-        "znacka": "Škoda",
-        "model": "BMW Řada 5, BMW 540i xDrive Touring",
-        "cena": "1 250 000 Kč",
-        "zdroj": "Sauto.cz",
-        "odkaz": "https://www.sauto.cz/osobni/detail/210589502",
-        "obrazek": "//d19-a.sdn.cz/d_19/c_img_qC_A/kQMlcCt5zmEA35RFyJG3nCMB/cc49.jpeg"
     }
 ]
