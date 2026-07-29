@@ -105,52 +105,45 @@ def stahni_esa_karoq():
     except Exception as e: print(f"Chyba ESA: {e}")
     return auta
 
-# --- 4. AAA AUTO (Skryté API - opravené) ---
+# --- 4. AAA AUTO (Přes ScraperAPI proxy - spolehlivě) ---
 def stahni_aaaauto_karoq():
-    print("Stahuji AAA Auto přes SKRYTÉ API...")
+    print("Stahuji AAA Auto přes maskovanou proxy...")
     auta = []
-    url = "https://www.aaaauto.cz/api/filter"
-    
-    aaa_hlavicky = {
-        "accept": "application/json, text/plain, */*",
-        "accept-language": "cs,en;q=0.9",
-        "referrer": "https://www.aaaauto.cz/ojete-vozy/skoda/karoq",
-        "User-Agent": HLAVICKY["User-Agent"],
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-origin"
-    }
+    api_key = os.getenv('SCRAPER_API_KEY')
+    cilova_url = "https://www.aaaauto.cz/skoda/karoq/"
+    if not api_key: return auta
     
     try:
-        odpoved = requests.get(url, headers=aaa_hlavicky, timeout=10)
+        odpoved = requests.get('http://api.scraperapi.com', params={'api_key': api_key, 'url': cilova_url, 'render': 'true'}, timeout=60)
         if odpoved.status_code == 200:
-            # Pojistka: zkontrolujeme, jestli nám server vrátil opravdu JSON a ne HTML chybovku
-            if "application/json" in odpoved.headers.get("Content-Type", ""):
-                data = odpoved.json()
-                inzeraty = data.get('cars', data.get('items', data.get('results', data.get('vehicles', []))))
-                if isinstance(data, list): inzeraty = data
-                
-                for item in inzeraty:
-                    try:
-                        nazev = item.get('name', item.get('carName', item.get('model', 'Škoda Karoq')))
-                        cena_raw = item.get('price', item.get('priceData', {}).get('price', 0))
-                        cena_cista = int(''.join(filter(str.isdigit, str(cena_raw)))) if cena_raw else 0
-                        if cena_cista < MIN_CENA: continue
-                        cena_text = f"{cena_cista:,} Kč".replace(',', ' ')
-                        url_auta = item.get('url', item.get('link', ''))
-                        odkaz = f"https://www.aaaauto.cz{url_auta}" if url_auta.startswith('/') else url_auta
-                        if not odkaz or odkaz == "https://www.aaaauto.cz": odkaz = "https://www.aaaauto.cz/ojete-vozy/skoda/karoq"
-                        obrazek = item.get('image', item.get('photo', item.get('mainImage', 'https://via.placeholder.com/150?text=AAA+Auto')))
-                        if je_to_auto(nazev):
-                            auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek})
-                    except Exception: continue
-            else:
-                print("AAA Auto vrátilo HTML namísto JSON dat (možná blokace).")
-        else:
-            print(f"AAA Auto vrátilo stavový kód: {odpoved.status_code}")
-    except Exception as e: 
-        print(f"Chyba AAA: {e}")
-        
+            soup = BeautifulSoup(odpoved.text, 'html.parser')
+            inzeraty = soup.find_all('div', class_='carCard')
+            if not inzeraty: inzeraty = soup.find_all('div', class_='car-box')
+            
+            for inzerat in inzeraty:
+                try:
+                    nazev_tag = inzerat.find(['h2', 'h3'])
+                    nazev = nazev_tag.text.strip() if nazev_tag else "Škoda Karoq"
+                    
+                    odkaz_tag = inzerat.find('a')
+                    odkaz = odkaz_tag['href'] if odkaz_tag else cilova_url
+                    if not odkaz.startswith('http'): odkaz = "https://www.aaaauto.cz" + odkaz
+                        
+                    cena_tag = inzerat.find(class_='price')
+                    cena = cena_tag.text.strip() if cena_tag else ""
+                    
+                    cena_cista = ''.join(filter(str.isdigit, cena))
+                    if cena_cista and int(cena_cista) < MIN_CENA: continue
+                        
+                    obrazek_tag = inzerat.find('img')
+                    obrazek = obrazek_tag['src'] if obrazek_tag else "https://via.placeholder.com/150?text=AAA+Auto"
+                    
+                    if je_to_auto(nazev):
+                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "AAA Auto", "odkaz": odkaz, "obrazek": obrazek})
+                except Exception:
+                    continue
+    except Exception as e:
+        print(f"Chyba AAA přes proxy: {e}")
     return auta
 
 # --- HLAVNÍ FUNKCE AGREGÁTORU ---
