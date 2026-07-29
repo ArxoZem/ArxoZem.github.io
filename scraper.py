@@ -4,6 +4,7 @@ import json
 import time
 import re
 import os
+import random
 
 # ==========================================
 # --- ⚙️ KONFIGURACE (VŠECHNY KAROQY) ---
@@ -11,7 +12,6 @@ import os
 MIN_CENA = 100000 
 MAX_CENA = 2000000  
 
-# Tyto vyhodíme, protože to vůbec nejsou auta (jen díly)
 ZAKAZANA_SLOVA_DILY = [
     "nárazník", "blatník", "světlo", "světla", "světlomet", "maska", "masky", 
     "zrcátko", "kryt", "kryty", "příčníky", "koberečky", "koberce", "poloosa", 
@@ -28,21 +28,26 @@ def vyhledej_rok(text):
 
 def je_to_top_stav(nazev, cely_text):
     text_malym = cely_text.lower()
-    
-    # Podmínka 1: Motor 1.5 TSI
     ma_motor = ("1.5" in text_malym or "1,5" in text_malym) and "tsi" in text_malym
     if not ma_motor: return False
 
-    # Podmínka 2: Roky 2022, 2023, 2024
     roky = vyhledej_rok(cely_text)
     if not roky: return False
 
     return True
 
 def vycisti_obrazek(odkaz_na_obrazek, zdroj):
-    if not odkaz_na_obrazek or 'placeholder' in odkaz_na_obrazek or 'avatar' in odkaz_na_obrazek.lower():
-        return f"https://via.placeholder.com/300x200?text=Bez+fotky+({zdroj})"
+    """Tvrdý filtr pro záchranu funkčních obrázků"""
+    if not odkaz_na_obrazek:
+        return f"https://via.placeholder.com/400x300?text=Bez+fotky+({zdroj})"
+        
+    odkaz_malym = odkaz_na_obrazek.lower()
     
+    # Vyřadíme všechny nesmysly, co weby podstrkávají místo skutečných fotek
+    if 'placeholder' in odkaz_malym or 'avatar' in odkaz_malym or 'logo' in odkaz_malym or 'data:image' in odkaz_malym or '1x1' in odkaz_malym or 'icon' in odkaz_malym:
+        return f"https://via.placeholder.com/400x300?text=Zablokovany+Obrazek+({zdroj})"
+    
+    # Oprava URL formátu
     if odkaz_na_obrazek.startswith('//'):
         return "https:" + odkaz_na_obrazek
     if odkaz_na_obrazek.startswith('/') and zdroj == "Tipcars":
@@ -52,7 +57,7 @@ def vycisti_obrazek(odkaz_na_obrazek, zdroj):
 
 # --- 1. BAZOŠ ---
 def stahni_bazos_karoq():
-    print("Stahuji Bazoš (všechny Karoqy)...")
+    print("⏳ Stahuji Bazoš (všechny Karoqy)...")
     auta = []
     for offset in range(0, 300, 20): 
         url = "https://auto.bazos.cz/skoda/?hledat=karoq" if offset == 0 else f"https://auto.bazos.cz/skoda/{offset}/?hledat=karoq"
@@ -68,11 +73,8 @@ def stahni_bazos_karoq():
                 nazev = nadpis.text.strip()
                 nazev_malym = nazev.lower()
                 
-                # Zahození náhradních dílů a čehokoliv, co není Karoq
                 if "karoq" not in nazev_malym: continue
-                
-                # OPRAVA: Přidáno any()
-                je_dil = any(jakykoliv_dil in nazev_malym for jakykoliv_dil in ZAKAZANA_SLOVA_DILY)
+                je_dil = any(dil in nazev_malym for dil in ZAKAZANA_SLOVA_DILY)
                 if je_dil and "tsi" not in nazev_malym and "tdi" not in nazev_malym: continue
 
                 odkaz = "https://auto.bazos.cz" + nadpis['href']
@@ -81,7 +83,7 @@ def stahni_bazos_karoq():
 
                 top_stav = False
                 try:
-                    time.sleep(0.5) 
+                    time.sleep(0.3) 
                     det = requests.get(odkaz, headers=HLAVICKY, timeout=5)
                     det_soup = BeautifulSoup(det.text, 'html.parser')
                     popis = det_soup.find('div', class_='popisdetail')
@@ -89,16 +91,20 @@ def stahni_bazos_karoq():
                         top_stav = je_to_top_stav(nazev, nazev + " " + popis.text)
                 except: pass
 
+                # Spolehlivější načtení obrázku u Bazoše
                 img_tag = inzerat.find('img')
-                obrazek = vycisti_obrazek(img_tag['src'] if img_tag else "", "Bazoš")
+                obrazek_url = img_tag.get('src', img_tag.get('data-src', '')) if img_tag else ""
+                obrazek = vycisti_obrazek(obrazek_url, "Bazoš")
                 
                 auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
         except: pass
+    
+    print(f"✅ Bazoš úspěšně stažen. Nalezeno inzerátů: {len(auta)}")
     return auta
 
 # --- 2. SAUTO ---
 def stahni_sauto_karoq():
-    print("Stahuji Sauto.cz (všechny Karoqy)...")
+    print("⏳ Stahuji Sauto.cz (všechny Karoqy)...")
     auta = []
     api_url = "https://www.sauto.cz/api/v1/items/search"
     for offset in range(0, 100, 20): 
@@ -122,28 +128,40 @@ def stahni_sauto_karoq():
                 item_str = json.dumps(item)
                 top_stav = je_to_top_stav(nazev, nazev + " " + item_str)
 
+                # SAUTO OBRÁZEK: Vytažení z pevných struktur API místo regexu
                 obrazek_url = ""
-                nalezene = re.findall(r'(//(?:[a-z0-9-]+\.)?sdn\.cz/d_[a-z0-9_]+/[a-zA-Z0-9_-]+\.(?:jpg|jpeg|png|webp))', item_str)
-                for img in nalezene:
-                    if 'logo' not in img.lower() and 'avatar' not in img.lower():
-                        obrazek_url = "https:" + img.replace('\\/', '/')
-                        break
+                try:
+                    if '_links' in item and 'gallery' in item['_links'] and len(item['_links']['gallery']) > 0:
+                        obrazek_url = item['_links']['gallery'][0].get('href', '')
+                        obrazek_url = obrazek_url.replace('{width}', '400').replace('{height}', '300').replace('{ext}', 'jpg')
+                except: pass
+
+                # Pokud selže, fallback na regex
+                if not obrazek_url:
+                    nalezene = re.findall(r'(//(?:[a-z0-9-]+\.)?sdn\.cz/d_[a-z0-9_]+/[a-zA-Z0-9_-]+\.(?:jpg|jpeg|png|webp))', item_str)
+                    for img in nalezene:
+                        if 'logo' not in img.lower() and 'avatar' not in img.lower():
+                            obrazek_url = "https:" + img.replace('\\/', '/')
+                            break
                 
                 obrazek = vycisti_obrazek(obrazek_url, "Sauto")
                 auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Sauto.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
         except: pass
         time.sleep(1.0)
+        
+    print(f"✅ Sauto úspěšně staženo. Nalezeno inzerátů: {len(auta)}")
     return auta
 
 # --- 3. TIPCARS ---
 def stahni_tipcars_karoq():
-    print("Stahuji Tipcars (všechny Karoqy)...")
+    print("⏳ Stahuji Tipcars (všechny Karoqy)...")
     auta = []
     try:
         odpoved = requests.get("https://www.tipcars.com/skoda-karoq/", headers=HLAVICKY, timeout=15)
         soup = BeautifulSoup(odpoved.text, 'html.parser')
         odkazy = soup.find_all('a', href=lambda h: h and 'skoda-karoq' in h.lower() and re.search(r'-\d{6,}', h))
         zpracovano = set()
+        
         for a in odkazy:
             try:
                 href = a.get('href', '')
@@ -167,11 +185,13 @@ def stahni_tipcars_karoq():
                 for t in rodic.find_all(string=True):
                     if "Kč" in t: cena_text = t.strip(); break
                 
+                # TIPCARS OBRÁZEK: Hledáme v atributech data-original nebo data-src
                 obrazek_url = ""
                 vsechny_obr = rodic.find_all('img')
                 for img in vsechny_obr:
-                    src = img.get('src') or img.get('data-src') or img.get('data-original') or ""
-                    if src and not src.endswith('.svg') and 'icon' not in src:
+                    src = img.get('data-original') or img.get('data-src') or img.get('src') or ""
+                    
+                    if src and not src.endswith('.svg') and 'icon' not in src.lower() and 'logo' not in src.lower() and 'lazy' not in src.lower():
                         obrazek_url = src
                         break
 
@@ -179,15 +199,17 @@ def stahni_tipcars_karoq():
                 auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Tipcars", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
             except: continue
     except: pass
+    
+    print(f"✅ Tipcars úspěšně stažen. Nalezeno inzerátů: {len(auta)}")
     return auta
 
-# --- 4. MOBILE.DE (ScraperAPI) ---
+# --- 4. MOBILE.DE ---
 def stahni_mobile_de_karoq():
-    print("Stahuji Mobile.de (všechny Karoqy)...")
+    print("⏳ Stahuji Mobile.de (všechny Karoqy)...")
     auta = []
     api_key = os.getenv('SCRAPER_API_KEY')
     if not api_key:
-        print("Mobile.de přeskočeno (chybí SCRAPER_API_KEY).")
+        print("⚠️ Mobile.de přeskočeno (chybí SCRAPER_API_KEY v Github Secrets).")
         return auta
         
     url = "https://suchen.mobile.de/fahrzeuge/search.html?dam=0&isSearchRequest=true&ms=22900%3A22%3A%3A%3A&ref=srpHead&s=Car&vc=Car"
@@ -212,26 +234,38 @@ def stahni_mobile_de_karoq():
             top_stav = je_to_top_stav(nazev, nazev + " " + inzerat.text)
             
             img = inzerat.find('img')
-            obrazek_url = img.get('src') if img else ""
+            obrazek_url = img.get('data-src') or img.get('src') if img else ""
             obrazek = vycisti_obrazek(obrazek_url, "Mobile.de")
             
             auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Mobile.de", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
     except Exception as e:
         print(f"Chyba při stahování Mobile.de: {e}")
+        
+    print(f"✅ Mobile.de úspěšně stažen. Nalezeno inzerátů: {len(auta)}")
     return auta
 
+# --- HLAVNÍ FUNKCE ---
 def spust_agregatory():
-    print("Spouštím stahování všech Karoqů s označením těch dokonalých...")
+    print("==================================================")
+    print("🚀 SPOUŠTÍM STAHOVÁNÍ KAROQŮ Z CELÉHO INTERNETU 🚀")
+    print("==================================================")
+    
     vsechna_auta = []
+    
     vsechna_auta.extend(stahni_bazos_karoq())
     vsechna_auta.extend(stahni_sauto_karoq())
     vsechna_auta.extend(stahni_tipcars_karoq())
     vsechna_auta.extend(stahni_mobile_de_karoq())
     
+    # 🎲 Náhodné proházení všech inzerátů (aby se zdroje pěkně namíchaly)
+    random.shuffle(vsechna_auta)
+    
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(vsechna_auta, f, ensure_ascii=False, indent=4)
         
-    print(f"Hotovo! Našli jsme celkem {len(vsechna_auta)} inzerátů.")
+    print("==================================================")
+    print(f"🎉 HOTOVO! Celkem uloženo {len(vsechna_auta)} proházených inzerátů do data.json.")
+    print("==================================================")
 
 if __name__ == "__main__":
     spust_agregatory()
