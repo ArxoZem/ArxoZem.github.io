@@ -14,7 +14,13 @@ MIN_NAJEZD = 25000
 MAX_NAJEZD = 60000
 POVOLENE_ROKY = ["2022", "2023", "2024"]
 
-ZAKAZANA_SLOVA = ["havarované", "rozprodám", "náhradní díly", "poškozené", "kroupy", "tdi", "nafta", "diesel"]
+ZAKAZANA_SLOVA = [
+    "havarované", "rozprodám", "náhradní díly", "poškozené", "kroupy", 
+    "tdi", "nafta", "diesel", "alu", "kola", "kolo", "disk", "disky", 
+    "pneu", "pneumatiky", "poklice", "nárazník", "blatník", "světlo", 
+    "světla", "světlomet", "maska", "masky", "zrcátko", "kryt", "kryty", 
+    "příčníky", "koberečky", "koberce", "poloosa", "trysky", "klakson", 
+    "jednotek", "motor" ]
 # ==========================================
 
 HLAVICKY = {
