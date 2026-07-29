@@ -14,13 +14,18 @@ MIN_NAJEZD = 25000
 MAX_NAJEZD = 60000
 POVOLENE_ROKY = ["2022", "2023", "2024"]
 
+# Masivní filtr pro vyřazení dílů, doplňků a nafty
 ZAKAZANA_SLOVA = [
     "havarované", "rozprodám", "náhradní díly", "poškozené", "kroupy", 
     "tdi", "nafta", "diesel", "alu", "kola", "kolo", "disk", "disky", 
     "pneu", "pneumatiky", "poklice", "nárazník", "blatník", "světlo", 
     "světla", "světlomet", "maska", "masky", "zrcátko", "kryt", "kryty", 
     "příčníky", "koberečky", "koberce", "poloosa", "trysky", "klakson", 
-    "jednotek", "motor" ]
+    "jednotek", "motor", "sada", "dveře", "kapota", "čerpadlo", "převodovka"
+]
+
+# Modely s vysokou výbavou
+VYSOKA_VYBAVA = ["sportline", "sport line", "sport-line", "style", "exclusive"]
 # ==========================================
 
 HLAVICKY = {
@@ -29,7 +34,6 @@ HLAVICKY = {
 }
 
 def vyhledej_najezd(text):
-    # Zkoušíme najít různé tvary (45 000 km, 45000km, 45.000 km, najeto 45000)
     shody = re.findall(r'(\d{1,3}(?:[ \.]\d{3})*|\d{4,6})\s*(?:km|tis)', text, re.IGNORECASE)
     shody_najeto = re.findall(r'najeto\s*[:\.]?\s*(\d{1,3}(?:[ \.]\d{3})*|\d{4,6})', text, re.IGNORECASE)
     
@@ -38,16 +42,13 @@ def vyhledej_najezd(text):
         ciste_cislo = ''.join(filter(str.isdigit, cislo_str))
         if ciste_cislo:
             hodnota = int(ciste_cislo)
-            # Pokud někdo napsal "45 tis", uděláme z toho 45000
             if hodnota < 1000 and "tis" in text.lower():
                 hodnota *= 1000
-            # Pokud našel číslo větší než 1000 (logický nájezd), vrátíme ho
             if hodnota > 1000:
                 return hodnota
     return 0
 
 def vyhledej_rok(text):
-    # Najde čísla 2022, 2023, 2024 i když jsou přilepená k jinému textu (např rv2022)
     shody = re.findall(r'(202[2-4])', text)
     return shody
 
@@ -58,16 +59,17 @@ def hloubkova_kontrola(cely_text):
     if "karoq" not in text_malym:
         return False, "Není to Karoq"
         
-    # 2. Kontrola zakázaných slov
+    # 2. Kontrola zakázaných slov (pro jistotu i v textu)
     for slovo in ZAKAZANA_SLOVA:
         if slovo in text_malym:
-            return False, f"Zakázané slovo: {slovo}"
+            return False, f"Zakázané slovo v textu: {slovo}"
             
-    # 3. Kontrola požadované výbavy a motoru (chytáme i pomlčky atd.)
-    ma_sportline = "sportline" in text_malym or "sport line" in text_malym or "sport-line" in text_malym
+    # 3. Kontrola požadované vysoké výbavy a motoru
+    ma_vybavu = any(vybava in text_malym for vybava in VYSOKA_VYBAVA)
     ma_motor = ("1.5" in text_malym or "1,5" in text_malym) and "tsi" in text_malym
-    if not ma_sportline:
-        return False, "Chybí slovo Sportline"
+    
+    if not ma_vybavu:
+        return False, "Chybí vysoká výbava (Sportline, Style...)"
     if not ma_motor:
         return False, "Chybí motor 1.5 TSI"
 
@@ -90,7 +92,6 @@ def stahni_bazos_karoq():
     print("Stahuji Bazoš a analyzuji texty inzerátů...")
     auta = []
     
-    # Zvýšili jsme limit na 300 aut (15 stránek), abychom obsáhli i hlubší historii
     for offset in range(0, 300, 20): 
         url = "https://auto.bazos.cz/skoda/?hledat=karoq" if offset == 0 else f"https://auto.bazos.cz/skoda/{offset}/?hledat=karoq"
         try:
@@ -105,8 +106,15 @@ def stahni_bazos_karoq():
                 nazev = nadpis.text.strip()
                 odkaz = "https://auto.bazos.cz" + nadpis['href']
                 
-                # Předfiltr: pokud je v nadpisu nafta, rovnou kašleme na detaily
-                if "tdi" in nazev.lower() or "diesel" in nazev.lower(): 
+                # --- PŘEDFILTR: Okamžité vyřazení nesmyslů bez zdržování! ---
+                nazev_malym = nazev.lower()
+                zahozeno_predfiltrem = False
+                for slovo in ZAKAZANA_SLOVA:
+                    if slovo in nazev_malym:
+                        # Vypisovat náhradní díly do konzole už nechceme, abychom nehltili log
+                        zahozeno_predfiltrem = True
+                        break
+                if zahozeno_predfiltrem:
                     continue
 
                 cena_blok = inzerat.find('div', class_='inzeratycena')
@@ -126,7 +134,6 @@ def stahni_bazos_karoq():
                     prosel, duvod = hloubkova_kontrola(komplet_data)
                     
                     if not prosel: 
-                        # Vypíšeme si, proč přesně ho to zahodilo
                         print(f"❌ Zahozeno: '{nazev}' -> Důvod: {duvod}")
                         continue
                         
@@ -143,7 +150,7 @@ def stahni_bazos_karoq():
     return auta
 
 def spust_agregatory():
-    print("Začínám přísnou filtraci (Bazoš: Karoq 1.5 TSI Sportline, 2022-2024, 25k-60k km)...")
+    print("Začínám přísnou filtraci (Bazoš: Karoq 1.5 TSI Vysoká výbava, 2022-2024, 25k-60k km)...")
     vsechna_auta = []
     
     auta_bazos = stahni_bazos_karoq()
