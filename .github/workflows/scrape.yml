@@ -3,7 +3,7 @@ name: Auto Scraper
 # Kdy se má bot spustit
 on:
   schedule:
-    - cron: '0 */3 * * *' # Automaticky každé 3 hodiny
+    - cron: '0 */6 * * *' # Automaticky každé 6 hodiny
   workflow_dispatch: # Tlačítko pro manuální spuštění
 
 # Co má bot udělat
