@@ -101,8 +101,8 @@ def stahni_bazos_auta():
                         
                         # ENYAQ vs KAROQ logika
                         if "enyaq" in nazev_malym:
-                            # Enyaq je automaticky TOP stav, aby prošel tvým filtrem!
-                            top_stav = True
+                            # Enyaqy se objeví na hlavní stránce, ale ne v TOP výběru
+                            top_stav = False
                         else:
                             # Karoq musíme zkontrolovat
                             try:
@@ -134,7 +134,7 @@ def spust_agregatory():
     
     vsechna_auta = stahni_bazos_auta()
     
-    # 🎲 EXTRÉMNÍ PROHÁZENÍ - Tohle zajistí, že Enyaqy a Karoqy budou promíchané a nebudou stejné nahoře
+    # 🎲 EXTRÉMNÍ PROHÁZENÍ - Enyaqy a Karoqy budou dokonale namixované na hlavní obrazovce
     random.shuffle(vsechna_auta)
     
     with open('data.json', 'w', encoding='utf-8') as f:
