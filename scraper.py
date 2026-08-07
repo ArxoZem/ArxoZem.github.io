@@ -8,11 +8,14 @@ import random
 # ==========================================
 # --- ⚙️ KONFIGURACE (KAROQ & ENYAQ) ---
 # ==========================================
+MIN_CENA_KC = 80000  # Vše pod 80000 Kč letí do koše (odstraní to kola, kabely atd.)
+
 ZAKAZANA_SLOVA_DILY = [
     "alu", "kola", "kolo", "disk", "disky", "pneu", "pneumatiky", "poklice",
     "nárazník", "blatník", "světlo", "světla", "světlomet", "maska", "masky", 
     "zrcátko", "kryt", "kryty", "příčníky", "koberečky", "koberce", "poloosa", 
-    "trysky", "klakson", "jednotek", "sada", "dveře", "kapota", "čerpadlo", "převodovka"
+    "trysky", "klakson", "jednotek", "sada", "dveře", "kapota", "čerpadlo", "převodovka",
+    "nabíječka", "kabel", "wallbox"
 ]
 
 HLAVICKY = {
@@ -21,7 +24,7 @@ HLAVICKY = {
 }
 
 def vyhledej_rok(text):
-    return re.findall(r'(202[2-4])', text)
+    return re.findall(r'(202[2-6])', text)
 
 def je_to_top_stav_karoq(nazev, cely_text):
     text_malym = cely_text.lower()
@@ -47,7 +50,7 @@ def vycisti_obrazek(odkaz_na_obrazek):
         
     return odkaz_na_obrazek
 
-# --- 1. BAZOŠ (Karoq & Enyaq s ochranou proti dílům) ---
+# --- BAZOŠ (Karoq & Enyaq s ochranou proti dílům a levnostem) ---
 def stahni_bazos_auta():
     print("⏳ Stahuji Bazoš (Karoq & Enyaq)...")
     auta = []
@@ -55,8 +58,9 @@ def stahni_bazos_auta():
     hledane_terminy = ["karoq", "enyaq"]
     
     for termin in hledane_terminy:
-        # Připravíme stránky a HNED je promícháme, aby nebral vždy ty samé odshora
-        stranky = list(range(0, 100, 20))
+        # Vytvoříme si seznam stránek
+        stranky = list(range(0, 140, 20))
+        # NÁHODNĚ PROHÁZÍME STRÁNKY
         random.shuffle(stranky)
         
         for offset in stranky: 
@@ -76,47 +80,61 @@ def stahni_bazos_auta():
                         
                         if termin not in nazev_malym: continue
                         
-                        # Zahození dílů (kol, blatníků...)
+                        # FILTR 1: Zakázaná slova
                         je_dil = any(dil in nazev_malym for dil in ZAKAZANA_SLOVA_DILY)
                         if je_dil and "tsi" not in nazev_malym and "tdi" not in nazev_malym and "ev" not in nazev_malym: continue
 
-                        odkaz = "https://auto.bazos.cz" + nadpis['href']
+                        # FILTR 2: Cena pod 100 000 Kč
                         cena_blok = inzerat.find('div', class_='inzeratycena')
-                        cena = cena_blok.text.strip() if cena_blok else ""
+                        cena_text = cena_blok.text.strip() if cena_blok else ""
+                        
+                        ciste_cislo = ''.join(filter(str.isdigit, cena_text))
+                        if ciste_cislo:
+                            cena_int = int(ciste_cislo)
+                            # Pokud je v CZK a stojí pod 100 000, nebo v EUR a stojí pod cca 4 000, VYHODIT
+                            if "€" not in cena_text and cena_int < MIN_CENA_KC: continue
+                            if "€" in cena_text and cena_int < (MIN_CENA_KC / 25): continue
+
+                        odkaz = "https://auto.bazos.cz" + nadpis['href']
 
                         top_stav = False
-                        try:
-                            # Snížená pauza pro mnohem rychlejší běh
-                            time.sleep(0.1) 
-                            det = requests.get(odkaz, headers=HLAVICKY, timeout=4)
-                            det_soup = BeautifulSoup(det.text, 'html.parser')
-                            popis = det_soup.find('div', class_='popisdetail')
-                            popis_text = popis.text if popis else ""
-                            
-                            if "karoq" in nazev_malym:
+                        
+                        # ENYAQ vs KAROQ logika
+                        if "enyaq" in nazev_malym:
+                            # Enyaq je automaticky TOP stav, aby prošel tvým filtrem!
+                            top_stav = True
+                        else:
+                            # Karoq musíme zkontrolovat
+                            try:
+                                time.sleep(0.1) 
+                                det = requests.get(odkaz, headers=HLAVICKY, timeout=4)
+                                det_soup = BeautifulSoup(det.text, 'html.parser')
+                                popis = det_soup.find('div', class_='popisdetail')
+                                popis_text = popis.text if popis else ""
                                 top_stav = je_to_top_stav_karoq(nazev, nazev + " " + popis_text)
-                        except: pass
+                            except: pass
 
                         img_tag = inzerat.find('img')
                         obrazek_url = img_tag.get('src', img_tag.get('data-src', '')) if img_tag else ""
                         obrazek = vycisti_obrazek(obrazek_url)
                         
-                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena, "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
+                        auta.append({"znacka": "Škoda", "model": nazev, "cena": cena_text, "zdroj": "Bazoš.cz", "odkaz": odkaz, "obrazek": obrazek, "dokonale_auto": top_stav})
                     except: continue
             except: pass
             
-    print(f"✅ Bazoš úspěšně stažen. Nalezeno inzerátů: {len(auta)}")
+        print(f"✅ Stažen model {termin.capitalize()} z Bazoše.")
+        
     return auta
 
 # --- HLAVNÍ FUNKCE ---
 def spust_agregatory():
     print("==================================================")
-    print("🚀 SPOUŠTÍM RYCHLÉ STAHOVÁNÍ Z BAZOŠE 🚀")
+    print("🚀 SPOUŠTÍM STAHOVÁNÍ KAROQŮ A ENYAQŮ Z BAZOŠE 🚀")
     print("==================================================")
     
     vsechna_auta = stahni_bazos_auta()
     
-    # 🎲 Náhodné proházení všech inzerátů, aby se na webu pořád měnily
+    # 🎲 EXTRÉMNÍ PROHÁZENÍ - Tohle zajistí, že Enyaqy a Karoqy budou promíchané a nebudou stejné nahoře
     random.shuffle(vsechna_auta)
     
     with open('data.json', 'w', encoding='utf-8') as f:
