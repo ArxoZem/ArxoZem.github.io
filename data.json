@@ -1,1703 +1,11 @@
 [
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 Sportline SOH: 92% 150kW 82kWh Matrix 360",
-        "cena": "669 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223118026/skoda-enyaq-iv-80-sportline-soh-92-150kw-82kwh-matrix-360.php",
-        "obrazek": "https://www.bazos.cz/img/1t/026/223118026.jpg?t=1787923952",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 60 132kW SOH 93,6% 68tkm - záruka Autodraft",
-        "cena": "638 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222023272/skoda-enyaq-iv-60-132kw-soh-936-68tkm-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/272/222023272.jpg?t=1785603876",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 2,0TDi 85kW STYLE KAMERA,TAŽNÉ,VYHŘ. VOLANT,2022",
-        "cena": "449 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223321154/skoda-karoq-20tdi-85kw-style-kamerataznevyhr-volant2022.php",
-        "obrazek": "https://www.bazos.cz/img/1t/154/223321154.jpg?t=1788382372",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW / Head-Up / Kožený interiér Suite /",
-        "cena": "753 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222546105/skoda-enyaq-iv-80-150kw-head-up-kozeny-interier-suite.php",
-        "obrazek": "https://www.bazos.cz/img/1t/105/222546105.jpg?t=1786709674",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x Sportline 4×4 195kW 20tkm - Tovární záruka",
-        "cena": "1 153 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223286134/skoda-enyaq-80x-sportline-44-195kw-20tkm-tovarni-zaruka.php",
-        "obrazek": "https://www.bazos.cz/img/1t/134/223286134.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "2021 Škoda Enyaq iV 60 (132 kW) - Suite",
-        "cena": "535 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222989045/2021-skoda-enyaq-iv-60-132-kw-suite.php",
-        "obrazek": "https://www.bazos.cz/img/1t/045/222989045.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2,0 TDI DSG 4x4 Sportline DPH (2022)",
-        "cena": "564 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223355835/skoda-karoq-20-tdi-dsg-4x4-sportline-dph-2022.php",
-        "obrazek": "https://www.bazos.cz/img/1t/835/223355835.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 82 kWh 195kW 4x4 Sportline / Tepelko / Tažné",
-        "cena": "928 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222270137/skoda-enyaq-iv-82-kwh-195kw-4x4-sportline-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/137/222270137.jpg?t=1786108250",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sport Line 2021 1.5 TSI KAMERA CANTON",
-        "cena": "490 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222635739/skoda-karoq-sport-line-2021-15-tsi-kamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/739/222635739.jpg?t=1788119882",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x 4x4 Sportline 195kW Tepelko - Tovární záruka",
-        "cena": "996 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223285512/skoda-enyaq-80x-4x4-sportline-195kw-tepelko-50tkm-zaruka.php",
-        "obrazek": "https://www.bazos.cz/img/1t/512/223285512.jpg?t=1788283209",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0TSI 140kw 4x4 SPORTLINE,Webasto,Virtual,2024",
-        "cena": "609 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223128954/skoda-karoq-20tsi-140kw-4x4-sportline-flwebastotazne2024.php",
-        "obrazek": "https://www.bazos.cz/img/1t/954/223128954.jpg?t=1788072111",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.6 Tdi 85 kw manual",
-        "cena": "260 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223354970/skoda-karoq-16-tdi-85-kw-manual.php",
-        "obrazek": "https://www.bazos.cz/img/1t/970/223354970.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW 78tkm SOH 94% / Tepelko / Tažné",
-        "cena": "830 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222271197/skoda-enyaq-iv-80-150kw-78tkm-soh-94-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/197/222271197.jpg?t=1786109324",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 1.5 TSI DSG, panorama",
-        "cena": "499 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222667428/skoda-karoq-sportline-15-tsi-dsg-panorama.php",
-        "obrazek": "https://www.bazos.cz/img/1t/428/222667428.jpg?t=1788164481",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 2025 2.0TDi 110kW 4x4 DCC/Matrix",
-        "cena": "579 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223128921/skoda-karoq-sportline-2025-20tdi-110kw-4x4-dccmatrix.php",
-        "obrazek": "https://www.bazos.cz/img/1t/921/223128921.jpg?t=1787970149",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 60 132kw polokůže park.kamera",
-        "cena": "462 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222512212/skoda-enyaq-60-132kw-polokuze-parkkamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/212/222512212.jpg?t=1788427104",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 1.0 TSi, 2020, Kamera, Kessy, Rozvody, Servis.",
-        "cena": "335 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223201252/skoda-karoq-10-tsi-2020-kamera-kessy-rozvody-servis.php",
-        "obrazek": "https://www.bazos.cz/img/1t/252/223201252.jpg?t=1788118067",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Prodám Škoda KAROQ, SPORTLINE,PLUS",
-        "cena": "899 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223249088/prodam-skoda-karoq-sportlineplus.php",
-        "obrazek": "https://www.bazos.cz/img/1t/088/223249088.jpg?t=1788205053",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Coupé iV RS 4x4 220kW Tepelko Matrix - Záruka",
-        "cena": "673 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223285300/skoda-enyaq-coupe-iv-rs-4x4-220kw-tepelko-matrix-zaruka.php",
-        "obrazek": "https://www.bazos.cz/img/1t/300/223285300.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.6 TDI Style DSG",
-        "cena": "401 879 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223352627/skoda-karoq-16-tdi-style-dsg.php",
-        "obrazek": "https://www.bazos.cz/img/1t/627/223352627.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 60 132kW / Universal Charger 11 kW /",
-        "cena": "599 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222589799/skoda-enyaq-iv-60-132kw-universal-charger-11-kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/799/222589799.jpg?t=1786815415",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE DSG 2023 | MATRIX | VIRTUAL | 114 TKM",
-        "cena": "569 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222443907/skoda-karoq-sportline-dsg-2023-matrix-virtual-114-tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/907/222443907.jpg?t=1788203092",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW / Tažné / Tepelko / Kůže Suite /",
-        "cena": "823 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222587355/skoda-enyaq-iv-80-150kw-tazne-tepelko-kuze-suite.php",
-        "obrazek": "https://www.bazos.cz/img/1t/355/222587355.jpg?t=1786804667",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV RS 4x4 220kW 62tkm Tažné - záruka Autodraft",
-        "cena": "899 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223343228/skoda-enyaq-iv-rs-4x4-220kw-62tkm-tazne-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/228/223343228.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 - SoH 93 %, panorama, cena s DPH, odpočet",
-        "cena": "519 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222740851/skoda-enyaq-80-932-soh-panorama-cena-s-dph-odpocet.php",
-        "obrazek": "https://www.bazos.cz/img/1t/851/222740851.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 1.0TSI 85KW 6kv. STYLE PLUS NAVI ALU TOP STAV",
-        "cena": "399 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222232836/vw-golf-sportsvan-15-tsi-iqdrive-96kw-72019-navi-kamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/836/222232836.jpg?t=1787325525",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE 2.0 TDI 110 KW",
-        "cena": "459 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221922236/skoda-karoq-sportline-20-tdi-110-kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/236/221922236.jpg?t=1788445426",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq IV 60",
-        "cena": "575 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222438645/skoda-enyaq-iv-60.php",
-        "obrazek": "https://www.bazos.cz/img/1t/645/222438645.jpg?t=1786791823",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 iV - 150kW - 92,3%SoH",
-        "cena": "699 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222909868/skoda-enyaq-80-iv-150kw-923soh.php",
-        "obrazek": "https://www.bazos.cz/img/1t/868/222909868.jpg?t=1787654229",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SPORTLINE 1.5TSi 110kW,DSG,LED,2021",
-        "cena": "459 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223246546/skoda-karoq-sportline-15tsi-110kwdsgled2021.php",
-        "obrazek": "https://www.bazos.cz/img/1t/546/223246546.jpg?t=1788232230",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Sportline iV 80x 4x4 195kW / Tepelko / Tažné",
-        "cena": "941 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221496704/skoda-enyaq-sportline-iv-80x-4x4-195kw-tepelko-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/704/221496704.jpg?t=1785423684",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x, Sportline 4x4",
-        "cena": "839 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223319894/skoda-enyaq-80x-sportline-4x4.php",
-        "obrazek": "https://www.bazos.cz/img/1t/894/223319894.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Facelift 2023 1.5 TSI Evo 2 Alcantara Kamera TOP",
-        "cena": "449 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223277263/skoda-karoq-facelift-2023-15-tsi-evo-2-alcantara-kamera-top.php",
-        "obrazek": "https://www.bazos.cz/img/1t/263/223277263.jpg?t=1788496883",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1. 5 TSi, DSG",
-        "cena": "460 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222439734/skoda-karoq-1-5-tsi-dsg.php",
-        "obrazek": "https://www.bazos.cz/img/1t/734/222439734.jpg?t=1787248286",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSI 110kw DSG SPORTLINE,Matrix,Tažné,2023",
-        "cena": "569 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222771237/skoda-karoq-15tsi-110kw-dsg-sportlinematrixtazne2023.php",
-        "obrazek": "https://www.bazos.cz/img/1t/237/222771237.jpg?t=1787202326",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 2.0 TDI 110kW DSG 4x4, rok 6/2019",
-        "cena": "429 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221957117/skoda-karoq-sportline-20-tdi-110kw-dsg-4x4-rok-62019.php",
-        "obrazek": "https://www.bazos.cz/img/1t/117/221957117.jpg?t=1788502039",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSi 110Kw - Webasto - Full Led - model 2019",
-        "cena": "360 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223128841/skoda-karoq-15-tsi-110kw-webasto-full-led-model-2019.php",
-        "obrazek": "https://www.bazos.cz/img/1t/841/223128841.jpg?t=1787950799",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA ENYAQ iV 80 150kw FOUNDERS EDITION",
-        "cena": "619 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221664687/skoda-enyaq-iv-80-150kw-founders-edice.php",
-        "obrazek": "https://www.bazos.cz/img/1t/687/221664687.jpg?t=1785833125",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 Sportline SoH 92%",
-        "cena": "620 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222993847/skoda-enyaq-80-sportline-soh-92.php",
-        "obrazek": "https://www.bazos.cz/img/1t/847/222993847.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Style 1.5 TSI 110 kW 7st.DSG",
-        "cena": "495 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223319921/skoda-karoq-style-15-tsi-110-kw-7stdsg.php",
-        "obrazek": "https://www.bazos.cz/img/1t/921/223319921.jpg?t=1788357717",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Prodám Škoda Karoq DSG 2020 virtual webasto",
-        "cena": "364 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222615969/prodam-skoda-karoq-dsg-2020.php",
-        "obrazek": "https://www.bazos.cz/img/1t/969/222615969.jpg?t=1788448215",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW tažné SOH 92,1% - záruka Autodraft",
-        "cena": "745 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222587878/skoda-enyaq-iv-80-150kw-tazne-soh-921-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/878/222587878.jpg?t=1786804736",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV,85 210/82 E1H",
-        "cena": "1 125 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223003964/skoda-enyaq-iv85-21082-e1h.php",
-        "obrazek": "https://www.bazos.cz/img/1t/964/223003964.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda enyaq sportline 85",
-        "cena": "1 042 915 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222495262/skoda-enyaq-sportline-85.php",
-        "obrazek": "https://www.bazos.cz/img/1t/262/222495262.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5Tsi 110kw,DSG,F1,STYLE,naj.47tis.km,virtual",
-        "cena": "589 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222710245/skoda-karoq-15tsi-110kwdsgf1vybava-stylevirtualled.php",
-        "obrazek": "https://www.bazos.cz/img/1t/245/222710245.jpg?t=1787052023",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Skoda Enyaq Rs rv 2022  220kw najeto 24800",
-        "cena": "899 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222632506/enyaq-rs-rv-2022-220kw-najeto-24800.php",
-        "obrazek": "https://www.bazos.cz/img/1t/506/222632506.jpg?t=1786904942",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 1.5TSi 150 PS DSG Side Assist TAŽNÉ",
-        "cena": "925 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223385150/skoda-karoq-sportline-15tsi-150-ps-dsg-side-assist-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/150/223385150.jpg",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1,5 TSi 110kw STYLE 1.maj DPH Nové v ČR",
-        "cena": "489 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223351418/skoda-karoq-15-tsi-110kw-style-1maj-dph-nove-v-cr.php",
-        "obrazek": "https://www.bazos.cz/img/1t/418/223351418.jpg?t=1788428383",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x Sportline, 360K, Tepelné č.,195kW Odpočet",
-        "cena": "865 957 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223232472/skoda-enyaq-80x-sportline-360k-tepelne-c195kw-odpocet.php",
-        "obrazek": "https://www.bazos.cz/img/1t/472/223232472.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x Sportline 4x4, 195 kW / Tažné / Tepelko /",
-        "cena": "1 153 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223225625/skoda-enyaq-80x-sportline-4x4-195-kw-tazne-tepelko.php",
-        "obrazek": "https://www.bazos.cz/img/1t/625/223225625.jpg?t=1788340576",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda enyaq 80 iV 150kw 2022 3,8me 92,5%",
-        "cena": "730 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223008601/skoda-enyaq-80-iv-150kw-2022-38me-925.php",
-        "obrazek": "https://www.bazos.cz/img/1t/601/223008601.jpg?t=1787677508",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq RS 82 kWh 250 kW 4x4 – nový vůz",
-        "cena": "1 144 310 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222948558/skoda-enyaq-rs-82-kwh-250-kw-4x4-novy-vuz.php",
-        "obrazek": "https://www.bazos.cz/img/1t/558/222948558.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 85x (82 kWh) 210 kW Sportline Advanced",
-        "cena": "1 210 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222545826/skoda-enyaq-85x-82-kwh-210-kw-sportline-advanced.php",
-        "obrazek": "https://www.bazos.cz/img/1t/826/222545826.jpg?t=1786949007",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDi DSG 85 kW r.v.2021/9 SPORTLINE ČR DPH",
-        "cena": "429 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223220897/skoda-karoq-20-tdi-dsg-85-kw-rv20219-sportline-cr-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/897/223220897.jpg?t=1788164443",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 60, Matrix, TC,ad.tempomat",
-        "cena": "488 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223371083/skoda-enyaq-60-matrix-tcadtempomat.php",
-        "obrazek": "https://www.bazos.cz/img/1t/083/223371083.jpg?t=1788549199",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Sportline IV60 132kw full asistenti matrix tažné",
-        "cena": "559 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223147492/skoda-enyaq-sportline-iv60-132kw-full-asistenti-matrix-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/492/223147492.jpg?t=1787999865",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq, 2.0TDi SportLine MAX Výbava",
-        "cena": "745 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223391005/skoda-karoq-20tdi-sportline-max-vybava.php",
-        "obrazek": "https://www.bazos.cz/img/1t/005/223391005.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 2.0 TDI 85 kW | 1. MAJITEĽ | 2 ROKY ZARUKA",
-        "cena": "655 128 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223355076/skoda-karoq-20-tdi-85-kw-1-majitel-2-roky-zaruka.php",
-        "obrazek": "https://www.bazos.cz/img/1t/076/223355076.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA ENYAQ RS 4x4 CUPE IV 80 220KW 2023 82tkm",
-        "cena": "759 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223179883/skoda-enyaq-rs-4x4-cupe-iv-80-220kw-2023-82tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/883/223179883.jpg?t=1788519715",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SPORTLINE 1.5 TSI 110kw DSG/KAMERA/VIRTUAL",
-        "cena": "559 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222784122/skoda-karoq-sportline-15-tsi-110kw-dsgkameravirtual.php",
-        "obrazek": "https://www.bazos.cz/img/1t/122/222784122.jpg?t=1788355893",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW 59tkm SOH 96,3% - záruka Autodraft",
-        "cena": "785 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222767955/skoda-enyaq-iv-80-150kw-59tkm-soh-963-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/955/222767955.jpg?t=1787169758",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Karoq 2019",
-        "cena": "590 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223345583/karoq-2019.php",
-        "obrazek": "https://www.bazos.cz/img/1t/583/223345583.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 1.5TSI 110kW DSG Kamera Led Matrix",
-        "cena": "469 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222429931/skoda-karoq-sportline-15tsi-110kw-dsg-kamera-led-matrix.php",
-        "obrazek": "https://www.bazos.cz/img/1t/931/222429931.jpg?t=1786448357",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW Kamera DPH Cebia",
-        "cena": "579 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223119436/skoda-enyaq-iv-80-150kw-kamera-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/436/223119436.jpg?t=1788446757",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0TDI DSG TOP STAV",
-        "cena": "456 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223388846/skoda-karoq-20tdi-dsg-top-stav.php",
-        "obrazek": "https://www.bazos.cz/img/1t/846/223388846.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA ENYAQ 60 132KW",
-        "cena": "435 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222280084/skoda-enyaq-60-132kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/084/222280084.jpg?t=1786128711",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda enyaq 80 eco suite 150kw 2023 3.8me záruka",
-        "cena": "800 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223009057/skoda-enyaq-80-eco-suite-150kw-2023-38me-zaruka.php",
-        "obrazek": "https://www.bazos.cz/img/1t/057/223009057.jpg?t=1787678370",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSi 110KW Style Plus DSG",
-        "cena": "499 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223407619/skoda-karoq-15-tsi-110kw-style-plus-dsg.php",
-        "obrazek": "https://www.bazos.cz/img/1t/619/223407619.jpg?t=1788549623",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV,COUPE VRS 85 250/82 E1A",
-        "cena": "1 299 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223003978/skoda-enyaq-ivcoupe-vrs-85-25082-e1a.php",
-        "obrazek": "https://www.bazos.cz/img/1t/978/223003978.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Skoda karoq Diesel   1,9",
-        "cena": "479 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223398920/skoda-karoq-diesel-19.php",
-        "obrazek": "https://www.bazos.cz/img/1t/920/223398920.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Karoq 2.0TDI, rok 2023, DSG, NAVI, driving mode",
-        "cena": "439 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221618733/karoq-20tdi-rok-2023-dsg-navi-driving-mode.php",
-        "obrazek": "https://www.bazos.cz/img/1t/733/221618733.jpg?t=1788000659",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Coupé iV 60 Loft",
-        "cena": "473 259 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223151101/skoda-enyaq-coupe-iv-60-loft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/101/223151101.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSi DSG r.v.2024 TAŽNÉ 1.maj",
-        "cena": "469 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223353699/skoda-karoq-15tsi-dsg-rv2024-tazne-1maj.php",
-        "obrazek": "https://www.bazos.cz/img/1t/699/223353699.jpg",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSI 110kw DSG SPORTLINE,Matrix,360°,Pano,2023",
-        "cena": "565 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222603761/skoda-karoq-15tsi-110kw-dsg-sportlinematrix360pano2023.php",
-        "obrazek": "https://www.bazos.cz/img/1t/761/222603761.jpg?t=1788118215",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 150 kW Sportline | Matrix LED | Tažné | NEHAV",
-        "cena": "728 800 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222677603/skoda-enyaq-80-150-kw-sportline-matrix-led-tazne-nehav.php",
-        "obrazek": "https://www.bazos.cz/img/1t/603/222677603.jpg?t=1787051629",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Coupé, RS 220kW, 4x4, plná historie, DPH",
-        "cena": "834 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223108536/skoda-enyaq-coupe-rs-220kw-4x4-plna-historie-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/536/223108536.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sport Line 2021 PANORAMA KAMERA",
-        "cena": "499 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222636025/skoda-karoq-sport-line-2021-panorama-kamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/025/222636025.jpg?t=1787430363",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 60 132kW / Luxusní ecoSuite / Tažné zařízení",
-        "cena": "827 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222549156/skoda-enyaq-iv-60-132kw-luxusni-ecosuite-tazne-zarizeni.php",
-        "obrazek": "https://www.bazos.cz/img/1t/156/222549156.jpg?t=1786709642",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80x 195kW 4x4 SOH 93,1% - záruka Autodraft",
-        "cena": "846 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222801871/skoda-enyaq-iv-80x-195kw-4x4-soh-931-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/871/222801871.jpg?t=1787253239",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Prodej Škoda Enyaq 60 TOP STAV",
-        "cena": "545 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221186100/prodej-skoda-enyaq-60-top-stav.php",
-        "obrazek": "https://www.bazos.cz/img/1t/100/221186100.jpg?t=1788080712",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE 2.0TSI/2019/140KW/4X4/WEBASTO/78TKM",
-        "cena": "599 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223304265/skoda-karoq-sportline-20tsi2019140kw4x4webasto78tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/265/223304265.jpg?t=1788332318",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA ENYAQ iV 80 | 150 kW | 2022 | 90 000 km | SOH 93,8%",
-        "cena": "679 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222928121/skoda-enyaq-iv-80-150-kw-2022-90-000-km.php",
-        "obrazek": "https://www.bazos.cz/img/1t/121/222928121.jpg?t=1788245966",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq STYLE 1.0 TSI, 6 stupň. manuál",
-        "cena": "325 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223333686/skoda-karoq-style-10-tsi-6-stupn-manual.php",
-        "obrazek": "https://www.bazos.cz/img/1t/686/223333686.jpg?t=1788386247",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq, 1,0 TSI r.v.2018 (85 KW) STK-8/2028",
-        "cena": "329 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223386687/skoda-karoq-10-tsi-rv2018-85-kw-stk-82028.php",
-        "obrazek": "https://www.bazos.cz/img/1t/687/223386687.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 1.5TSi 110kW DSG Matrix ACC NAVI TAŽNÉ",
-        "cena": "885 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223142849/skoda-karoq-sportline-15tsi-110kw-dsg-matrix-acc-navi-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/849/223142849.jpg?t=1788123391",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Karoq 1.5TSI STYLE PLUS TOP STAV",
-        "cena": "489 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223401672/karoq-15tsi-style-plus-top-stav.php",
-        "obrazek": "https://www.bazos.cz/img/1t/672/223401672.jpg?t=1788541343",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 SoH 92%",
-        "cena": "590 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222994543/skoda-enyaq-80-soh-92.php",
-        "obrazek": "https://www.bazos.cz/img/1t/543/222994543.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
         "model": "Škoda Karoq (FL) SPORTLINE 2.0 TDI 110kw DSG 4x4 m2023",
         "cena": "574 999 Kč",
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/223007540/skoda-karoq-fl-sportline-20-tdi-110kw-dsg-4x4-m2023.php",
         "obrazek": "https://www.bazos.cz/img/1t/540/223007540.jpg?t=1788079908",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80x SPORTLINE 195 kW 4×4 - záruka Autodraft",
-        "cena": "961 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222153093/skoda-enyaq-iv-80x-sportline-195-kw-44-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/093/222153093.jpg?t=1785855212",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 110kW STYLE 4x4 DSG 1MAJITEL BOHATÁ VÝBAVA DPH",
-        "cena": "359 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223275909/skoda-karoq-110kw-style-4x4-dsg-1majitel-bohata-vybava-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/909/223275909.jpg?t=1788344293",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDi 110 kW DSG 4x4 1.MAJITEL r.v. 2022 DPH",
-        "cena": "565 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223394251/skoda-karoq-20-tdi-110-kw-dsg-4x4-1majitel-rv-2022-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/251/223394251.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda ENYAQ iV 60 MATRIX KAMERA TEPELKO SoH 90,2%",
-        "cena": "479 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222242655/skoda-enyaq-iv-60-matrix-kamera-tepelko-soh-902.php",
-        "obrazek": "https://www.bazos.cz/img/1t/655/222242655.jpg?t=1787936256",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDI 4x4 DSG Sport line",
-        "cena": "460 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223055106/skoda-karoq-20-tdi-4x4-dsg-sport-line.php",
-        "obrazek": "https://www.bazos.cz/img/1t/106/223055106.jpg?t=1788529375",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSI 110kW DSG Kam360° Tažné - Zálohováno",
-        "cena": "498 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223113092/skoda-karoq-15tsi-110kw-dsg-kam360-tz-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/092/223113092.jpg?t=1788504298",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 1.6TDI 85KW /VIRTUÁL/KESSY/LED/",
-        "cena": "359 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223114703/skoda-karoq-16tdi-85kw-virtualkessyled.php",
-        "obrazek": "https://www.bazos.cz/img/1t/703/223114703.jpg?t=1787930853",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SPORTLINE MY2023 ZÁRUKA DCC MATRIX",
-        "cena": "579 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222928580/skoda-karoq-sportline-my2023-zaruka-dcc-matrix.php",
-        "obrazek": "https://www.bazos.cz/img/1t/580/222928580.jpg?t=1787522082",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 1.5TSi 150 PS DSG PANO EL.KUFR TAŽNÉ",
-        "cena": "925 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223382717/skoda-karoq-sportline-15tsi-150-ps-dsg-pano-elkufr-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/717/223382717.jpg?t=1788505824",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 150KW 2022",
-        "cena": "625 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221762834/skoda-enyaq-80-150kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/834/221762834.jpg?t=1788288193",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Prodáme Škoda Karoq 1,5 TSI STYLE DPH 1maj původČR",
-        "cena": "499 800 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223342947/prodame-skoda-karoq-15-tsi-style-dph-1maj-puvodcr.php",
-        "obrazek": "https://www.bazos.cz/img/1t/947/223342947.jpg",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SPORTLINE ZÁRUKA 105 TKM PANORAMA TAŽNÉ",
-        "cena": "529 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222928492/skoda-karoq-sportline-zaruka-105-tkm-panorama-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/492/222928492.jpg?t=1787522108",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.0 TSI 85kw DSG STYLE",
-        "cena": "270 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223220260/skoda-karoq-10-tsi-85kw-dsg-style.php",
-        "obrazek": "https://www.bazos.cz/img/1t/260/223220260.jpg?t=1788162382",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "🚘 ŠKODA KAROQ 2.0 TDI 110 kW | MODEL 2021 | DRIVE 125 YEARS",
-        "cena": "369 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223252830/skoda-karoq-20-tdi-110-kw-model-2021-drive-125-years.php",
-        "obrazek": "https://www.bazos.cz/img/1t/830/223252830.jpg?t=1788457073",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x Sportline Pano Navi Matrix 360K Tepelné č.",
-        "cena": "902 407 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223325945/skoda-enyaq-80x-sportline-pano-navi-matrix-360k-tepelne-c.php",
-        "obrazek": "https://www.bazos.cz/img/1t/945/223325945.jpg?t=1788366930",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE 1.5TSI 110KW VÝHŘEV ADAPTIV 2023",
-        "cena": "559 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223125889/skoda-karoq-sportline-15tsi-110kw-vyhrev-adaptiv-2023.php",
-        "obrazek": "https://www.bazos.cz/img/1t/889/223125889.jpg?t=1788354963",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0TDi DSG 4x4 Sportline LED Matrix",
-        "cena": "638 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223394281/skoda-karoq-20tdi-dsg-4x4-sportline-led-matrix.php",
-        "obrazek": "https://www.bazos.cz/img/1t/281/223394281.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq, 2.0 TDI 85 kW Style",
-        "cena": "419 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223356898/skoda-karoq-20-tdi-85-kw-style.php",
-        "obrazek": "https://www.bazos.cz/img/1t/898/223356898.jpg?t=1788438758",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80x Sportline Tažné Tepelné č ACC Pano Matrix",
-        "cena": "936 184 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223357073/skoda-enyaq-iv-80x-sportline-tazne-tepelne-c-acc-pano-matrix.php",
-        "obrazek": "https://www.bazos.cz/img/1t/073/223357073.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 1.5 TSI 2022",
-        "cena": "468 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222848155/skoda-karoq-sportline-15-tsi-2022.php",
-        "obrazek": "https://www.bazos.cz/img/1t/155/222848155.jpg?t=1787467453",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW Tepelko SOH 95,9% - záruka Autodraft",
-        "cena": "842 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222769589/skoda-enyaq-iv-80-150kw-tepelko-soh-959-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/589/222769589.jpg?t=1787169697",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 1.5 TSI 110 Kw, DSG,DPH,1.maj,Virtual",
-        "cena": "519 700 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222788503/skoda-karoq-sportline-15-tsi-110-kw-dsgdph1majvirtual.php",
-        "obrazek": "https://www.bazos.cz/img/1t/503/222788503.jpg?t=1787759326",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq TSi 4x4 SPORTLINE MATRIX WEBASTO TAŽNÉ MY24",
-        "cena": "669 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223357294/skoda-karoq-tsi-4x4-sportline-matrix-webasto-tazne-my24.php",
-        "obrazek": "https://www.bazos.cz/img/1t/294/223357294.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV80 MAX VÝBAVA FIRST EDITION + DPH",
-        "cena": "537 107 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222374544/skoda-enyaq-iv80-max-vybava-first-edition-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/544/222374544.jpg?t=1788336553",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 2.0 TDI 110KW 4x4 FULLLED NAV FRONT OPCPARK",
-        "cena": "379 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223392364/skoda-karoq-20-tdi-110kw-4x4-fullled-nav-front-opcpark.php",
-        "obrazek": "https://www.bazos.cz/img/1t/364/223392364.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW SOH 97,4% 41tkm - záruka Autodraft",
-        "cena": "855 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222792613/skoda-enyaq-iv-80-150kw-soh-974-41tkm-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/613/222792613.jpg?t=1787253077",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA ENYAQ iV 80 MATRIX 360° KAMERY Head Up",
-        "cena": "564 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223174831/skoda-enyaq-iv-80-matrix-360-kamery-head-up.php",
-        "obrazek": "https://www.bazos.cz/img/1t/831/223174831.jpg?t=1788387304",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq, 1,6Tdi/85kw, style, DSG, odpočet DPH,",
-        "cena": "395 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222856066/skoda-karoq-16tdi85kw-style-dsg-odpocet-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/066/222856066.jpg?t=1788351892",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 2,0TDi 85kW STYLE KAMERA,TAŽNÉ,VYHŘ. VOLANT,2022",
-        "cena": "469 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222509552/skoda-karoq-20tdi-85kw-style-kamerataznevyhr-volant2022.php",
-        "obrazek": "https://www.bazos.cz/img/1t/552/222509552.jpg?t=1787566614",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Enyaq iV, Travel Assist / Ak.Skla / Kamera / Keyless",
-        "cena": "629 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223219335/enyaq-iv-travelassit-akskla-kamera-keyless.php",
-        "obrazek": "https://www.bazos.cz/img/1t/335/223219335.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA Karoq, 1.5 TSi, r.v. 2023, DSG, LED",
-        "cena": "538 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222718800/skoda-karoq-15-tsi-rv-2023-dsg-led.php",
-        "obrazek": "https://www.bazos.cz/img/1t/800/222718800.jpg?t=1788449989",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 1.5 TSI 110kw",
-        "cena": "548 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223405831/skoda-karoq-15-tsi-110kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/831/223405831.jpg?t=1788544257",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA Enyaq 80 Lounge 150 kw",
-        "cena": "800 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223030771/skoda-enyaq-80-lounge-150-kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/771/223030771.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Coupe RS 220kw 4x4 SoH 93%",
-        "cena": "650 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223175454/skoda-enyaq-cupe-rs-220kw-4x4-soh-93.php",
-        "obrazek": "https://www.bazos.cz/img/1t/454/223175454.jpg?t=1788077309",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1,6 TDI, DSG, Style Assist DCC Navi, nová STK",
-        "cena": "420 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222909448/skoda-karoq-16-tdi-dsg-style-assist-dcc-navi.php",
-        "obrazek": "https://www.bazos.cz/img/1t/448/222909448.jpg?t=1788448696",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 60 132kW 44tkm SOH 95,7% - záruka Autodraft",
-        "cena": "690 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223113286/skoda-enyaq-iv-60-132kw-44tkm-soh-957-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/286/223113286.jpg?t=1787913221",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ Ambition 1,5 TSI 110 kW automat",
-        "cena": "399 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223196744/skoda-karoq-ambition-15-tsi-110-kw-automat.php",
-        "obrazek": "https://www.bazos.cz/img/1t/744/223196744.jpg?t=1788110415",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda KAROQ SPORTLINE MATRIX VIRTUAL 360° KAMERA TAŽNÉ 2023",
-        "cena": "499 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222633493/skoda-karoq-sportline-matrix-virtual-360-kamera-tazne-2023.php",
-        "obrazek": "https://www.bazos.cz/img/1t/493/222633493.jpg?t=1787422099",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq,  Škoda Enyaq Coupé L&K 85x 4x4",
-        "cena": "1 017 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222444257/skoda-enyaq-skoda-enyaq-coupe-lk-85x-4x4.php",
-        "obrazek": "https://www.bazos.cz/img/1t/257/222444257.jpg?t=1786474838",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.6 TDI Style  – CEBIA, SERVISKA",
-        "cena": "379 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222319133/karoq-16-tdi-top-vybava-po-1-majiteli.php",
-        "obrazek": "https://www.bazos.cz/img/1t/133/222319133.jpg?t=1788539150",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 - 1939",
-        "cena": "629 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223276132/skoda-enyaq-iv-80-1939.php",
-        "obrazek": "https://www.bazos.cz/img/1t/132/223276132.jpg?t=1788283390",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Sportline iV 60",
-        "cena": "750 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222805956/skoda-enyaq-sportline-iv-60.php",
-        "obrazek": "https://www.bazos.cz/img/1t/956/222805956.jpg?t=1787248940",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSI 110kW DSG DRIVE ČR NOVÉ",
-        "cena": "627 800 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223395636/skoda-karoq-15tsi-110kw-dsg-drive-cr-nove.php",
-        "obrazek": "https://www.bazos.cz/img/1t/636/223395636.jpg",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x 4x4 /Sportline 2023 / Výborný Stav",
-        "cena": "839 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222618249/skoda-enyaq-80x-sportline-2023-odpocet-top-stav.php",
-        "obrazek": "https://www.bazos.cz/img/1t/249/222618249.jpg?t=1788502586",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSI,110KW,2020,DSG,Style,TZ,1.maj.ČR,-21%DPH",
-        "cena": "390 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223359372/skoda-karoq-15tsi110kw2020dsgstyletz1majcr-21dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/372/223359372.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Prodám Enyaq Coupe RS 220 kW 4x4/P190AX",
-        "cena": "990 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222025724/prodam-enyaq-coupe-rs-220-kw-4x4p190ax.php",
-        "obrazek": "https://www.bazos.cz/img/1t/724/222025724.jpg?t=1785585149",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW / Velká baterie 82 kWh /",
-        "cena": "773 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222715985/skoda-enyaq-iv-80-150kw-velka-baterie-82-kwh.php",
-        "obrazek": "https://www.bazos.cz/img/1t/985/222715985.jpg?t=1787072070",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SportLine TDI DSG/VIRTUAL/DCC/KAMERA/145tkm",
-        "cena": "479 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223326210/skoda-karoq-sportline-tdi-dsgvirtualdcckamera145tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/210/223326210.jpg?t=1788367454",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Prodám Škoda karoq 16.tdi rok 2018",
-        "cena": "365 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223400540/prodam-skoda-karoq-16tdi-rok-2018.php",
-        "obrazek": "https://www.bazos.cz/img/1t/540/223400540.jpg?t=1788532296",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSi DSG, navigace, virtual cockpit, kamera",
-        "cena": "409 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223353810/skoda-karoq-15-tsi-dsg-navigace-virtual-cockpit-kamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/810/223353810.jpg",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq CLEVER 2.0TDI/110kW DSG 4x4 r.v.2022 jen 82tkm",
-        "cena": "519 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223344101/skoda-karoq-clever-20tdi110kw-dsg-4x4-rv2022-jen-82tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/101/223344101.jpg?t=1788417397",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda enyaq 80 iV 150kw 2022 3,8ME 93% soh",
-        "cena": "735 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223008488/skoda-enyaq-80-iv-150kw-2022-38me-93-soh.php",
-        "obrazek": "https://www.bazos.cz/img/1t/488/223008488.jpg?t=1787677299",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Skoda Škoda Enyaq 80 Lodge | HUD | Panorama | 360°",
-        "cena": "648 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222301468/skoda-skoda-enyaq-80-lodge-hud-panorama-360.php",
-        "obrazek": "https://www.bazos.cz/img/1t/468/222301468.jpg?t=1788374586",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq TDI 110kW 4x4 DSG Sportline - záruka Autodraft",
-        "cena": "720 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221633761/skoda-karoq-tdi-110kw-4x4-dsg-sportline-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/761/221633761.jpg?t=1785576490",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 - 1937",
-        "cena": "649 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223274939/skoda-enyaq-iv-80-1937.php",
-        "obrazek": "https://www.bazos.cz/img/1t/939/223274939.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80x 195kW Sportline 4x4 / Tažné zařízení /",
-        "cena": "943 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222552477/skoda-enyaq-iv-80x-195kw-sportline-4x4-tazne-zarizeni.php",
-        "obrazek": "https://www.bazos.cz/img/1t/477/222552477.jpg?t=1786721280",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq1,5 TSI SPORTLINE",
-        "cena": "869 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223360707/skoda-karoq15-tsi-sportline.php",
-        "obrazek": "https://www.bazos.cz/img/1t/707/223360707.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Prodám Škoda Enyaq RS",
-        "cena": "960 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223189625/prodam-skoda-enyaq.php",
-        "obrazek": "https://www.bazos.cz/img/1t/625/223189625.jpg?t=1788352908",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 EcoSuite 150 kW | 82 kWh | 360° | HUD | MA",
-        "cena": "797 500 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223226850/skoda-enyaq-iv-80-ecosuite-150-kw-82-kwh-360-hud-ma.php",
-        "obrazek": "https://www.bazos.cz/img/1t/850/223226850.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1,5 TSI DSG SPORTLINE",
-        "cena": "675 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223083301/skoda-karoq-15-tsi-dsg-sportline.php",
-        "obrazek": "https://www.bazos.cz/img/1t/301/223083301.jpg?t=1787834958",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSI 110kw DSG SPORTLINE,Webasto,Tažné,100tkm",
-        "cena": "589 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222928793/skoda-karoq-15tsi-110kw-dsg-sportlinewebastotazne100tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/793/222928793.jpg?t=1787526202",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "PRODÁNO Škoda Karoq Sport Line 2021 PANORAMA KAMERA",
-        "cena": "499 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222015067/skoda-karoq-sport-line-2021-panorama-kamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/067/222015067.jpg?t=1787430565",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80iV X,82kWh,4x4,195kW,Sportline,tažné,Tepelko",
-        "cena": "875 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223204259/skoda-enyaq-80iv-x82kwh4x4195kwsportlinetaznetepelko.php",
-        "obrazek": "https://www.bazos.cz/img/1t/259/223204259.jpg?t=1788266758",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSI 110kW DSG STYLE",
-        "cena": "334 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223379537/skoda-karoq-15-tsi-110kw-dsg-style.php",
-        "obrazek": "https://www.bazos.cz/img/1t/537/223379537.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Selection",
-        "cena": "904 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222835340/skoda-enyaq-selection.php",
-        "obrazek": "https://www.bazos.cz/img/1t/340/222835340.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2,0 TDI DSG 4x4 Sportline DPH (2022)",
-        "cena": "528 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223392840/skoda-karoq-20-tdi-dsg-4x4-sportline-dph-2022.php",
-        "obrazek": "https://www.bazos.cz/img/1t/840/223392840.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ZÁLOHOVÁNO ENYAQ SPORTLINE 80x SOH 93% MATRIX HUD AMBIENT",
-        "cena": "749 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223355232/skoda-enyaq-sportline-85x-soh-93-matrix-hud-ambient.php",
-        "obrazek": "https://www.bazos.cz/img/1t/232/223355232.jpg?t=1788542223",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 60 kWh",
-        "cena": "439 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222852506/skoda-enyaq-iv-60-kwh.php",
-        "obrazek": "https://www.bazos.cz/img/1t/506/222852506.jpg?t=1787350657",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDi 110kw 4x4 DSG Style+ 1. majitel",
-        "cena": "659 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223104031/skoda-karoq-20-tdi-110kw-4x4-dsg-style-1-majitel.php",
-        "obrazek": "https://www.bazos.cz/img/1t/031/223104031.jpg?t=1787898998",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80x 4x4 Sportline 195 kW / Tepelko / Tažné",
-        "cena": "996 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223226618/skoda-enyaq-80x-4x4-sportline-195-kw-tepelko-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/618/223226618.jpg?t=1788340491",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda ENYAQ iV 80 SPORTLINE MATRIX 360° KAMERA TAŽNÉ",
-        "cena": "699 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222241843/skoda-enyaq-iv-80-sportline-matrix-360-kamera-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/843/222241843.jpg?t=1786173865",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda ENYAQ iV 60 MATRIX KAMERA TEPELKO KŮŽE SoH 91,7%",
-        "cena": "499 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221598233/skoda-enyaq-iv-60-matrix-kamera-tepelko-kuze-soh-917.php",
-        "obrazek": "https://www.bazos.cz/img/1t/233/221598233.jpg?t=1785247446",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV / 82kWh / SoH 96.7/ DPH",
-        "cena": "885 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223268340/skoda-enyaq-iv-electric-82kwh-150kw-52023.php",
-        "obrazek": "https://www.bazos.cz/img/1t/340/223268340.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE 2.0 TDI 110 KW 4x4 2023 MATRIX VIRTUAL",
-        "cena": "599 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222883010/skoda-karoq-sportline-20-tdi-4x4-dsg-matrix-virtual-cockpit.php",
-        "obrazek": "https://www.bazos.cz/img/1t/010/222883010.jpg?t=1788364477",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ STYLE 2.0 TDI 110 kW | NAVIGACE | TAŽNÉ | ČR | S",
-        "cena": "289 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222842819/skoda-karoq-style-20-tdi-110-kw-navigace-tazne-cr-s.php",
-        "obrazek": "https://www.bazos.cz/img/1t/819/222842819.jpg?t=1787726989",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "🚗 ŠKODA KAROQ TDI 85 kW AMBITION PLUS | 82 000 KM | CZ",
-        "cena": "385 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222091972/skoda-karoq-16-tdi-85kw-najeto-79tis-full-led-koupene-v-cr.php",
-        "obrazek": "https://www.bazos.cz/img/1t/972/222091972.jpg?t=1788499480",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE DSG 2023 | MATRIX | VIRTUAL 115TKM",
-        "cena": "569 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223133280/skoda-karoq-sportline-dsg-2023-matrix-virtual-115tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/280/223133280.jpg?t=1788338424",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Skoda Enyaq 60, TC, SOH:89%, Matrix, tazne",
-        "cena": "468 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223406252/skoda-enyaq-60-tc-soh89-matrix-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/252/223406252.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDI SCR 190 Sportline 4x4 DSG",
-        "cena": "521 453 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223373220/skoda-karoq-20-tdi-scr-190-sportline-4x4-dsg.php",
-        "obrazek": "https://www.bazos.cz/img/1t/220/223373220.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Skoda Enyaq 80, SOH 92%, tazne, DPH",
-        "cena": "508 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222562694/skoda-enyaq-80-soh-92-tazne-dph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/694/222562694.jpg?t=1787742583",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSi /DSG/Style/Fulled/Kamera/Tažný/150Tkm",
-        "cena": "399 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223401221/skoda-karoq-15-tsi-dsgstylefulledkameratazny150tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/221/223401221.jpg?t=1788533793",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ZÁLOHOVÁNO ENYAQ IV80 2022 SOH 93% MATRIX KESSY AMBIENT",
-        "cena": "579 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223354941/skoda-enyaq-iv80-2022-soh-93-matrix-kessy-ambient.php",
-        "obrazek": "https://www.bazos.cz/img/1t/941/223354941.jpg?t=1788542025",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq (FL) 1.5 TSI SPORTLINE DSG 2022",
-        "cena": "509 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221036168/skoda-karoq-15-tsi-dsg-sportline-110kw-2021.php",
-        "obrazek": "https://www.bazos.cz/img/1t/168/221036168.jpg?t=1788077547",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDI 85kW DSG / Facelift - záruka Autodraft",
-        "cena": "409 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223302646/skoda-karoq-20-tdi-85kw-dsg-full-led-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/646/223302646.jpg?t=1788460493",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1,6Tdi,85kW,7st.DSG",
-        "cena": "349 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223074144/skoda-karoq-16tdi85kw7stdsg.php",
-        "obrazek": "https://www.bazos.cz/img/1t/144/223074144.jpg?t=1788430706",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ Style 1,0 TSI 81 kW",
-        "cena": "560 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223304422/skoda-karoq-style-10-tsi-81-kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/422/223304422.jpg?t=1788338297",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5 TSI 110 kW DSG, 2021,178tkm TOP Výbava",
-        "cena": "419 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223367076/skoda-karoq-15-tsi-110-kw-dsg-2021178tkm-top-vybava.php",
-        "obrazek": "https://www.bazos.cz/img/1t/076/223367076.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 1.0 TSI 85 kW LED klima ČR 136tkm 1.majitel STK",
-        "cena": "339 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223400460/skoda-karoq-10-tsi-85-kw-led-klima-cr-136tkm-1majitel-stk.php",
-        "obrazek": "https://www.bazos.cz/img/1t/460/223400460.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq TSi DSG SPORTLINE MATRIX VIRTUAL KAMERA TAŽNÉ",
-        "cena": "595 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221010630/skoda-karoq-tsi-dsg-sportline-matrix-virtual-panorama-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/630/221010630.jpg?t=1786708129",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SportLine 1,6TDi 85kw ČR",
-        "cena": "339 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222524535/skoda-karoq-sportline-16tdi-85kw-cr.php",
-        "obrazek": "https://www.bazos.cz/img/1t/535/222524535.jpg?t=1787684281",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 60 132kW Tepelko SOH 94,7% - záruka Autodraft",
-        "cena": "699 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222769424/skoda-enyaq-iv-60-132kw-tepelko-soh-947-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/424/222769424.jpg?t=1787169792",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SPORTLINE 2021 KŮŽE PANORAMA",
-        "cena": "475 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222219904/skoda-karoq-sportline-2021-kuze-panorama.php",
-        "obrazek": "https://www.bazos.cz/img/1t/904/222219904.jpg?t=1787430478",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE 1.5TSI 110KW VÝHŘ. SKLO 104tkm",
-        "cena": "479 990 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223366253/skoda-karoq-sportline-15tsi-110kw-vyhr-sklo-104tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/253/223366253.jpg?t=1788537047",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq RS 4x4 82 ČR ZÁRUKA 1 MAJITEL",
-        "cena": "1 349 150 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221363473/skoda-enyaq-rs-4x4-82-cr-zaruka-1-majitel.php",
-        "obrazek": "https://www.bazos.cz/img/1t/473/221363473.jpg?t=1787478226",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 150kW LED Matrix Assist",
-        "cena": "668 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223235416/skoda-enyaq-80-150kw-led-matrix-assist.php",
-        "obrazek": "https://www.bazos.cz/img/1t/416/223235416.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA Karoq Facelift 1.5TSi 110KW 2024 Ambition Plus ZÁRUKA",
-        "cena": "548 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222768951/skoda-karoq-facelift-15tsi-110kw-2024-ambition-plus-zaruka.php",
-        "obrazek": "https://www.bazos.cz/img/1t/951/222768951.jpg?t=1788178686",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq SPORTLINE 2.0 TSI 4x4 MATRIX 360 TAŽNÉ DCC",
-        "cena": "619 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222016824/skoda-karoq-sportline-20-tsi-4x4-matrix-360-tazne-dcc.php",
-        "obrazek": "https://www.bazos.cz/img/1t/824/222016824.jpg?t=1787432390",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq 80 Sportline Matrix Head UP, Odpočet",
-        "cena": "849 564 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223276441/skoda-enyaq-80-sportline-matrix-head-up-odpocet.php",
-        "obrazek": "https://www.bazos.cz/img/1t/441/223276441.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 60 132 kW – 62 kWh – TOP VÝBAVA – Cebia",
-        "cena": "485 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223136236/skoda-enyaq-iv-60-132-kw-62-kwh-top-vybava-cebia.php",
-        "obrazek": "https://www.bazos.cz/img/1t/236/223136236.jpg?t=1787985273",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SOLEIL 1,5 150PS 1 MAJITEL TOP STAV",
-        "cena": "437 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222545547/skoda-karoq-soleil-15-150ps-1-majitel-top-stav.php",
-        "obrazek": "https://www.bazos.cz/img/1t/547/222545547.jpg?t=1788360465",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq Sportline iV 80x 4×4 195kW - záruka Autodraft",
-        "cena": "941 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/221956780/skoda-enyaq-sportline-iv-80x-44-195kw-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/780/221956780.jpg?t=1785581426",
         "dokonale_auto": false
     },
     {
@@ -1711,29 +19,380 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0Tdi 110kw 4x4 DSG",
-        "cena": "330 000 Kč",
+        "model": "ŠKODA KAROQ FL SPORTLINE 2.0TDI/2022/110KW/DCC/4X4/88TKM/DPH",
+        "cena": "619 999 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223105782/skoda-karoq-20tdi-110kw-4x4-dsg.php",
-        "obrazek": "https://www.bazos.cz/img/1t/782/223105782.jpg?t=1788070611",
+        "odkaz": "https://auto.bazos.cz/inzerat/223304534/skoda-karoq-fl-sportline-20tdi2022110kwdcc4x488tkmdph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/534/223304534.jpg?t=1788332234",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq (FL) Sportline 2.0 TDI 110kw ACC/VIRTUAL/KAMERA",
-        "cena": "429 999 Kč",
+        "model": "Škoda Karoq 1.5TSI 110kw/50tis.km/DSG/Záruka",
+        "cena": "599 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222841540/skoda-karoq-fl-sportline-20-tdi-110kw-2022.php",
-        "obrazek": "https://www.bazos.cz/img/1t/540/222841540.jpg?t=1788377273",
+        "odkaz": "https://auto.bazos.cz/inzerat/223085396/skoda-karoq-15tsi-110kw50tiskmdsgzaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/396/223085396.jpg?t=1787838744",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0 TDI 85 kW Style",
+        "cena": "419 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223356898/skoda-karoq-20-tdi-85-kw-style.php",
+        "obrazek": "https://www.bazos.cz/img/1t/898/223356898.jpg?t=1788438758",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq 80iV 82kWH,150kW,LED,,1.maj,ACC,Nezávislá klima",
-        "cena": "639 000 Kč",
+        "model": "Škoda Karoq Sportline 2.0 TDI 110kW 4x4 DSG / Tažné / Matrix",
+        "cena": "632 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223204235/skoda-enyaq-80iv-82kwh150kwled1majaccnezavisla-klima.php",
-        "obrazek": "https://www.bazos.cz/img/1t/235/223204235.jpg?t=1788266738",
+        "odkaz": "https://auto.bazos.cz/inzerat/223394132/skoda-karoq-sportline-20-tdi-110kw-4x4-dsg-tazne-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/132/223394132.jpg?t=1788542275",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 150 kW Sportline | Matrix LED | Tažné | NEHAV",
+        "cena": "728 800 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222677603/skoda-enyaq-80-150-kw-sportline-matrix-led-tazne-nehav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/603/222677603.jpg?t=1787051629",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Skoda Enyaq Rs rv 2022  220kw najeto 24800",
+        "cena": "899 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222632506/enyaq-rs-rv-2022-220kw-najeto-24800.php",
+        "obrazek": "https://www.bazos.cz/img/1t/506/222632506.jpg?t=1786904942",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW / Velká baterie 82 kWh /",
+        "cena": "773 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222715985/skoda-enyaq-iv-80-150kw-velka-baterie-82-kwh.php",
+        "obrazek": "https://www.bazos.cz/img/1t/985/222715985.jpg?t=1787072070",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE FL 1.5 TSI 110kw DSG /MATRIX/360/ACC/",
+        "cena": "499 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223145247/skoda-karoq-sportline-fl-15-tsi-110kw-dsg-matrix360acc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/247/223145247.jpg?t=1788431912",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI 110kW DSG Kam360° Tažné - Zálohováno",
+        "cena": "498 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223113092/skoda-karoq-15tsi-110kw-dsg-kam360-tz-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/092/223113092.jpg?t=1788504298",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI SCR 190 Sportline 4x4 DSG",
+        "cena": "521 453 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223373220/skoda-karoq-20-tdi-scr-190-sportline-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/220/223373220.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq (FL) 1.5 TSI SPORTLINE DSG 2022",
+        "cena": "509 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221036168/skoda-karoq-15-tsi-dsg-sportline-110kw-2021.php",
+        "obrazek": "https://www.bazos.cz/img/1t/168/221036168.jpg?t=1788077547",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI 110kw DSG SPORTLINE,Matrix,Tažné,2023",
+        "cena": "569 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222771237/skoda-karoq-15tsi-110kw-dsg-sportlinematrixtazne2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/237/222771237.jpg?t=1787202326",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA ENYAQ 60 132KW",
+        "cena": "435 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222280084/skoda-enyaq-60-132kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/084/222280084.jpg?t=1786128711",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA ENYAQ RS 4x4 CUPE IV 80 220KW 2023 82tkm",
+        "cena": "759 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223179883/skoda-enyaq-rs-4x4-cupe-iv-80-220kw-2023-82tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/883/223179883.jpg?t=1788519715",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 1.5TSI STYLE PLUS TOP STAV",
+        "cena": "489 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223401672/karoq-15tsi-style-plus-top-stav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/672/223401672.jpg?t=1788541343",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE 1.5TSI 110KW VÝHŘ. SKLO 104tkm",
+        "cena": "479 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223366253/skoda-karoq-sportline-15tsi-110kw-vyhr-sklo-104tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/253/223366253.jpg?t=1788537047",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.0 TSI 85kw DSG STYLE",
+        "cena": "270 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223220260/skoda-karoq-10-tsi-85kw-dsg-style.php",
+        "obrazek": "https://www.bazos.cz/img/1t/260/223220260.jpg?t=1788162382",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "🚗 ŠKODA KAROQ TDI 85 kW AMBITION PLUS | 82 000 KM | CZ",
+        "cena": "385 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222091972/skoda-karoq-16-tdi-85kw-najeto-79tis-full-led-koupene-v-cr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/972/222091972.jpg?t=1788499480",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq TSi DSG SPORTLINE MATRIX VIRTUAL KAMERA TAŽNÉ",
+        "cena": "595 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221010630/skoda-karoq-tsi-dsg-sportline-matrix-virtual-panorama-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/630/221010630.jpg?t=1786708129",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Style Plus 1.5 TSI 110Kw /DSG/kamera/Odpočet",
+        "cena": "559 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222954842/skoda-karoq-style-15-tsi-110kw-dsgkamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/842/222954842.jpg?t=1788269512",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Facelift 2023 1.5 TSI Evo 2 Alcantara Kamera TOP",
+        "cena": "449 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223277263/skoda-karoq-facelift-2023-15-tsi-evo-2-alcantara-kamera-top.php",
+        "obrazek": "https://www.bazos.cz/img/1t/263/223277263.jpg?t=1788496883",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2.0 TDI 110KW 4x4 FULLLED NAV FRONT OPCPARK",
+        "cena": "379 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223392364/skoda-karoq-20-tdi-110kw-4x4-fullled-nav-front-opcpark.php",
+        "obrazek": "https://www.bazos.cz/img/1t/364/223392364.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 82 kWh 195kW 4x4 Sportline / Tepelko / Tažné",
+        "cena": "928 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222270137/skoda-enyaq-iv-82-kwh-195kw-4x4-sportline-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/137/222270137.jpg?t=1786108250",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA Enyaq 80 Lounge 150 kw",
+        "cena": "800 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223030771/skoda-enyaq-80-lounge-150-kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/771/223030771.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Sportline iV 60",
+        "cena": "750 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222805956/skoda-enyaq-sportline-iv-60.php",
+        "obrazek": "https://www.bazos.cz/img/1t/956/222805956.jpg?t=1787248940",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ Ambition 1,5 TSI 110 kW automat",
+        "cena": "399 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223196744/skoda-karoq-ambition-15-tsi-110-kw-automat.php",
+        "obrazek": "https://www.bazos.cz/img/1t/744/223196744.jpg?t=1788110415",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW Kamera DPH Cebia",
+        "cena": "579 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223119436/skoda-enyaq-iv-80-150kw-kamera-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/436/223119436.jpg?t=1788446757",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI 110 kW DSG, 2021,178tkm TOP Výbava",
+        "cena": "419 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223367076/skoda-karoq-15-tsi-110-kw-dsg-2021178tkm-top-vybava.php",
+        "obrazek": "https://www.bazos.cz/img/1t/076/223367076.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SportLine 1,6TDi 85kw ČR",
+        "cena": "339 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222524535/skoda-karoq-sportline-16tdi-85kw-cr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/535/222524535.jpg?t=1787684281",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE 2.0TSI/2019/140KW/4X4/WEBASTO/78TKM",
+        "cena": "599 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223304265/skoda-karoq-sportline-20tsi2019140kw4x4webasto78tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/265/223304265.jpg?t=1788332318",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SPORTLINE 1.5 TSI 110kw DSG/KAMERA/VIRTUAL",
+        "cena": "559 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222784122/skoda-karoq-sportline-15-tsi-110kw-dsgkameravirtual.php",
+        "obrazek": "https://www.bazos.cz/img/1t/122/222784122.jpg?t=1788355893",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,6Tdi,85kW,7st.DSG",
+        "cena": "349 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223074144/skoda-karoq-16tdi85kw7stdsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/144/223074144.jpg?t=1788430706",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TSI 140kw 4x4 SPORTLINE,Webasto,Virtual,2024",
+        "cena": "609 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223128954/skoda-karoq-20tsi-140kw-4x4-sportline-flwebastotazne2024.php",
+        "obrazek": "https://www.bazos.cz/img/1t/954/223128954.jpg?t=1788072111",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 60, Matrix, TC,ad.tempomat",
+        "cena": "488 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223371083/skoda-enyaq-60-matrix-tcadtempomat.php",
+        "obrazek": "https://www.bazos.cz/img/1t/083/223371083.jpg?t=1788549199",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5Tsi 110kw,DSG,F1,STYLE,naj.47tis.km,virtual",
+        "cena": "589 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222710245/skoda-karoq-15tsi-110kwdsgf1vybava-stylevirtualled.php",
+        "obrazek": "https://www.bazos.cz/img/1t/245/222710245.jpg?t=1787052023",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda ENYAQ iV 80 SPORTLINE MATRIX 360° KAMERA TAŽNÉ",
+        "cena": "699 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222241843/skoda-enyaq-iv-80-sportline-matrix-360-kamera-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/843/222241843.jpg?t=1786173865",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ZÁLOHOVÁNO ENYAQ SPORTLINE 80x SOH 93% MATRIX HUD AMBIENT",
+        "cena": "749 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223355232/skoda-enyaq-sportline-85x-soh-93-matrix-hud-ambient.php",
+        "obrazek": "https://www.bazos.cz/img/1t/232/223355232.jpg?t=1788542223",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ Style 1,0 TSI 81 kW",
+        "cena": "560 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223304422/skoda-karoq-style-10-tsi-81-kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/422/223304422.jpg?t=1788338297",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 2019",
+        "cena": "590 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223345583/karoq-2019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/583/223345583.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SPORTLINE ZÁRUKA 105 TKM PANORAMA TAŽNÉ",
+        "cena": "529 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222928492/skoda-karoq-sportline-zaruka-105-tkm-panorama-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/492/222928492.jpg?t=1787522108",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW Tažné SOH 95,1% - záruka Autodraft",
+        "cena": "771 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222588032/skoda-enyaq-iv-80-150kw-tazne-soh-951-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/032/222588032.jpg?t=1786804799",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1.0TSI 85KW 6kv. STYLE PLUS NAVI ALU TOP STAV",
+        "cena": "399 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222232836/vw-golf-sportsvan-15-tsi-iqdrive-96kw-72019-navi-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/836/222232836.jpg?t=1787325525",
         "dokonale_auto": false
     },
     {
@@ -1747,20 +406,65 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 Tdi r.v.: 2023",
-        "cena": "459 000 Kč",
+        "model": "Škoda Karoq 110kW STYLE 4x4 DSG 1MAJITEL BOHATÁ VÝBAVA DPH",
+        "cena": "359 900 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223396472/skoda-karoq-20-tdi-rv-2023.php",
-        "obrazek": "https://www.bazos.cz/img/1t/472/223396472.jpg?t=1788525275",
+        "odkaz": "https://auto.bazos.cz/inzerat/223275909/skoda-karoq-110kw-style-4x4-dsg-1majitel-bohata-vybava-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/909/223275909.jpg?t=1788344293",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Prodám KAROQ Style 2.0 TDI 110kW 4x4 DSG 7",
-        "cena": "410 000 Kč",
+        "model": "🚘 ŠKODA KAROQ 2.0 TDI 110 kW | MODEL 2021 | DRIVE 125 YEARS",
+        "cena": "369 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222179300/karoq-style-20-tdi-110kw-4x4-dsg-7.php",
-        "obrazek": "https://www.bazos.cz/img/1t/300/222179300.jpg?t=1786964824",
+        "odkaz": "https://auto.bazos.cz/inzerat/223252830/skoda-karoq-20-tdi-110-kw-model-2021-drive-125-years.php",
+        "obrazek": "https://www.bazos.cz/img/1t/830/223252830.jpg?t=1788457073",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 - 1939",
+        "cena": "629 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223276132/skoda-enyaq-iv-80-1939.php",
+        "obrazek": "https://www.bazos.cz/img/1t/132/223276132.jpg?t=1788283390",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80x, Sportline 4x4",
+        "cena": "839 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223319894/skoda-enyaq-80x-sportline-4x4.php",
+        "obrazek": "https://www.bazos.cz/img/1t/894/223319894.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,5 TSI DSG SPORTLINE",
+        "cena": "675 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223083301/skoda-karoq-15-tsi-dsg-sportline.php",
+        "obrazek": "https://www.bazos.cz/img/1t/301/223083301.jpg?t=1787834958",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi DSG, navigace, virtual cockpit, kamera",
+        "cena": "409 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223353810/skoda-karoq-15-tsi-dsg-navigace-virtual-cockpit-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/810/223353810.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW SOH 97,4% 41tkm - záruka Autodraft",
+        "cena": "855 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222792613/skoda-enyaq-iv-80-150kw-soh-974-41tkm-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/613/222792613.jpg?t=1787253077",
         "dokonale_auto": false
     },
     {
@@ -1774,38 +478,533 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq,50 125/55 E1H",
-        "cena": "979 000 Kč",
+        "model": "Škoda Enyaq 80x Sportline Pano Navi Matrix 360K Tepelné č.",
+        "cena": "902 407 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223003947/skoda-enyaq50-12555-e1h.php",
-        "obrazek": "https://www.bazos.cz/img/1t/947/223003947.jpg",
+        "odkaz": "https://auto.bazos.cz/inzerat/223325945/skoda-enyaq-80x-sportline-pano-navi-matrix-360k-tepelne-c.php",
+        "obrazek": "https://www.bazos.cz/img/1t/945/223325945.jpg?t=1788366930",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDI EVO SCR Sportline 4x4 DSG, 110kW",
-        "cena": "771 966 Kč",
+        "model": "Škoda Enyaq iV 80 150kW Tepelko SOH 95,9% - záruka Autodraft",
+        "cena": "842 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223367630/skoda-karoq-20-tdi-evo-scr-sportline-4x4-dsg-110kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/630/223367630.jpg",
+        "odkaz": "https://auto.bazos.cz/inzerat/222769589/skoda-enyaq-iv-80-150kw-tepelko-soh-959-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/589/222769589.jpg?t=1787169697",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq Style Plus 1.5 TSI 110Kw /DSG/kamera/Odpočet",
-        "cena": "559 000 Kč",
+        "model": "Škoda Karoq TSi 4x4 SPORTLINE MATRIX WEBASTO TAŽNÉ MY24",
+        "cena": "669 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222954842/skoda-karoq-style-15-tsi-110kw-dsgkamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/842/222954842.jpg?t=1788269512",
+        "odkaz": "https://auto.bazos.cz/inzerat/223357294/skoda-karoq-tsi-4x4-sportline-matrix-webasto-tazne-my24.php",
+        "obrazek": "https://www.bazos.cz/img/1t/294/223357294.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ZÁLOHOVÁNO ENYAQ IV80 2022 SOH 93% MATRIX KESSY AMBIENT",
+        "cena": "579 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223354941/skoda-enyaq-iv80-2022-soh-93-matrix-kessy-ambient.php",
+        "obrazek": "https://www.bazos.cz/img/1t/941/223354941.jpg?t=1788542025",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1,0 TSI r.v.2018 (85 KW) STK-8/2028",
+        "cena": "329 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223386687/skoda-karoq-10-tsi-rv2018-85-kw-stk-82028.php",
+        "obrazek": "https://www.bazos.cz/img/1t/687/223386687.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80x Sportline, 360K, Tepelné č.,195kW Odpočet",
+        "cena": "865 957 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223232472/skoda-enyaq-80x-sportline-360k-tepelne-c195kw-odpocet.php",
+        "obrazek": "https://www.bazos.cz/img/1t/472/223232472.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Style 1.5 TSI 110 kW 7st.DSG",
+        "cena": "495 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223319921/skoda-karoq-style-15-tsi-110-kw-7stdsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/921/223319921.jpg?t=1788357717",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0TSi 140 kW 4x4 DSG, TAŽNÉ, NAVI",
+        "cena": "719 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223388469/skoda-karoq-sportline-20tsi-140-kw-4x4-dsg-tazne-navi.php",
+        "obrazek": "https://www.bazos.cz/img/1t/469/223388469.jpg?t=1788510903",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SPORTLINE 2.0 TSI 4x4 MATRIX 360 TAŽNÉ DCC",
+        "cena": "619 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222016824/skoda-karoq-sportline-20-tsi-4x4-matrix-360-tazne-dcc.php",
+        "obrazek": "https://www.bazos.cz/img/1t/824/222016824.jpg?t=1787432390",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Skoda Enyaq 80, SOH 92%, tazne, DPH",
+        "cena": "508 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222562694/skoda-enyaq-80-soh-92-tazne-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/694/222562694.jpg?t=1787742583",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA ENYAQ iV 80 MATRIX 360° KAMERY Head Up",
+        "cena": "564 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223174831/skoda-enyaq-iv-80-matrix-360-kamery-head-up.php",
+        "obrazek": "https://www.bazos.cz/img/1t/831/223174831.jpg?t=1788387304",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 60 132kW Tepelko SOH 94,7% - záruka Autodraft",
+        "cena": "699 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222769424/skoda-enyaq-iv-60-132kw-tepelko-soh-947-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/424/222769424.jpg?t=1787169792",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2,0TDi 85kW STYLE KAMERA,TAŽNÉ,VYHŘ. VOLANT,2022",
+        "cena": "469 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222509552/skoda-karoq-20tdi-85kw-style-kamerataznevyhr-volant2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/552/222509552.jpg?t=1787566614",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV / 82kWh / SoH 96.7/ DPH",
+        "cena": "885 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223268340/skoda-enyaq-iv-electric-82kwh-150kw-52023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/340/223268340.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 Sportline SoH 92%",
+        "cena": "620 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222993847/skoda-enyaq-80-sportline-soh-92.php",
+        "obrazek": "https://www.bazos.cz/img/1t/847/222993847.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80x 4x4 Sportline 195kW Tepelko - Tovární záruka",
+        "cena": "996 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223285512/skoda-enyaq-80x-4x4-sportline-195kw-tepelko-50tkm-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/512/223285512.jpg?t=1788283209",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Skoda karoq Diesel   1,9",
+        "cena": "479 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223398920/skoda-karoq-diesel-19.php",
+        "obrazek": "https://www.bazos.cz/img/1t/920/223398920.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 60 132kW 44tkm SOH 95,7% - záruka Autodraft",
+        "cena": "690 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223113286/skoda-enyaq-iv-60-132kw-44tkm-soh-957-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/286/223113286.jpg?t=1787913221",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV RS 4x4 220kW 62tkm Tažné - záruka Autodraft",
+        "cena": "899 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223343228/skoda-enyaq-iv-rs-4x4-220kw-62tkm-tazne-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/228/223343228.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1,6Tdi/85kw, style, DSG, odpočet DPH,",
+        "cena": "395 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222856066/skoda-karoq-16tdi85kw-style-dsg-odpocet-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/066/222856066.jpg?t=1788351892",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 85x (82 kWh) 210 kW Sportline Advanced",
+        "cena": "1 210 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222545826/skoda-enyaq-85x-82-kwh-210-kw-sportline-advanced.php",
+        "obrazek": "https://www.bazos.cz/img/1t/826/222545826.jpg?t=1786949007",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda ENYAQ RS Coupe 4x4 MATRIX DCC HUD PANORAMA 360° KAMERA",
+        "cena": "819 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222445675/skoda-enyaq-rs-4x4-matrix-dcc-hud-panorama-360-kamera-2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/675/222445675.jpg?t=1787154080",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW 59tkm SOH 96,3% - záruka Autodraft",
+        "cena": "785 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222767955/skoda-enyaq-iv-80-150kw-59tkm-soh-963-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/955/222767955.jpg?t=1787169758",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda Karoq DSG 2020 virtual webasto",
+        "cena": "364 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222615969/prodam-skoda-karoq-dsg-2020.php",
+        "obrazek": "https://www.bazos.cz/img/1t/969/222615969.jpg?t=1788448215",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "PRODÁNO Škoda Karoq Sport Line 2021 PANORAMA KAMERA",
+        "cena": "499 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222015067/skoda-karoq-sport-line-2021-panorama-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/067/222015067.jpg?t=1787430565",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Enyaq iV, Travel Assist / Ak.Skla / Kamera / Keyless",
+        "cena": "629 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223219335/enyaq-iv-travelassit-akskla-kamera-keyless.php",
+        "obrazek": "https://www.bazos.cz/img/1t/335/223219335.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW / Tažné / Tepelko / Kůže Suite /",
+        "cena": "823 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222587355/skoda-enyaq-iv-80-150kw-tazne-tepelko-kuze-suite.php",
+        "obrazek": "https://www.bazos.cz/img/1t/355/222587355.jpg?t=1786804667",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA ENYAQ iV 80 150kw FOUNDERS EDITION",
+        "cena": "619 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221664687/skoda-enyaq-iv-80-150kw-founders-edice.php",
+        "obrazek": "https://www.bazos.cz/img/1t/687/221664687.jpg?t=1785833125",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5TSi 150 PS DSG Side Assist TAŽNÉ",
+        "cena": "925 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223385150/skoda-karoq-sportline-15tsi-150-ps-dsg-side-assist-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/150/223385150.jpg",
         "dokonale_auto": true
     },
     {
         "znacka": "Škoda",
-        "model": "ŠKODA KAROQ FL SPORTLINE 2.0TDI/2022/110KW/DCC/4X4/88TKM/DPH",
-        "cena": "619 999 Kč",
+        "model": "Škoda Enyaq iV 60 132kW / Luxusní ecoSuite / Tažné zařízení",
+        "cena": "827 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223304534/skoda-karoq-fl-sportline-20tdi2022110kwdcc4x488tkmdph.php",
-        "obrazek": "https://www.bazos.cz/img/1t/534/223304534.jpg?t=1788332234",
+        "odkaz": "https://auto.bazos.cz/inzerat/222549156/skoda-enyaq-iv-60-132kw-luxusni-ecosuite-tazne-zarizeni.php",
+        "obrazek": "https://www.bazos.cz/img/1t/156/222549156.jpg?t=1786709642",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2.0 TDI 85 kW | 1. MAJITEĽ | 2 ROKY ZARUKA",
+        "cena": "655 128 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223355076/skoda-karoq-20-tdi-85-kw-1-majitel-2-roky-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/076/223355076.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SPORTLINE 1.5TSi 110kW,DSG,LED,2021",
+        "cena": "459 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223246546/skoda-karoq-sportline-15tsi-110kwdsgled2021.php",
+        "obrazek": "https://www.bazos.cz/img/1t/546/223246546.jpg?t=1788232230",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV80 MAX VÝBAVA FIRST EDITION + DPH",
+        "cena": "537 107 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222374544/skoda-enyaq-iv80-max-vybava-first-edition-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/544/222374544.jpg?t=1788336553",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq STYLE 1.0 TSI, 6 stupň. manuál",
+        "cena": "325 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223333686/skoda-karoq-style-10-tsi-6-stupn-manual.php",
+        "obrazek": "https://www.bazos.cz/img/1t/686/223333686.jpg?t=1788386247",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq,  Škoda Enyaq Coupé L&K 85x 4x4",
+        "cena": "1 017 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222444257/skoda-enyaq-skoda-enyaq-coupe-lk-85x-4x4.php",
+        "obrazek": "https://www.bazos.cz/img/1t/257/222444257.jpg?t=1786474838",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0Tdi 110kw 4x4 DSG",
+        "cena": "330 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223105782/skoda-karoq-20tdi-110kw-4x4-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/782/223105782.jpg?t=1788070611",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5TSi 110kW DSG Matrix ACC NAVI TAŽNÉ",
+        "cena": "885 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223142849/skoda-karoq-sportline-15tsi-110kw-dsg-matrix-acc-navi-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/849/223142849.jpg?t=1788123391",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda karoq 16.tdi rok 2018",
+        "cena": "365 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223400540/prodam-skoda-karoq-16tdi-rok-2018.php",
+        "obrazek": "https://www.bazos.cz/img/1t/540/223400540.jpg?t=1788532296",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80x 4x4 /Sportline 2023 / Výborný Stav",
+        "cena": "839 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222618249/skoda-enyaq-80x-sportline-2023-odpocet-top-stav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/249/222618249.jpg?t=1788502586",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80x Sportline Tažné Tepelné č ACC Pano Matrix",
+        "cena": "936 184 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223357073/skoda-enyaq-iv-80x-sportline-tazne-tepelne-c-acc-pano-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/073/223357073.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1.5 TSI 110kw",
+        "cena": "548 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223405831/skoda-karoq-15-tsi-110kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/831/223405831.jpg?t=1788544257",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1.0 TSi, 2020, Kamera, Kessy, Rozvody, Servis.",
+        "cena": "335 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223201252/skoda-karoq-10-tsi-2020-kamera-kessy-rozvody-servis.php",
+        "obrazek": "https://www.bazos.cz/img/1t/252/223201252.jpg?t=1788118067",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Selection",
+        "cena": "904 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222835340/skoda-enyaq-selection.php",
+        "obrazek": "https://www.bazos.cz/img/1t/340/222835340.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80x SPORTLINE 195 kW 4×4 - záruka Autodraft",
+        "cena": "961 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222153093/skoda-enyaq-iv-80x-sportline-195-kw-44-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/093/222153093.jpg?t=1785855212",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSi DSG r.v.2024 TAŽNÉ 1.maj",
+        "cena": "469 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223353699/skoda-karoq-15tsi-dsg-rv2024-tazne-1maj.php",
+        "obrazek": "https://www.bazos.cz/img/1t/699/223353699.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda ENYAQ iV 60 MATRIX KAMERA TEPELKO SoH 90,2%",
+        "cena": "479 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222242655/skoda-enyaq-iv-60-matrix-kamera-tepelko-soh-902.php",
+        "obrazek": "https://www.bazos.cz/img/1t/655/222242655.jpg?t=1787936256",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 60 132 kW – 62 kWh – TOP VÝBAVA – Cebia",
+        "cena": "485 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223136236/skoda-enyaq-iv-60-132-kw-62-kwh-top-vybava-cebia.php",
+        "obrazek": "https://www.bazos.cz/img/1t/236/223136236.jpg?t=1787985273",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda ENYAQ iV 60 MATRIX KAMERA TEPELKO KŮŽE SoH 91,7%",
+        "cena": "499 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221598233/skoda-enyaq-iv-60-matrix-kamera-tepelko-kuze-soh-917.php",
+        "obrazek": "https://www.bazos.cz/img/1t/233/221598233.jpg?t=1785247446",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Skoda Škoda Enyaq 80 Lodge | HUD | Panorama | 360°",
+        "cena": "648 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222301468/skoda-skoda-enyaq-80-lodge-hud-panorama-360.php",
+        "obrazek": "https://www.bazos.cz/img/1t/468/222301468.jpg?t=1788374586",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW Sportline, TZ, DPH, SOH 92%",
+        "cena": "657 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223319398/skoda-enyaq-iv-80-sportline-tz-dph-soh-92.php",
+        "obrazek": "https://www.bazos.cz/img/1t/398/223319398.jpg?t=1788373915",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI 110kw DSG SPORTLINE,Webasto,Tažné,100tkm",
+        "cena": "589 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222928793/skoda-karoq-15tsi-110kw-dsg-sportlinewebastotazne100tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/793/222928793.jpg?t=1787526202",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 85kW DSG / Facelift - záruka Autodraft",
+        "cena": "409 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223302646/skoda-karoq-20-tdi-85kw-dsg-full-led-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/646/223302646.jpg?t=1788460493",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq (FL) Sportline 2.0 TDI 110kw ACC/VIRTUAL/KAMERA",
+        "cena": "429 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222841540/skoda-karoq-fl-sportline-20-tdi-110kw-2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/540/222841540.jpg?t=1788377273",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE 1.5TSI 110KW VÝHŘEV ADAPTIV 2023",
+        "cena": "559 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223125889/skoda-karoq-sportline-15tsi-110kw-vyhrev-adaptiv-2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/889/223125889.jpg?t=1788354963",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Coupé iV 60 Loft",
+        "cena": "473 259 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223151101/skoda-enyaq-coupe-iv-60-loft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/101/223151101.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi 110kw 4x4 DSG Style+ 1. majitel",
+        "cena": "659 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223104031/skoda-karoq-20-tdi-110kw-4x4-dsg-style-1-majitel.php",
+        "obrazek": "https://www.bazos.cz/img/1t/031/223104031.jpg?t=1787898998",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI Style DSG",
+        "cena": "401 879 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223352627/skoda-karoq-16-tdi-style-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/627/223352627.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE 2.0 TDI 110 KW",
+        "cena": "459 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221922236/skoda-karoq-sportline-20-tdi-110-kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/236/221922236.jpg?t=1788445426",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi DSG 85 kW r.v.2021/9 SPORTLINE ČR DPH",
+        "cena": "429 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223220897/skoda-karoq-20-tdi-dsg-85-kw-rv20219-sportline-cr-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/897/223220897.jpg?t=1788164443",
         "dokonale_auto": false
     },
     {
@@ -1815,6 +1014,78 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/223122692/skoda-karoq-sportline-15-tsi-2x-originalni-kola-v-cene.php",
         "obrazek": "https://www.bazos.cz/img/1t/692/223122692.jpg?t=1787932473",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Karoq 2.0TDI, rok 2023, DSG, NAVI, driving mode",
+        "cena": "439 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221618733/karoq-20tdi-rok-2023-dsg-navi-driving-mode.php",
+        "obrazek": "https://www.bazos.cz/img/1t/733/221618733.jpg?t=1788000659",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 150KW 2022",
+        "cena": "625 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221762834/skoda-enyaq-80-150kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/834/221762834.jpg?t=1788288193",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV,85 210/82 E1H",
+        "cena": "1 125 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223003964/skoda-enyaq-iv85-21082-e1h.php",
+        "obrazek": "https://www.bazos.cz/img/1t/964/223003964.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda KAROQ, SPORTLINE,PLUS",
+        "cena": "899 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223249088/prodam-skoda-karoq-sportlineplus.php",
+        "obrazek": "https://www.bazos.cz/img/1t/088/223249088.jpg?t=1788205053",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sport-line",
+        "cena": "710 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223350899/skoda-karoq-sport-line.php",
+        "obrazek": "https://www.bazos.cz/img/1t/899/223350899.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 - SoH 93 %, panorama, cena s DPH, odpočet",
+        "cena": "519 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222740851/skoda-enyaq-80-932-soh-panorama-cena-s-dph-odpocet.php",
+        "obrazek": "https://www.bazos.cz/img/1t/851/222740851.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA Karoq Facelift 1.5TSi 110KW 2024 Ambition Plus ZÁRUKA",
+        "cena": "548 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222768951/skoda-karoq-facelift-15tsi-110kw-2024-ambition-plus-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/951/222768951.jpg?t=1788178686",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Škoda Enyaq RS",
+        "cena": "960 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223189625/prodam-skoda-enyaq.php",
+        "obrazek": "https://www.bazos.cz/img/1t/625/223189625.jpg?t=1788352908",
         "dokonale_auto": false
     },
     {
@@ -1837,74 +1108,38 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW Tažné SOH 95,1% - záruka Autodraft",
-        "cena": "771 000 Kč",
+        "model": "Škoda Karoq 2.0 TDI 85kW DSG Park. kamera - záruka Autodraft",
+        "cena": "394 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222588032/skoda-enyaq-iv-80-150kw-tazne-soh-951-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/032/222588032.jpg?t=1786804799",
+        "odkaz": "https://auto.bazos.cz/inzerat/222661303/skoda-karoq-20-tdi-85kw-dsg-park-kamera-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/303/222661303.jpg?t=1786977388",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda ENYAQ RS Coupe 4x4 MATRIX DCC HUD PANORAMA 360° KAMERA",
-        "cena": "819 990 Kč",
+        "model": "Škoda Karoq 2.0TDi DSG 4x4 Sportline LED Matrix",
+        "cena": "638 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222445675/skoda-enyaq-rs-4x4-matrix-dcc-hud-panorama-360-kamera-2023.php",
-        "obrazek": "https://www.bazos.cz/img/1t/675/222445675.jpg?t=1787154080",
+        "odkaz": "https://auto.bazos.cz/inzerat/223394281/skoda-karoq-20tdi-dsg-4x4-sportline-led-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/281/223394281.jpg",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq 1.5TSI 110kw/50tis.km/DSG/Záruka",
-        "cena": "599 000 Kč",
+        "model": "Škoda Karoq Sportline 1.5TSi 150 PS DSG PANO EL.KUFR TAŽNÉ",
+        "cena": "925 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223085396/skoda-karoq-15tsi-110kw50tiskmdsgzaruka.php",
-        "obrazek": "https://www.bazos.cz/img/1t/396/223085396.jpg?t=1787838744",
+        "odkaz": "https://auto.bazos.cz/inzerat/223382717/skoda-karoq-sportline-15tsi-150-ps-dsg-pano-elkufr-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/717/223382717.jpg?t=1788505824",
         "dokonale_auto": true
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 150kW / Kožený interiér ecoSuite / Led Matrix",
-        "cena": "794 000 Kč",
+        "model": "Škoda Karoq Sport Line 2021 1.5 TSI KAMERA CANTON",
+        "cena": "490 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222431094/skoda-enyaq-iv-150kw-kozeny-interier-ecosuite-led-matrix.php",
-        "obrazek": "https://www.bazos.cz/img/1t/094/222431094.jpg?t=1786451319",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ 1.5 TSI 110KW FULLLED FRONT OPCPARK TAŽNÉ SERVIS",
-        "cena": "419 900 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223392301/skoda-karoq-15-tsi-110kw-fullled-front-opcpark-tazne-servis.php",
-        "obrazek": "https://www.bazos.cz/img/1t/301/223392301.jpg",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 2.0TSi 140 kW 4x4 DSG, TAŽNÉ, NAVI",
-        "cena": "719 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223388469/skoda-karoq-sportline-20tsi-140-kw-4x4-dsg-tazne-navi.php",
-        "obrazek": "https://www.bazos.cz/img/1t/469/223388469.jpg?t=1788510903",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq Sportline 2.0 TDI 110kW 4x4 DSG / Tažné / Matrix",
-        "cena": "632 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223394132/skoda-karoq-sportline-20-tdi-110kw-4x4-dsg-tazne-matrix.php",
-        "obrazek": "https://www.bazos.cz/img/1t/132/223394132.jpg?t=1788542275",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "iV ENYAQ 80 v záruce Tep.čerp. Panoram HeadUp EL.kufr SOH89%",
-        "cena": "595 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223349813/iv-enyaq-80-v-zaruce-tepcerp-panoram-headup-elkufr-soh89.php",
-        "obrazek": "https://www.bazos.cz/img/1t/813/223349813.jpg?t=1788425020",
+        "odkaz": "https://auto.bazos.cz/inzerat/222635739/skoda-karoq-sport-line-2021-15-tsi-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/739/222635739.jpg?t=1788119882",
         "dokonale_auto": false
     },
     {
@@ -1918,47 +1153,11 @@
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Karoq Sport-line",
-        "cena": "710 000 Kč",
+        "model": "Škoda KAROQ SPORTLINE MATRIX VIRTUAL 360° KAMERA TAŽNÉ 2023",
+        "cena": "499 990 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223350899/skoda-karoq-sport-line.php",
-        "obrazek": "https://www.bazos.cz/img/1t/899/223350899.jpg",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq, 2.0TDI,85kW,DSG,1MAJ,ČR,KAMERA",
-        "cena": "479 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223373010/skoda-karoq-20tdi85kwdsg1majcrkamera.php",
-        "obrazek": "https://www.bazos.cz/img/1t/010/223373010.jpg",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "► ŠKODA KAROQ 2.0TDI 110KW SPORTLINE FULL-LED-KAME-ACC-TAŽNÉ",
-        "cena": "479 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223220582/skoda-karoq-20tdi-110kw-sportline-full-led-kame-acc-tazne.php",
-        "obrazek": "https://www.bazos.cz/img/1t/582/223220582.jpg?t=1788521085",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE 2.0TSI/2021/140KW/4X4/ACC/183TKM",
-        "cena": "499 999 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223304182/skoda-karoq-sportline-20tsi2021140kw4x4acc183tkm.php",
-        "obrazek": "https://www.bazos.cz/img/1t/182/223304182.jpg?t=1788332347",
-        "dokonale_auto": false
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Enyaq IV60 132kw",
-        "cena": "415 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222900738/skoda-enyaq-iv60-132kw.php",
-        "obrazek": "https://www.bazos.cz/img/1t/738/222900738.jpg",
+        "odkaz": "https://auto.bazos.cz/inzerat/222633493/skoda-karoq-sportline-matrix-virtual-360-kamera-tazne-2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/493/222633493.jpg?t=1787422099",
         "dokonale_auto": false
     },
     {
@@ -1972,29 +1171,641 @@
     },
     {
         "znacka": "Škoda",
-        "model": "ŠKODA KAROQ SPORTLINE FL 1.5 TSI 110kw DSG /MATRIX/360/ACC/",
-        "cena": "499 000 Kč",
+        "model": "Škoda Enyaq 80x Sportline 4x4, 195 kW / Tažné / Tepelko /",
+        "cena": "1 153 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223145247/skoda-karoq-sportline-fl-15-tsi-110kw-dsg-matrix360acc.php",
-        "obrazek": "https://www.bazos.cz/img/1t/247/223145247.jpg?t=1788431912",
-        "dokonale_auto": true
-    },
-    {
-        "znacka": "Škoda",
-        "model": "Škoda Karoq 2.0 TDI 85kW DSG Park. kamera - záruka Autodraft",
-        "cena": "394 000 Kč",
-        "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/222661303/skoda-karoq-20-tdi-85kw-dsg-park-kamera-zaruka-autodraft.php",
-        "obrazek": "https://www.bazos.cz/img/1t/303/222661303.jpg?t=1786977388",
+        "odkaz": "https://auto.bazos.cz/inzerat/223225625/skoda-enyaq-80x-sportline-4x4-195-kw-tazne-tepelko.php",
+        "obrazek": "https://www.bazos.cz/img/1t/625/223225625.jpg?t=1788340576",
         "dokonale_auto": false
     },
     {
         "znacka": "Škoda",
-        "model": "Škoda Enyaq iV 80 150kW Sportline, TZ, DPH, SOH 92%",
-        "cena": "657 000 Kč",
+        "model": "Škoda Enyaq 80iV X,82kWh,4x4,195kW,Sportline,tažné,Tepelko",
+        "cena": "875 000 Kč",
         "zdroj": "Bazoš.cz",
-        "odkaz": "https://auto.bazos.cz/inzerat/223319398/skoda-enyaq-iv-80-sportline-tz-dph-soh-92.php",
-        "obrazek": "https://www.bazos.cz/img/1t/398/223319398.jpg?t=1788373915",
+        "odkaz": "https://auto.bazos.cz/inzerat/223204259/skoda-enyaq-80iv-x82kwh4x4195kwsportlinetaznetepelko.php",
+        "obrazek": "https://www.bazos.cz/img/1t/259/223204259.jpg?t=1788266758",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda enyaq 80 iV 150kw 2022 3,8ME 93% soh",
+        "cena": "735 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223008488/skoda-enyaq-80-iv-150kw-2022-38me-93-soh.php",
+        "obrazek": "https://www.bazos.cz/img/1t/488/223008488.jpg?t=1787677299",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám Enyaq Coupe RS 220 kW 4x4/P190AX",
+        "cena": "990 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222025724/prodam-enyaq-coupe-rs-220-kw-4x4p190ax.php",
+        "obrazek": "https://www.bazos.cz/img/1t/724/222025724.jpg?t=1785585149",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSI 110kW DSG STYLE",
+        "cena": "334 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223379537/skoda-karoq-15-tsi-110kw-dsg-style.php",
+        "obrazek": "https://www.bazos.cz/img/1t/537/223379537.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI 110 Kw, DSG,DPH,1.maj,Virtual",
+        "cena": "519 700 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222788503/skoda-karoq-sportline-15-tsi-110-kw-dsgdph1majvirtual.php",
+        "obrazek": "https://www.bazos.cz/img/1t/503/222788503.jpg?t=1787759326",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SportLine TDI DSG/VIRTUAL/DCC/KAMERA/145tkm",
+        "cena": "479 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223326210/skoda-karoq-sportline-tdi-dsgvirtualdcckamera145tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/210/223326210.jpg?t=1788367454",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI,110KW,2020,DSG,Style,TZ,1.maj.ČR,-21%DPH",
+        "cena": "390 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223359372/skoda-karoq-15tsi110kw2020dsgstyletz1majcr-21dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/372/223359372.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 60 132kW / Universal Charger 11 kW /",
+        "cena": "599 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222589799/skoda-enyaq-iv-60-132kw-universal-charger-11-kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/799/222589799.jpg?t=1786815415",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Coupé, RS 220kW, 4x4, plná historie, DPH",
+        "cena": "834 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223108536/skoda-enyaq-coupe-rs-220kw-4x4-plna-historie-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/536/223108536.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 2,0TDi 85kW STYLE KAMERA,TAŽNÉ,VYHŘ. VOLANT,2022",
+        "cena": "449 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223321154/skoda-karoq-20tdi-85kw-style-kamerataznevyhr-volant2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/154/223321154.jpg?t=1788382372",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda enyaq sportline 85",
+        "cena": "1 042 915 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222495262/skoda-enyaq-sportline-85.php",
+        "obrazek": "https://www.bazos.cz/img/1t/262/222495262.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda enyaq 80 iV 150kw 2022 3,8me 92,5%",
+        "cena": "730 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223008601/skoda-enyaq-80-iv-150kw-2022-38me-925.php",
+        "obrazek": "https://www.bazos.cz/img/1t/601/223008601.jpg?t=1787677508",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 60 132kw polokůže park.kamera",
+        "cena": "462 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222512212/skoda-enyaq-60-132kw-polokuze-parkkamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/212/222512212.jpg?t=1788427104",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq RS 4x4 82 ČR ZÁRUKA 1 MAJITEL",
+        "cena": "1 349 150 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221363473/skoda-enyaq-rs-4x4-82-cr-zaruka-1-majitel.php",
+        "obrazek": "https://www.bazos.cz/img/1t/473/221363473.jpg?t=1787478226",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq IV 60",
+        "cena": "575 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222438645/skoda-enyaq-iv-60.php",
+        "obrazek": "https://www.bazos.cz/img/1t/645/222438645.jpg?t=1786791823",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI 110kw DSG SPORTLINE,Matrix,360°,Pano,2023",
+        "cena": "565 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222603761/skoda-karoq-15tsi-110kw-dsg-sportlinematrix360pano2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/761/222603761.jpg?t=1788118215",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV,COUPE VRS 85 250/82 E1A",
+        "cena": "1 299 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223003978/skoda-enyaq-ivcoupe-vrs-85-25082-e1a.php",
+        "obrazek": "https://www.bazos.cz/img/1t/978/223003978.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI 2022",
+        "cena": "468 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222848155/skoda-karoq-sportline-15-tsi-2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/155/222848155.jpg?t=1787467453",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5TSI 110kW DSG Kamera Led Matrix",
+        "cena": "469 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222429931/skoda-karoq-sportline-15tsi-110kw-dsg-kamera-led-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/931/222429931.jpg?t=1786448357",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SPORTLINE MY2023 ZÁRUKA DCC MATRIX",
+        "cena": "579 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222928580/skoda-karoq-sportline-my2023-zaruka-dcc-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/580/222928580.jpg?t=1787522082",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Skoda Enyaq 60, TC, SOH:89%, Matrix, tazne",
+        "cena": "468 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223406252/skoda-enyaq-60-tc-soh89-matrix-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/252/223406252.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 Sportline Matrix Head UP, Odpočet",
+        "cena": "849 564 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223276441/skoda-enyaq-80-sportline-matrix-head-up-odpocet.php",
+        "obrazek": "https://www.bazos.cz/img/1t/441/223276441.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80x 195kW Sportline 4x4 / Tažné zařízení /",
+        "cena": "943 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222552477/skoda-enyaq-iv-80x-195kw-sportline-4x4-tazne-zarizeni.php",
+        "obrazek": "https://www.bazos.cz/img/1t/477/222552477.jpg?t=1786721280",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,6 TDI, DSG, Style Assist DCC Navi, nová STK",
+        "cena": "420 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222909448/skoda-karoq-16-tdi-dsg-style-assist-dcc-navi.php",
+        "obrazek": "https://www.bazos.cz/img/1t/448/222909448.jpg?t=1788448696",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 iV - 150kW - 92,3%SoH",
+        "cena": "699 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222909868/skoda-enyaq-80-iv-150kw-923soh.php",
+        "obrazek": "https://www.bazos.cz/img/1t/868/222909868.jpg?t=1787654229",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW tažné SOH 92,1% - záruka Autodraft",
+        "cena": "745 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222587878/skoda-enyaq-iv-80-150kw-tazne-soh-921-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/878/222587878.jpg?t=1786804736",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI 4x4 DSG Sport line",
+        "cena": "460 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223055106/skoda-karoq-20-tdi-4x4-dsg-sport-line.php",
+        "obrazek": "https://www.bazos.cz/img/1t/106/223055106.jpg?t=1788529375",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 EcoSuite 150 kW | 82 kWh | 360° | HUD | MA",
+        "cena": "797 500 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223226850/skoda-enyaq-iv-80-ecosuite-150-kw-82-kwh-360-hud-ma.php",
+        "obrazek": "https://www.bazos.cz/img/1t/850/223226850.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "► ŠKODA KAROQ 2.0TDI 110KW SPORTLINE FULL-LED-KAME-ACC-TAŽNÉ",
+        "cena": "479 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223220582/skoda-karoq-20tdi-110kw-sportline-full-led-kame-acc-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/582/223220582.jpg?t=1788521085",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.0 TSI 85 kW LED klima ČR 136tkm 1.majitel STK",
+        "cena": "339 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223400460/skoda-karoq-10-tsi-85-kw-led-klima-cr-136tkm-1majitel-stk.php",
+        "obrazek": "https://www.bazos.cz/img/1t/460/223400460.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1. 5 TSi, DSG",
+        "cena": "460 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222439734/skoda-karoq-1-5-tsi-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/734/222439734.jpg?t=1787248286",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2,0 TDI DSG 4x4 Sportline DPH (2022)",
+        "cena": "564 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223355835/skoda-karoq-20-tdi-dsg-4x4-sportline-dph-2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/835/223355835.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA Karoq, 1.5 TSi, r.v. 2023, DSG, LED",
+        "cena": "538 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222718800/skoda-karoq-15-tsi-rv-2023-dsg-led.php",
+        "obrazek": "https://www.bazos.cz/img/1t/800/222718800.jpg?t=1788449989",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 150kW LED Matrix Assist",
+        "cena": "668 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223235416/skoda-enyaq-80-150kw-led-matrix-assist.php",
+        "obrazek": "https://www.bazos.cz/img/1t/416/223235416.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq CLEVER 2.0TDI/110kW DSG 4x4 r.v.2022 jen 82tkm",
+        "cena": "519 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223344101/skoda-karoq-clever-20tdi110kw-dsg-4x4-rv2022-jen-82tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/101/223344101.jpg?t=1788417397",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Sportline iV 80x 4×4 195kW - záruka Autodraft",
+        "cena": "941 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221956780/skoda-enyaq-sportline-iv-80x-44-195kw-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/780/221956780.jpg?t=1785581426",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2.0 TDI 110kW DSG 4x4, rok 6/2019",
+        "cena": "429 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221957117/skoda-karoq-sportline-20-tdi-110kw-dsg-4x4-rok-62019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/117/221957117.jpg?t=1788502039",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 Tdi 85 kw manual",
+        "cena": "260 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223354970/skoda-karoq-16-tdi-85-kw-manual.php",
+        "obrazek": "https://www.bazos.cz/img/1t/970/223354970.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5TSI 110kW DSG DRIVE ČR NOVÉ",
+        "cena": "627 800 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223395636/skoda-karoq-15tsi-110kw-dsg-drive-cr-nove.php",
+        "obrazek": "https://www.bazos.cz/img/1t/636/223395636.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ STYLE 2.0 TDI 110 kW | NAVIGACE | TAŽNÉ | ČR | S",
+        "cena": "289 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222842819/skoda-karoq-style-20-tdi-110-kw-navigace-tazne-cr-s.php",
+        "obrazek": "https://www.bazos.cz/img/1t/819/222842819.jpg?t=1787726989",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq,50 125/55 E1H",
+        "cena": "979 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223003947/skoda-enyaq50-12555-e1h.php",
+        "obrazek": "https://www.bazos.cz/img/1t/947/223003947.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0TDi SportLine MAX Výbava",
+        "cena": "745 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223391005/skoda-karoq-20tdi-sportline-max-vybava.php",
+        "obrazek": "https://www.bazos.cz/img/1t/005/223391005.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2,0 TDI DSG 4x4 Sportline DPH (2022)",
+        "cena": "528 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223392840/skoda-karoq-20-tdi-dsg-4x4-sportline-dph-2022.php",
+        "obrazek": "https://www.bazos.cz/img/1t/840/223392840.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW 78tkm SOH 94% / Tepelko / Tažné",
+        "cena": "830 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222271197/skoda-enyaq-iv-80-150kw-78tkm-soh-94-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/197/222271197.jpg?t=1786109324",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 150kW / Kožený interiér ecoSuite / Led Matrix",
+        "cena": "794 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222431094/skoda-enyaq-iv-150kw-kozeny-interier-ecosuite-led-matrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/094/222431094.jpg?t=1786451319",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodáme Škoda Karoq 1,5 TSI STYLE DPH 1maj původČR",
+        "cena": "499 800 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223342947/prodame-skoda-karoq-15-tsi-style-dph-1maj-puvodcr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/947/223342947.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 2.0TDI,85kW,DSG,1MAJ,ČR,KAMERA",
+        "cena": "479 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223373010/skoda-karoq-20tdi85kwdsg1majcrkamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/010/223373010.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi /DSG/Style/Fulled/Kamera/Tažný/150Tkm",
+        "cena": "399 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223401221/skoda-karoq-15-tsi-dsgstylefulledkameratazny150tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/221/223401221.jpg?t=1788533793",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodám KAROQ Style 2.0 TDI 110kW 4x4 DSG 7",
+        "cena": "410 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222179300/karoq-style-20-tdi-110kw-4x4-dsg-7.php",
+        "obrazek": "https://www.bazos.cz/img/1t/300/222179300.jpg?t=1786964824",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA ENYAQ iV 80 | 150 kW | 2022 | 90 000 km | SOH 93,8%",
+        "cena": "679 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222928121/skoda-enyaq-iv-80-150-kw-2022-90-000-km.php",
+        "obrazek": "https://www.bazos.cz/img/1t/121/222928121.jpg?t=1788245966",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1.5 TSI 110KW FULLLED FRONT OPCPARK TAŽNÉ SERVIS",
+        "cena": "419 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223392301/skoda-karoq-15-tsi-110kw-fullled-front-opcpark-tazne-servis.php",
+        "obrazek": "https://www.bazos.cz/img/1t/301/223392301.jpg",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Prodej Škoda Enyaq 60 TOP STAV",
+        "cena": "545 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221186100/prodej-skoda-enyaq-60-top-stav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/100/221186100.jpg?t=1788080712",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi 110KW Style Plus DSG",
+        "cena": "499 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223407619/skoda-karoq-15-tsi-110kw-style-plus-dsg.php",
+        "obrazek": "https://www.bazos.cz/img/1t/619/223407619.jpg?t=1788549623",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 1.5 TSI DSG, panorama",
+        "cena": "499 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222667428/skoda-karoq-sportline-15-tsi-dsg-panorama.php",
+        "obrazek": "https://www.bazos.cz/img/1t/428/222667428.jpg?t=1788164481",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE 2.0TSI/2021/140KW/4X4/ACC/183TKM",
+        "cena": "499 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223304182/skoda-karoq-sportline-20tsi2021140kw4x4acc183tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/182/223304182.jpg?t=1788332347",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80x 4x4 Sportline 195 kW / Tepelko / Tažné",
+        "cena": "996 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223226618/skoda-enyaq-80x-4x4-sportline-195-kw-tepelko-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/618/223226618.jpg?t=1788340491",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq1,5 TSI SPORTLINE",
+        "cena": "869 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223360707/skoda-karoq15-tsi-sportline.php",
+        "obrazek": "https://www.bazos.cz/img/1t/707/223360707.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 150kW / Head-Up / Kožený interiér Suite /",
+        "cena": "753 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222546105/skoda-enyaq-iv-80-150kw-head-up-kozeny-interier-suite.php",
+        "obrazek": "https://www.bazos.cz/img/1t/105/222546105.jpg?t=1786709674",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ 1.6TDI 85KW /VIRTUÁL/KESSY/LED/",
+        "cena": "359 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223114703/skoda-karoq-16tdi-85kw-virtualkessyled.php",
+        "obrazek": "https://www.bazos.cz/img/1t/703/223114703.jpg?t=1787930853",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sport Line 2021 PANORAMA KAMERA",
+        "cena": "499 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222636025/skoda-karoq-sport-line-2021-panorama-kamera.php",
+        "obrazek": "https://www.bazos.cz/img/1t/025/222636025.jpg?t=1787430363",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "2021 Škoda Enyaq iV 60 (132 kW) - Suite",
+        "cena": "535 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222989045/2021-skoda-enyaq-iv-60-132-kw-suite.php",
+        "obrazek": "https://www.bazos.cz/img/1t/045/222989045.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.6 TDI Style  – CEBIA, SERVISKA",
+        "cena": "379 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222319133/karoq-16-tdi-top-vybava-po-1-majiteli.php",
+        "obrazek": "https://www.bazos.cz/img/1t/133/222319133.jpg?t=1788539150",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 60 kWh",
+        "cena": "439 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222852506/skoda-enyaq-iv-60-kwh.php",
+        "obrazek": "https://www.bazos.cz/img/1t/506/222852506.jpg?t=1787350657",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Coupé iV RS 4x4 220kW Tepelko Matrix - Záruka",
+        "cena": "673 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223285300/skoda-enyaq-coupe-iv-rs-4x4-220kw-tepelko-matrix-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/300/223285300.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE DSG 2023 | MATRIX | VIRTUAL | 114 TKM",
+        "cena": "569 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222443907/skoda-karoq-sportline-dsg-2023-matrix-virtual-114-tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/907/222443907.jpg?t=1788203092",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 - 1937",
+        "cena": "649 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223274939/skoda-enyaq-iv-80-1937.php",
+        "obrazek": "https://www.bazos.cz/img/1t/939/223274939.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "iV ENYAQ 80 v záruce Tep.čerp. Panoram HeadUp EL.kufr SOH89%",
+        "cena": "595 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223349813/iv-enyaq-80-v-zaruce-tepcerp-panoram-headup-elkufr-soh89.php",
+        "obrazek": "https://www.bazos.cz/img/1t/813/223349813.jpg?t=1788425020",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 60 132kW SOH 93,6% 68tkm - záruka Autodraft",
+        "cena": "638 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222023272/skoda-enyaq-iv-60-132kw-soh-936-68tkm-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/272/222023272.jpg?t=1785603876",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE 2.0 TDI 110 KW 4x4 2023 MATRIX VIRTUAL",
+        "cena": "599 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222883010/skoda-karoq-sportline-20-tdi-4x4-dsg-matrix-virtual-cockpit.php",
+        "obrazek": "https://www.bazos.cz/img/1t/010/222883010.jpg?t=1788364477",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Sportline IV60 132kw full asistenti matrix tažné",
+        "cena": "559 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223147492/skoda-enyaq-sportline-iv60-132kw-full-asistenti-matrix-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/492/223147492.jpg?t=1787999865",
         "dokonale_auto": false
     },
     {
@@ -2004,6 +1815,195 @@
         "zdroj": "Bazoš.cz",
         "odkaz": "https://auto.bazos.cz/inzerat/223396989/skoda-karoq-10-tsi-rv2018-85-kw-stk-82028.php",
         "obrazek": "https://www.bazos.cz/img/1t/989/223396989.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq, 1.5TSI 110KW 1.MAJ,+ZIMNÍ KOLA",
+        "cena": "445 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223411045/skoda-karoq-15tsi-110kw-1majzimni-kola.php",
+        "obrazek": "https://www.bazos.cz/img/1t/045/223411045.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq Sportline iV 80x 4x4 195kW / Tepelko / Tažné",
+        "cena": "941 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/221496704/skoda-enyaq-sportline-iv-80x-4x4-195kw-tepelko-tazne.php",
+        "obrazek": "https://www.bazos.cz/img/1t/704/221496704.jpg?t=1785423684",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq SPORTLINE 2021 KŮŽE PANORAMA",
+        "cena": "475 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222219904/skoda-karoq-sportline-2021-kuze-panorama.php",
+        "obrazek": "https://www.bazos.cz/img/1t/904/222219904.jpg?t=1787430478",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDI EVO SCR Sportline 4x4 DSG, 110kW",
+        "cena": "771 966 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223367630/skoda-karoq-20-tdi-evo-scr-sportline-4x4-dsg-110kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/630/223367630.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1,5 TSi 110kw STYLE 1.maj DPH Nové v ČR",
+        "cena": "489 900 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223351418/skoda-karoq-15-tsi-110kw-style-1maj-dph-nove-v-cr.php",
+        "obrazek": "https://www.bazos.cz/img/1t/418/223351418.jpg?t=1788428383",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda enyaq 80 eco suite 150kw 2023 3.8me záruka",
+        "cena": "800 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223009057/skoda-enyaq-80-eco-suite-150kw-2023-38me-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/057/223009057.jpg?t=1787678370",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80iV 82kWH,150kW,LED,,1.maj,ACC,Nezávislá klima",
+        "cena": "639 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223204235/skoda-enyaq-80iv-82kwh150kwled1majaccnezavisla-klima.php",
+        "obrazek": "https://www.bazos.cz/img/1t/235/223204235.jpg?t=1788266738",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80 Sportline SOH: 92% 150kW 82kWh Matrix 360",
+        "cena": "669 990 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223118026/skoda-enyaq-iv-80-sportline-soh-92-150kw-82kwh-matrix-360.php",
+        "obrazek": "https://www.bazos.cz/img/1t/026/223118026.jpg?t=1788557070",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 1.5 TSi 110Kw - Webasto - Full Led - model 2019",
+        "cena": "360 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223128841/skoda-karoq-15-tsi-110kw-webasto-full-led-model-2019.php",
+        "obrazek": "https://www.bazos.cz/img/1t/841/223128841.jpg?t=1787950799",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq Sportline 2025 2.0TDi 110kW 4x4 DCC/Matrix",
+        "cena": "579 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223128921/skoda-karoq-sportline-2025-20tdi-110kw-4x4-dccmatrix.php",
+        "obrazek": "https://www.bazos.cz/img/1t/921/223128921.jpg?t=1787970149",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SOLEIL 1,5 150PS 1 MAJITEL TOP STAV",
+        "cena": "437 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222545547/skoda-karoq-soleil-15-150ps-1-majitel-top-stav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/547/222545547.jpg?t=1788360465",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 TDi 110 kW DSG 4x4 1.MAJITEL r.v. 2022 DPH",
+        "cena": "565 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223394251/skoda-karoq-20-tdi-110-kw-dsg-4x4-1majitel-rv-2022-dph.php",
+        "obrazek": "https://www.bazos.cz/img/1t/251/223394251.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80 SoH 92%",
+        "cena": "590 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222994543/skoda-enyaq-80-soh-92.php",
+        "obrazek": "https://www.bazos.cz/img/1t/543/222994543.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA ENYAQ iV 80 | 150 kW | SOH 94,35 % | 2021",
+        "cena": "569 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223409862/skoda-enyaq-iv-80-150-kw-soh-9435-2021.php",
+        "obrazek": "https://www.bazos.cz/img/1t/862/223409862.jpg?t=1788569564",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0 Tdi r.v.: 2023",
+        "cena": "459 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223396472/skoda-karoq-20-tdi-rv-2023.php",
+        "obrazek": "https://www.bazos.cz/img/1t/472/223396472.jpg?t=1788525275",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Karoq 2.0TDI DSG TOP STAV",
+        "cena": "456 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223388846/skoda-karoq-20tdi-dsg-top-stav.php",
+        "obrazek": "https://www.bazos.cz/img/1t/846/223388846.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "ŠKODA KAROQ SPORTLINE DSG 2023 | MATRIX | VIRTUAL 115TKM",
+        "cena": "569 999 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223133280/skoda-karoq-sportline-dsg-2023-matrix-virtual-115tkm.php",
+        "obrazek": "https://www.bazos.cz/img/1t/280/223133280.jpg?t=1788338424",
+        "dokonale_auto": true
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq IV60 132kw",
+        "cena": "415 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222900738/skoda-enyaq-iv60-132kw.php",
+        "obrazek": "https://www.bazos.cz/img/1t/738/222900738.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq 80x Sportline 4×4 195kW 20tkm - Tovární záruka",
+        "cena": "1 153 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/223286134/skoda-enyaq-80x-sportline-44-195kw-20tkm-tovarni-zaruka.php",
+        "obrazek": "https://www.bazos.cz/img/1t/134/223286134.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq RS 82 kWh 250 kW 4x4 – nový vůz",
+        "cena": "1 144 310 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222948558/skoda-enyaq-rs-82-kwh-250-kw-4x4-novy-vuz.php",
+        "obrazek": "https://www.bazos.cz/img/1t/558/222948558.jpg",
+        "dokonale_auto": false
+    },
+    {
+        "znacka": "Škoda",
+        "model": "Škoda Enyaq iV 80x 195kW 4x4 SOH 93,1% - záruka Autodraft",
+        "cena": "846 000 Kč",
+        "zdroj": "Bazoš.cz",
+        "odkaz": "https://auto.bazos.cz/inzerat/222801871/skoda-enyaq-iv-80x-195kw-4x4-soh-931-zaruka-autodraft.php",
+        "obrazek": "https://www.bazos.cz/img/1t/871/222801871.jpg?t=1787253239",
         "dokonale_auto": false
     }
 ]
